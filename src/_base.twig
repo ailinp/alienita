@@ -1,0 +1,105 @@
+{% extends 'markup/themes/'~ page.theme|default('default') ~'/base.twig' %}
+
+{% block content %}
+
+<section class="Claim">
+    <div class="u-wrapper u-laterals">
+        <div class="Claim-box">
+            {% block title %}
+                <div class="Claim-box-vertical">
+                    <div class="Claim-box-bg">
+                        <h1 class="Claim-box-title">{{ page[locale].claim.title|raw }}</h1>
+                        <span class="Claim-box-author">{{ page[locale].claim.author|raw }}</span>
+                    </div>
+                </div>
+                <img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}landing/{{ page[locale].claim.image }}?v={*timestamp*}">
+            {% endblock %}
+        </div>
+    </div>
+</section>
+
+<section class="NewProducts">
+    {% embed 'markup/components/squares-title-content.twig' %}
+        {% block title %}
+            {{ page[locale].NewProducts.title|raw }}
+        {% endblock %}
+        {% block content %}
+            <div class="wrapper g-row js-equalizrGroup">
+            {% for content in page[locale].NewProducts.content %}
+                <div class="NewProducts-element g-column g-medium-12 g-large-4">
+                    <img class="NewProducts-element-image" src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}landing/{{ content.image }}?v={*timestamp*}">
+                    <div class="NewProducts-element-content {{ content.class }} js-equalizr">
+                        <p class="description">{{ content.description|raw }}</p>
+                        <p class="claim">{{ content.claim|raw }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="Mission g-row">
+                <h4 class="Mission-title g-column g-large-12">{{ page[locale].NewProducts.Mission.title|raw }}</h4>
+                <ul class="Mission-list g-column g-medium-12 g-large-8">
+                    {% for list in page[locale].NewProducts.Mission.content %}
+                    <li>{{ list|raw }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="map-button g-column g-medium-12 g-large-4">
+                    <a class="Button Button--hollow has-rightArrow in-red">{{ page[locale].buttons.map|raw }}</a>
+                </div>
+            </div>
+        {% endblock %}
+    {% endembed %}
+</section>
+
+<section class="DiscountOffered g-row">
+    <h3 class="DiscountOffered-title">{{ page[locale].DiscountOffered.title|raw }}</h3>
+    <div class="DiscountOffered-left g-column g-medium-12 g-large-2">
+        <img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}landing/{{ page[locale].DiscountOffered.image }}?v={*timestamp*}">
+        <p class="DiscountOffered-left_text">{{ page[locale].DiscountOffered.leftText|raw }}</p>
+    </div>
+    {% for details in page[locale].DiscountOffered.details %}
+    <div class="DiscountOffered-details g-column g-medium-12 g-large-3 {% if loop.last %} is-end {% endif %}">
+        <span class="date">{{ details.date|raw }}</span>
+        <span class="discount">{{ details.discount|raw }}</span>
+        <span class="place">{{ details.place|raw }}</span>
+        <span class="description">{{ details.description|raw }}</span>
+    </div>
+    {% endfor %}
+    <div class="DiscountOffered-member g-column g-large-12">
+        <p class="DiscountOffered-member_text">{{ page[locale].DiscountOffered.member.claim|raw }}</p>
+        <a class="Button Button--hollow has-rightArrow in-white">{{ page[locale].buttons.member|raw }}</a>
+    </div>
+</section>
+
+<section class="Featured">
+    <h3 class="Featured-title">{{ page[locale].Featured.title|raw }}</h3>
+    <div class="Featured-content g-row js-equalizrGroup">
+        {% for content in page[locale].Featured.content %}
+        <div class="g-column g-medium-12 g-large-6">
+            <div class="wrapper js-equalizr">
+                <img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}landing/{{ content.image }}?v={*timestamp*}">
+                <div class="Featured-content-container">
+                    <h5 class="title">{{ content.title|raw }}</h5>
+                    <ul class="description">
+                        {% for list in content.list %}
+                            <li>{{ list|raw }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="Featured-footer g-row">
+        <div class="g-column">
+            <div class="Featured-footer-content">
+                <img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}landing/{{ page[locale].Featured.lastPost.image }}?v={*timestamp*}">
+                <div class="Featured-footer-caption">
+                    <p class="Featured-footer-description">{{ page[locale].Featured.lastPost.description|raw }}</p>
+                    <p class="Featured-footer-claim">{{ page[locale].Featured.lastPost.claim|raw }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+/* =TYPOGRAPHY
+/* -------------------------------------------------------------------------- */
+
+/* =Font familys
+/* -------------------------------------------------------------------------- */
+$t-arial: Arial, Helvetica, sans-serif;
+$t-calibri: "Calibri", Lucida, Arial, Helvetica,sans-serif;
+$t-segoe: "Segoe", Lucida, Arial, Helvetica,sans-serif;
+$t-lola: "Fs-Lola", Tahoma, "Lucida Grande", Verdana;
+$t-lolaBold: "Fs-Lola-Bold", Tahoma, "Lucida Grande", Verdana;
+$t-gothamBook: "Gotham-Book", Tahoma, "Lucida Grande", Verdana;
+$t-gothamBold: "Gotham-Bold", Tahoma, "Lucida Grande", Verdana;
+$t-gothamMedium: "Gotham-Medium", Tahoma, "Lucida Grande", Verdana;
+$t-georgia: "Georgia", Tahoma, "Lucida Grande", Verdana;
+$t-georgiaBold: "Georgia-Bold", Tahoma, "Lucida Grande", Verdana;
+$t-georgiaItalic: "Georgia-Italic", Tahoma, "Lucida Grande", Verdana;
+$t-georgiaBoldItalic: "Georgia-BoldItalic", Tahoma, "Lucida Grande", Verdana;
+
+
+
+html, body {
+    font-family: $t-lola;
+    font-size: $global-font-size;
+    line-height: $global-line-height;
+}
+
+/* =Headings
+/* -------------------------------------------------------------------------- */
+h1,
+.t-h1 {
+    font-size: units(36px);
+    line-height: 100%;
+    font-family: $t-lolaBold;
+}
+h2,
+.t-h2 {
+    font-size: units(30px);
+    line-height: 100%;
+    font-family: $t-lolaBold;
+}
+h3,
+.t-h3 {
+}
+h4,
+.t-h4 {
+
+}
+h5,
+.t-h5 {
+
+}
+h6,
+.t-h6 {
+
+}
+
+b, strong {
+    font-family: $t-lolaBold;
+}

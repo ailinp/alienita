@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        {% set page_meta_title       = page[locale].meta.title %}
+        {% set page_meta_description = page[locale].meta.description %}
+        {% set page_title            = page[locale].title %}
+
+        {% set globals_meta_title       = globals[locale].meta.title %}
+        {% set globals_meta_description = globals[locale].meta.description %}
+        {% set globals_meta_url         = globals[locale].meta.url %}
+        {% set globals_meta_image       = globals[locale].meta.image %}
+        {% set globals_title            = globals.eileenpunk %}
+
+        <title>{{ page_meta_title|default(page_title)|default(globals_meta_title)|default(globals_title) }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="http://www.eileenpunk.com/favicon.ico" type="image/x-icon" />
+
+        <meta name="description" content="{{ page_meta_description|default(page_og_description)|default(globals_meta_description) }}" />
+
+        <link rel="stylesheet" href="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.stylesheets }}styles.min.css" />
+        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.vendors }}modernizr.js"></script>
+        {% block headerJs %}{% endblock %}
+    </head>
+    <body>
+        {% block header %}
+            {% include 'includes/header.twig' %}
+        {% endblock %}
+
+        {% block content %}{% endblock %}
+
+        {% block footer %}
+            {% include 'includes/footer.twig' %}
+        {% endblock %}
+
+        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}polyfills.js"></script>
+        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.vendors }}jquery.js"></script>
+        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}libs/waypoints.min.js"></script>
+        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}scripts.js"></script>
+
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

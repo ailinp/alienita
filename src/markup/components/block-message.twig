@@ -1,0 +1,14 @@
+<section class="BlockMessage{% if icon %} BlockMessage--icon{% endif %}">
+    {% if icon %}
+    <div class="Squares g-row">
+        <div class="g-small-12 g-column">
+        {% include 'squares.twig' with { order: [1, 2, 3, 4], static: true } only %}
+        </div>
+    </div>
+    {% endif %}
+    <div class="BlockMessage-title g-row">
+        <div class="g-small-12 g-column text">
+            {{ title }}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,12 @@
+<div id="cookies-warning" class="Cookies hide--cookies">
+    <div>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px">
+            <circle fill="#FFFFFF" cx="16" cy="16" r="15" class="bg"></circle>
+            <circle fill="#000000" cx="16" cy="7.216" r="2.733" class="fg"></circle>
+            <rect fill="#000000" x="13.267" y="12.417" width="5.466" height="14.938" class="fg"></rect>
+        </svg>
+        {{ cookies[locale].description }}<br>
+        <a href="{{ cookies[locale].link }}" id="cookies-warning-more-info" class="Cookies-infoButton">{{ cookies[locale].link_text }}</a>
+        <a href="#" id="cookies-warning-close" class="Cookies-closeButton">{{ cookies[locale].button }}</a>
+    </div>
+</div>

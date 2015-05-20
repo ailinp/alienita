@@ -1,0 +1,55 @@
+header:
+    en:
+        logo:
+            link: "http://eroski.es"
+            image: "logo-eroski.png"
+
+        menu:
+            -
+                link: "http://www.compraonline.grupoeroski.com/supermercado/home.jsp"
+                utmterm: "menu-online"
+                title: "Compra Online"
+                class: "js-track-superonline"
+            -
+                link: "http://eroski.es/ofertas/catalogos-y-folletos"
+                utmterm: "menu-ofertas"
+                title: "Ofertas"
+            -
+                link: "http://eroski.es/eroski-y-tu"
+                utmterm: "menu-tu"
+                title: "Contigo"
+            -
+                link: "http://eroski.es/conoce-eroski?locale=es"
+                utmterm: "menu-conoce"
+                title: "Conócenos"
+            -
+                link: "http://eroski.es/franquicias/la-franquicia-en-eroski"
+                utmterm: "menu-franquicias"
+                title: "Franquicias"
+
+    eu:
+        logo:
+            link: "http://eroski.es?locale=eu"
+            image: "logo-eroski-eu.png"
+
+        menu:
+            -
+                link: "http://www.compraonline.grupoeroski.com/supermercado/home.jsp"
+                utmterm: "menu-online"
+                title: "Online erosketa"
+            -
+                link: "http://www.eroski.es/eu/ofertas/katalogo-eta-liburuxkak"
+                utmterm: "menu-ofertas"
+                title: "Eskaintzak"
+            -
+                link: "http://www.eroski.es/eroski-y-tu?locale=eu"
+                utmterm: "menu-tu"
+                title: "Zurekin"
+            -
+                link: "http://eroski.es/conoce-eroski?locale=eu"
+                utmterm: "menu-conoce"
+                title: "Ezagut gaitzazu"
+            -
+                link: "http://eroski.es/franquicias/la-franquicia-en-eroski?locale=eu"
+                utmterm: "menu-franquicias"
+                title: "Frankiziak"

@@ -1,0 +1,52 @@
+<footer>
+    <div class="Footer">
+        <div class="u-wrapper for-eroski">
+            <nav class="Footer-nav u-clearfix">
+
+                {% for group in footer.menu[locale] %}
+                <div class="Footer-columns">
+                    {% set firstColumn = (loop.index == 1) %}
+                    <a href="" class="Footer-navTitle js-footerColumnsTitle" no-utm>{{ group.name }}</a>
+                    <ul class="for-tablet js-footerColumnsList">
+                        {% for item in group.links %}
+                        <li><a {% if firstColumn %}class="js-track-footer js-track-superonline" data-track-action="{{ footer.menu.es[0].links[loop.index0].title }}"{% else %}{% if item.class %}class="{{ item.class }}"{% endif %}{% endif %} href="{{ item.link }}" data-utmterm="{{ item.uterm }}" target="_blank" title="{{ item.title }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+
+                <div class="Footer-information">
+                    <span class="phonenumber"><a id="phonenumber" href="tel:{{ globals[locale].phone }}" title="{{ globals[locale].phone }}">{{ globals[locale].phone }}</a></span><br>
+                    <span class="schedule">{{ globals[locale].schedule }},<br>{{ globals[locale].opening }}</span>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="FooterLinks">
+        <div class="u-wrapper for-eroski">
+            <nav class="FooterLinks-nav u-clearfix">
+
+                <div class="FooterLinks-logos">
+                    {% for item in footer.logos[locale] %}
+                    <a {% if item.class %}class="{{ item.class }}"{% endif %} href="{{ item.link }}" target="_blank" data-utmterm="{{ item.utmterm }}"><img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}{{ item.image }}" alt="{{ globals.eroski }}"></a>
+                    {% endfor %}
+                </div>
+
+                <ul class="FooterLinks-nav u-clearfix">
+                    {% for item in footer.conditions[locale] %}
+                    <li><a href="{{ item.link }}" data-utmterm="{{ item.utmterm }}" target="_blank" title="{{ item.title }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                    <li class="SocialIcons">
+                        {% for item in footer.socials %}
+                        <a class="ico--{{ item.title }}" href="{{ item.link }}" title="Seguir">{{ item.title }}</a>
+                        {% endfor %}
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+
+</footer>

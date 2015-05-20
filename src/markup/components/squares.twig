@@ -1,0 +1,5 @@
+<div class="Squares-elements{% if not static %} js-squaresAnimation{% endif %}">
+    {% for ord in order %}
+    <div class="Squares-elements-item square{{ ord }}{% if not static %} js-square{% endif %}" data-order="{{ ord }}"></div>
+    {% endfor %}
+</div>

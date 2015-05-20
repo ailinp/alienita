@@ -1,0 +1,144 @@
+@media screen {
+    .Header {
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+
+        .Header-logo {
+            padding: 1rem;
+
+            img {
+                max-height: units(60px);
+            }
+        }
+
+        .Header-mobileMenuIcon {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 1rem;
+            margin: 0.5rem;
+        }
+
+
+        .Header-menu {
+            @include clearfix;
+            display: none;
+
+            &.is-open {
+                display: block;
+            }
+
+            nav {
+                margin-top: 0;
+
+                ul {
+                    display: block;
+                    @include clearfix;
+
+                    li {
+                        float: none;
+                        margin: 0;
+                        text-align: left;
+
+                        a {
+                            display: block;
+                            font-family: $t-lolaBold;
+                            font-style: 1rem;
+                            line-height: 120%;
+                            color: #000;
+                            text-decoration: none;
+                            padding: 1rem;
+                            width: 100%;
+                            border-top: 1px solid #ddd;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 626px) {
+    .Header {
+
+        .Header-logo {
+            text-align: center;
+
+            a {
+                display: inline-block;
+
+                img {
+                    max-height: units(60px);
+                }
+            }
+        }
+
+        .Header-menu {
+
+            nav {
+                text-align: center;
+
+                ul {
+                    display: inline-block;
+
+                    li {
+                        float: left;
+                        margin: 0 0 1rem 1rem;
+
+                        a {
+                            border-top: 0;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .Header-mobileMenuIcon {
+            display: none;
+        }
+
+        .Header-menu {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 1002px) {
+    .Header {
+
+        .Header-logo {
+            float: left;
+
+            a {
+                img {
+                    max-height: units(100px);
+                }
+            }
+        }
+
+        .Header-menu {
+            float: left;
+
+            nav {
+                padding-top: units(35px);
+
+                ul {
+
+                    li {
+                        float: left;
+                        margin: 1rem;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.sass-cache/*
+*.DS_Store
+_design
+
+# GULP
+.tmp
+dist
+node_modules
+release

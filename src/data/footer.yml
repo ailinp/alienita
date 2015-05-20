@@ -1,0 +1,379 @@
+footer:
+    menu:
+        en:
+            -
+                name: "Tiendas Eroski"
+                links:
+                    -
+                        link: "http://www.eroski.es/tiendas/buscador-de-tiendas/"
+                        utmterm: "footer-buscador"
+                        title: "Buscador de tiendas"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/"
+                        utmterm: "footer-supermercado"
+                        title: "Supermercado"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/terrazayjardin/"
+                        utmterm: "footer-terrazayjardin"
+                        title: "Terraza y Jardín"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/descanso/"
+                        utmterm: "footer-descanso"
+                        title: "Descanso"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/electroventa/tecno/index.jsp"
+                        utmterm: "footer-electronica"
+                        title: "Electrónica"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/electroventa/electro/index.jsp"
+                        utmterm: "footer-electrodomesticos"
+                        title: "Electrodomésticos"
+                    -
+                        link: "http://www.eroskimovil.es/"
+                        utmterm: "footer-movil"
+                        title: "Móvil"
+                    -
+                        link: "http://www.eroski.es/seguros/"
+                        utmterm: "footer-seguros"
+                        title: "Seguros"
+                    -
+                        link: "http://www.viajeseroski.es/"
+                        utmterm: "footer-viajes"
+                        title: "Viajes"
+                    -
+                        link: "http://www.eroski.es/tiendas/servicios/"
+                        utmterm: "footer-servicios"
+                        title: "Servicios"
+
+            -
+                name: "Ofertas y promociones"
+                links:
+                    -
+                        link: "http://www.eroski.es/ofertas/ofertas-de-alimentacion/"
+                        utmterm: "footer-ofertasyalimentacion"
+                        title: "Ofertas alimentación"
+                    -
+                        link: "http://www.eroski.es/ofertas/catalogos-y-folletos/"
+                        utmterm: "footer-catalogosyfolletos"
+                        title: "Catálogos y folletos"
+                    -
+                        link: "http://www.eroski.es/tarjeta-eroski-red/"
+                        utmterm: "footer-tarjetaeroski"
+                        title: "Tarjeta EROSKI red"
+                    -
+                        link: "https://www.travelclub.es/"
+                        utmterm: "footer-travel"
+                        title: "Tarjeta Travel Club"
+
+            -
+                name: "Eroski y tú"
+                links:
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/salud-bienestar/"
+                        utmterm: "footer-salud"
+                        title: "Por tu salud"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/por-ser-de-aqui/"
+                        utmterm: "footer-serdeaqui"
+                        title: "Por ser de aquí"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/ahorro/"
+                        utmterm: "footer-tuahorro"
+                        title: "Por tu ahorro"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/nuestras-marcas/"
+                        utmterm: "footer-marcas"
+                        title: "Nuestras marcas"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/por-mi-planeta/"
+                        utmterm: "footer-planeta"
+                        title: "Por mi planeta"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/te-escuchamos/"
+                        utmterm: "footer-escuchamos"
+                        title: "Te escuchamos"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/nuestras-marcas/eroski-sannia/las-recetas-mas-sannias-de-eroski/"
+                        utmterm: "footer-recetas"
+                        title: "Recetas"
+
+            -
+                name: "Conoce Eroski"
+                links:
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/quienes-somos/"
+                        utmterm: "footer-quienessomos"
+                        title: "Quiénes somos"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/responsabilidad-social/"
+                        utmterm: "footer-social"
+                        title: "Responsabilidad social"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/inversores/"
+                        utmterm: "footer-inversores"
+                        title: "Información para inversores"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/trabaja-eroski/que-ofrecemos/"
+                        utmterm: "footer-trabaja"
+                        title: "Trabaja con nosotros"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/franquicias/"
+                        utmterm: "footer-franquicias"
+                        title: "Franquicias"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/prensa/"
+                        utmterm: "footer-saladeprensa"
+                        title: "Sala de prensa"
+
+
+            -
+                name: "Atención al cliente"
+                links:
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/contacta/"
+                        utmterm: "footer-tiendasfisicas"
+                        title: "Tiendas físicas"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/supermercado/ayuda/contacto.html/"
+                        utmterm: "footer-tiendaonline"
+                        title: "Tiendas online"
+                    -
+                        link: "http://www.eroskimovil.es/geomv/c/pub/es/atencion_cliente/"
+                        utmterm: "footer-eroskimovil"
+                        title: "EROSKI móvil"
+                    -
+                        link: "http://www.viajeseroski.es/esp/contacto/"
+                        utmterm: "footer-eroskiviajes"
+                        title: "EROSKI viajes"
+                    -
+                        link: "http://www.eroskiasegura.es/es/contacto"
+                        utmterm: "footer-seguros"
+                        title: "EROSKI seguros"
+
+        eu:
+            -
+                name: "Eroski dendak"
+                links:
+                    -
+                        link: "http://www.eroski.es/tiendas/buscador-de-tiendas?primeravez=S&locale=eu"
+                        utmterm: "footer-buscador"
+                        title: "Denda-bilatzailea"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com?locale=eu"
+                        utmterm: "footer-supermercado"
+                        title: "Supermerkatua"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/terrazayjardin/home.jsp?locale=eu"
+                        utmterm: "footer-terrazayjardin"
+                        title: "Terraza eta lorategia"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/descanso/?locale=eu"
+                        utmterm: "footer-descanso"
+                        title: "Atsedena"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/electroventa/tecno/index.jsp?locale=eu"
+                        utmterm: "footer-electronica"
+                        title: "Elektronika"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/electroventa/electro/index.jsp?locale=eu"
+                        utmterm: "footer-electrodomesticos"
+                        title: "Etxetresna elektrikoak"
+                    -
+                        link: "http://www.eroskimovil.es/?locale=eu"
+                        utmterm: "footer-movil"
+                        title: "Mugikorrak"
+                    -
+                        link: "http://www.eroski.es/seguros/?locale=eu"
+                        utmterm: "footer-seguros"
+                        title: "Aseguruak"
+                    -
+                        link: "http://www.viajeseroski.es/?locale=eu"
+                        utmterm: "footer-viajes"
+                        title: "Bidaiak"
+                    -
+                        link: "http://www.eroski.es/tiendas/servicios/?locale=eu"
+                        utmterm: "footer-servicios"
+                        title: "Zerbitzuak"
+
+            -
+                name: "Eskaintzak eta promozioak"
+                links:
+                    -
+                        link: "http://www.eroski.es/ofertas/ofertas-de-alimentacion/?locale=eu"
+                        utmterm: "footer-ofertasyalimentacion"
+                        title: "Elikadurako eskaintzak"
+                    -
+                        link: "http://www.eroski.es/ofertas/catalogos-y-folletos/?locale=eu"
+                        utmterm: "footer-catalogosyfolletos"
+                        title: "Katalogo eta liburuxkak"
+                    -
+                        link: "http://www.eroski.es/tarjeta-eroski-red/?locale=eu"
+                        utmterm: "footer-tarjetaeroski"
+                        title: "EROSKI Red txartela"
+                    -
+                        link: "https://www.eroski.es/club?locale=eu"
+                        utmterm: "footer-travel"
+                        title: "EROSKI Kluba"
+
+            -
+                name: "Eroski eta zu"
+                links:
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/salud-bienestar/?locale=eu"
+                        utmterm: "footer-salud"
+                        title: "Zure osasunarengatik"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/por-ser-de-aqui/?locale=eu"
+                        utmterm: "footer-serdeaqui"
+                        title: "Hemengoa izateagatik"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/ahorro/?locale=eu"
+                        utmterm: "footer-tuahorro"
+                        title: "Zuk aurrezteko"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/nuestras-marcas/?locale=eu"
+                        utmterm: "footer-marcas"
+                        title: "Gure markak"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/por-mi-planeta/?locale=eu"
+                        utmterm: "footer-planeta"
+                        title: "Nire planetaren alde"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/te-escuchamos/?locale=eu"
+                        utmterm: "footer-escuchamos"
+                        title: "Entzuten dizugu"
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/nuestras-marcas/eroski-sannia/las-recetas-mas-sannias-de-eroski/?locale=eu"
+                        utmterm: "footer-recetas"
+                        title: "Errezetak"
+
+            -
+                name: "Eroski ezagutu"
+                links:
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/quienes-somos/?locale=eu"
+                        utmterm: "footer-quienessomos"
+                        title: "Nor gara"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/responsabilidad-social/?locale=eu"
+                        utmterm: "footer-social"
+                        title: "Gizarte Erantzukizuna"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/inversores/?locale=eu"
+                        utmterm: "footer-inversores"
+                        title: "Inbertitzaileentzako informazioa"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/trabaja-eroski/que-ofrecemos/?locale=eu"
+                        utmterm: "footer-trabaja"
+                        title: "Gurekin lan egin"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/franquicias/?locale=eu"
+                        utmterm: "footer-franquicias"
+                        title: "Frankiziak"
+                    -
+                        link: "http://www.eroski.es/conoce-eroski/prensa/?locale=eu"
+                        utmterm: "footer-saladeprensa"
+                        title: "Prentsa-aretoa"
+
+            -
+                name: "Bezeroarentzako arreta"
+                links:
+                    -
+                        link: "http://www.eroski.es/eroski-y-tu/contacta/?locale=eu"
+                        utmterm: "footer-tiendasfisicas"
+                        title: "Denda fisikoak"
+                    -
+                        link: "http://www.compraonline.grupoeroski.com/supermercado/ayuda/contacto.html/?locale=eu"
+                        utmterm: "footer-tiendaonline"
+                        title: "Online dendak"
+                    -
+                        link: "http://www.eroskimovil.es/geomv/c/pub/es/N_Te_escuchamos/quejas.html?locale=eu"
+                        utmterm: "footer-eroskimovil"
+                        title: "EROSKI mugikorrak"
+                    -
+                        link: "http://www.viajeseroski.es/esp/contacto/?locale=eu"
+                        utmterm: "footer-eroskiviajes"
+                        title: "EROSKI bidaiak"
+                    -
+                        link: "http://www.eroskiasegura.es/es/contacto/?locale=eu"
+                        utmterm: "footer-seguros"
+                        title: "EROSKI aseguruak"
+
+    logos:
+        en:
+            -
+                name: "Eroski"
+                link: "http://www.eroski.es"
+                utmterm: "footer-logo"
+                image: "logo-eroski-footer.png"
+                class: "logo--footer"
+
+            -
+                name: "Att-cliente-2015"
+                link: "http://www.lideresenservicio.com/"
+                utmterm: "footer-atencion"
+                image: "eroski-atencion-cliente.png"
+
+            -
+                name: "Confianza-online"
+                link: "https://www.confianzaonline.es/que-es-confianza-online/"
+                utmterm: "footer-confianza"
+                image: "eroski-confianza-online.png"
+
+        eu:
+            -
+                name: "Eroski"
+                link: "http://www.eroski.es/?locale=eu"
+                utmterm: "footer-logo"
+                image: "logo-eroski-footer-eu.png"
+                class: "logo--footer"
+
+            -
+                name: "Att-cliente-2015"
+                link: "http://www.lideresenservicio.com/"
+                utmterm: "footer-atencion"
+                image: "eroski-atencion-cliente.png"
+
+            -
+                name: "Confianza-online"
+                link: "https://www.confianzaonline.es/que-es-confianza-online/"
+                utmterm: "footer-confianza"
+                image: "eroski-confianza-online.png"
+
+
+    conditions:
+        en:
+            -
+                link: "http://www.eroski.es/condiciones-generales-eroski-club"
+                utmterm: "footer-condicionesgeneralesclub"
+                title: "Condiciones generales CLUB"
+            -
+                link: "http://www.eroski.es/conoce-eroski/condiciones-generales"
+                utmterm: "footer-condicionesgenerales"
+                title: "Condiciones generales"
+            -
+                link: "http://www.eroski.es/conoce-eroski/condiciones-generales/politica-de-cookies"
+                utmterm: "footer-cookies"
+                title: "Política de Cookies"
+
+        eu:
+            -
+                link: "http://www.eroski.es/eroski-cluben-baldintza-generalak"
+                utmterm: "footer-condicionesgeneralesclub"
+                title: "CLUB-en Baldintza generalak"
+            -
+                link: "http://www.eroski.es/conoce-eroski/condiciones-generales?locale=eu"
+                utmterm: "footer-condicionesgenerales"
+                title: "Baldintza generalak"
+            -
+                link: "http://www.eroski.es/conoce-eroski/condiciones-generales/politica-de-cookies?locale=eu"
+                utmterm: "footer-cookies"
+                title: "Cookie politika"
+
+    socials:
+        -
+            link: "http://www.twitter.com/eroski"
+            title: "twitter"
+        -
+            link: "http://www.facebook.com/eroski"
+            title: "facebook"

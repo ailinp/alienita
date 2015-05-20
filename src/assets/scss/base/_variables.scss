@@ -1,0 +1,137 @@
+// =Variables
+// --------------------------------------------------------------------------
+
+// =Font size
+// ------------------------------------------------------
+$eroski-max-width: 1115px !default;
+$global-max-width: 1000px !default;
+$global-font-size-px: 16px !default;
+$global-gutter: 15px !default;
+$global-font-size: 100%;
+$global-line-height: 1.5;
+$global-units: rem;
+$grid-columns: 12 !default;
+
+
+// =Color
+// --------------------------------------------------------------------------
+$c-white: #fff;
+$c-black: #000;
+
+$c-neutroLightest: #ffffff;
+$c-neutroLighter: #e1e1e1;
+$c-neutroLight: #d7d7d7;
+$c-neutro: #909094;
+$c-neutroDark: #666666;
+$c-neutroDarker: #4e4e4e;
+$c-neutroDarkest: #000000;
+
+$c-eroskiRedLightest: #fff;
+$c-eroskiRedLighter: #fff;
+$c-eroskiRedLight: #E83C29;
+$c-eroskiRed: #e0001c;
+$c-eroskiRedDark: #d60b1c;
+$c-eroskiRedDarker: #b81321;
+$c-eroskiRedDarkest: #fff;
+
+$c-eroskiGreenLightest: #fff;
+$c-eroskiGreenLighter: #003402;
+$c-eroskiGreenLight: #245127;
+$c-eroskiGreen: #4E7046;
+$c-eroskiGreenDark: #fff;
+$c-eroskiGreenDarker: #fff;
+$c-eroskiGreenDarkest: #fff;
+
+$c-eroskiBlueLightest: #d5f0f7;
+$c-eroskiBlueLighter: #b6e3ef;
+$c-eroskiBlueLight: #97d4e9;
+$c-eroskiBlue: #6ec4e8;
+$c-eroskiBlueDark: #40b4e5;
+$c-eroskiBlueDarker: #00a0df;
+$c-eroskiBlueDarkest: #0095d7;
+
+$c-eroskiGrayLight: #F2F2F2;
+$c-eroskiGray: #808080;
+$c-eroskiGrayDarker: #262324;
+
+$c-eroskiOrangeLighter: #d4beb2;
+$c-eroskiOrange: #ff6400;
+
+$c-eroskiDarkBlue: #003a5c;
+
+$c-eroskiYellow: #e2c932;
+
+$c-naturBeige: #483627;
+
+$c-seleqtiaBlack: #021311;
+
+// $c-bellePurple: #9e1a96;
+$c-belleMelon: #fff0e9;
+
+$c-bellePurpleDarker: #601B5B;
+$c-bellePurpleDark: #6F2E68;
+$c-bellePurple: #864180;
+$c-bellePurpleLight: #805580;
+$c-bellePurpleLighter: #956390;
+$c-bellePurpleLightest: #EBE1E9;
+
+$c-belleBeigeLightest: #fff;
+$c-belleBeigeLighter: #F4F0DC;
+$c-belleBeigeLight: #E7E1CD;
+$c-belleBeige: #D9CCB3;
+$c-belleBeigeDark: #fff;
+$c-belleBeigeDarker: #fff;
+$c-belleBeigeDarkest: #fff;
+
+$c-sanniaBlueLightest: #ebf5f3;
+$c-sanniaBlueLighter: #fff;
+$c-sanniaBlueLight: #76b5eb;
+$c-sanniaBlue: #00abe9;
+$c-sanniaBlueDark: #fff;
+$c-sanniaBlueDarker: #fff;
+$c-sanniaBlueDarkest: #fff;
+
+
+// Here we define the lower and upper bounds for each media size
+$xsmall-range:  0, 30rem;           /* 0, 480px */
+$small-range:   30.063rem, 40rem;   /* 481px, 640px */
+$xmedium-range: 40.063rem, 48rem;   /* 641px, 768px */
+$medium-range:  48.063rem, 64rem;   /* 769px, 1024px */
+$large-range:   64.063rem, 90rem;   /* 1025px, 1440px */
+$xlarge-range:  90.063rem, 120rem;  /* 1441px, 1920px */
+$xxlarge-range: 120.063rem;         /* 1921px */
+
+// Media Queries
+$screen: "only screen" !default;
+
+$landscape: "#{$screen} and (orientation: landscape)" !default;
+$portrait: "#{$screen} and (orientation: portrait)" !default;
+
+$xsmall-up: $screen !default;
+$xsmall-only: "#{$screen} and (max-width: #{nth($xsmall-range, 2)})" !default;
+
+$small-up: "#{$screen} and (min-width:#{nth($small-range, 1)})" !default;
+$small-only: "#{$screen} and (min-width:#{nth($small-range, 1)}) and (max-width:#{nth($small-range, 2)})" !default;
+
+$xmedium-up: "#{$screen} and (min-width:#{nth($xmedium-range, 1)})" !default;
+$xmedium-only: "#{$screen} and (min-width:#{nth($xmedium-range, 1)}) and (max-width:#{nth($xmedium-range, 2)})" !default;
+
+$medium-up: "#{$screen} and (min-width:#{nth($medium-range, 1)})" !default;
+$medium-only: "#{$screen} and (min-width:#{nth($medium-range, 1)}) and (max-width:#{nth($medium-range, 2)})" !default;
+
+$large-up: "#{$screen} and (min-width:#{nth($large-range, 1)})" !default;
+$large-only: "#{$screen} and (min-width:#{nth($large-range, 1)}) and (max-width:#{nth($large-range, 2)})" !default;
+
+$xlarge-up: "#{$screen} and (min-width:#{nth($xlarge-range, 1)})" !default;
+$xlarge-only: "#{$screen} and (min-width:#{nth($xlarge-range, 1)}) and (max-width:#{nth($xlarge-range, 2)})" !default;
+
+$xxlarge-up: "#{$screen} and (min-width:#{nth($xxlarge-range, 1)})" !default;
+
+$retina: (
+    "#{$screen} and (-webkit-min-device-pixel-ratio: 2)",
+    "#{$screen} and (min--moz-device-pixel-ratio: 2)",
+    "#{$screen} and (-o-min-device-pixel-ratio: 2/1)",
+    "#{$screen} and (min-device-pixel-ratio: 2)",
+    "#{$screen} and (min-resolution: 192dpi)",
+    "#{$screen} and (min-resolution: 2dppx)"
+);
