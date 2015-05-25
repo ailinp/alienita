@@ -1,55 +1,63 @@
 header:
-    en:
+    es:
         logo:
-            link: "http://eroski.es"
-            image: "logo-eroski.png"
+            link: "http://www.eileenpunk.com"
+            image: "apple-touch-icon-72x72-precomposed.png"
 
         menu:
             -
-                link: "http://www.compraonline.grupoeroski.com/supermercado/home.jsp"
-                utmterm: "menu-online"
-                title: "Compra Online"
+                link: "#"
+                utmterm: ""
+                title: "clinetes"
                 class: "js-track-superonline"
             -
-                link: "http://eroski.es/ofertas/catalogos-y-folletos"
-                utmterm: "menu-ofertas"
-                title: "Ofertas"
+                link: "#"
+                utmterm: ""
+                title: "sobre norotros"
             -
-                link: "http://eroski.es/eroski-y-tu"
-                utmterm: "menu-tu"
-                title: "Contigo"
+                link: "#"
+                utmterm: ""
+                title: "servicios"
             -
-                link: "http://eroski.es/conoce-eroski?locale=es"
-                utmterm: "menu-conoce"
-                title: "Conócenos"
+                link: "#"
+                utmterm: ""
+                title: "proyectos"
             -
-                link: "http://eroski.es/franquicias/la-franquicia-en-eroski"
-                utmterm: "menu-franquicias"
-                title: "Franquicias"
+                link: "#"
+                utmterm: ""
+                title: "blog"
+            -
+                link: "#"
+                utmterm: ""
+                title: "contacto"
 
-    eu:
+    en:
         logo:
-            link: "http://eroski.es?locale=eu"
-            image: "logo-eroski-eu.png"
+            link: "http://www.eileenpunk.com"
+            image: "apple-touch-icon-72x72-precomposed.png"
 
         menu:
             -
-                link: "http://www.compraonline.grupoeroski.com/supermercado/home.jsp"
-                utmterm: "menu-online"
-                title: "Online erosketa"
+                link: "#"
+                utmterm: ""
+                title: "clients"
             -
-                link: "http://www.eroski.es/eu/ofertas/katalogo-eta-liburuxkak"
-                utmterm: "menu-ofertas"
-                title: "Eskaintzak"
+                link: "#"
+                utmterm: ""
+                title: "about us"
             -
-                link: "http://www.eroski.es/eroski-y-tu?locale=eu"
-                utmterm: "menu-tu"
-                title: "Zurekin"
+                link: "#"
+                utmterm: ""
+                title: "services"
             -
-                link: "http://eroski.es/conoce-eroski?locale=eu"
-                utmterm: "menu-conoce"
-                title: "Ezagut gaitzazu"
+                link: "#"
+                utmterm: ""
+                title: "projects"
             -
-                link: "http://eroski.es/franquicias/la-franquicia-en-eroski?locale=eu"
-                utmterm: "menu-franquicias"
-                title: "Frankiziak"
+                link: "#"
+                utmterm: ""
+                title: "blog"
+            -
+                link: "#"
+                utmterm: ""
+                title: "contact"

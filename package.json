@@ -1,10 +1,10 @@
 {
-  "name": "eileenpunk",
+  "name": "landings",
   "version": "0.0.6",
-  "description": "personal website",
+  "description": "Landings manager",
   "repository": {
     "type": "git",
-    "url": "git@github.com:EileenPunk/alienita.git"
+    "url": "git@bitbucket.org:italodr/gulp_boilerplate.git"
   },
   "devDependencies": {
     "browser-sync": "^2.0.0-rc5",

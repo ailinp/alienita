@@ -3,43 +3,64 @@
 
 /* =Font familys
 /* -------------------------------------------------------------------------- */
-$t-arial: Arial, Helvetica, sans-serif;
-$t-calibri: "Calibri", Lucida, Arial, Helvetica,sans-serif;
-$t-segoe: "Segoe", Lucida, Arial, Helvetica,sans-serif;
-$t-lola: "Fs-Lola", Tahoma, "Lucida Grande", Verdana;
-$t-lolaBold: "Fs-Lola-Bold", Tahoma, "Lucida Grande", Verdana;
-$t-gothamBook: "Gotham-Book", Tahoma, "Lucida Grande", Verdana;
-$t-gothamBold: "Gotham-Bold", Tahoma, "Lucida Grande", Verdana;
-$t-gothamMedium: "Gotham-Medium", Tahoma, "Lucida Grande", Verdana;
-$t-georgia: "Georgia", Tahoma, "Lucida Grande", Verdana;
-$t-georgiaBold: "Georgia-Bold", Tahoma, "Lucida Grande", Verdana;
-$t-georgiaItalic: "Georgia-Italic", Tahoma, "Lucida Grande", Verdana;
-$t-georgiaBoldItalic: "Georgia-BoldItalic", Tahoma, "Lucida Grande", Verdana;
 
-
+$t-robotoBlack: 'Roboto-Black', sans-serif;
+$t-robotoBlackItalic: 'Roboto-BlackItalic', sans-serif;
+$t-robotoBold: 'Roboto-Bold', sans-serif;
+$t-robotoBoldItalic: 'Roboto-BoldItalic', sans-serif;
+$t-robotoMedium: 'Roboto-Medium', sans-serif;
+$t-robotoMediumItalic: 'Roboto-MediumItalic', sans-serif;
+$t-robotoRegular: 'Roboto-Regular', sans-serif;
+$t-robotoItalic: 'Roboto-Italic', sans-serif;
+$t-robotoLight: 'Roboto-Light', sans-serif;
+$t-robotoLightItalic: 'Roboto-LightItalic', sans-serif;
+$t-robotoThin: 'Roboto-Thin', sans-serif;
+$t-robotoThinItalic: 'Roboto-ThinItalic', sans-serif;
+$t-serif: serif;
 
 html, body {
-    font-family: $t-lola;
+    color: $c-text;
+    font-family: $t-robotoLight;
     font-size: $global-font-size;
+    font-weight: 300;
     line-height: $global-line-height;
+}
+
+section {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration:none;
+    -webkit-transition: all 0.3s ease-in;
+       -moz-transition: all 0.3s ease-in;
+         -o-transition: all 0.3s ease-in;
 }
 
 /* =Headings
 /* -------------------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin-top: 0;
+    margin-bottom: gutter();
+}
+
 h1,
 .t-h1 {
-    font-size: units(36px);
-    line-height: 100%;
-    font-family: $t-lolaBold;
+    color: $c-neutroDarker;
+    font-family: $t-robotoLight;
+    font-size: units(33px);
+    line-height: 120%;
 }
 h2,
 .t-h2 {
-    font-size: units(30px);
-    line-height: 100%;
-    font-family: $t-lolaBold;
+    font-size: units(25px);
+    line-height: 120%;
 }
 h3,
 .t-h3 {
+    font-size: units(25px);
+    line-height: 120%;
 }
 h4,
 .t-h4 {
@@ -54,6 +75,11 @@ h6,
 
 }
 
+p {
+    color: $c-neutroDark;
+    font-size: units(18px);
+}
+
 b, strong {
-    font-family: $t-lolaBold;
+    font-family: $t-robotoMedium;
 }

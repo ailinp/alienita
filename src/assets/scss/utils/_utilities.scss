@@ -10,10 +10,6 @@
 }
 .u-wrapper {
     @include wrapper;
-
-    &.for-eroski {
-        max-width: $eroski-max-width;
-    }
 }
 
 // =Hide stuff

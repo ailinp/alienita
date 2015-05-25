@@ -4,24 +4,22 @@ globals:
     publish: false
 
     paths:
-        images: assets/images/
-        javascripts: assets/javascripts/
-        stylesheets: assets/stylesheets/
-        fonts: assets/fonts/
-        vendors: assets/javascripts/libs/vendor/
+        images: /assets/images/
+        javascripts: /assets/javascripts/
+        stylesheets: /assets/stylesheets/
+        fonts: /assets/fonts/
+        vendors: /assets/javascripts/libs/vendor/
 
     en:
         meta:
             title:  "EileenPunk"
             description: "This Eileen Punk never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
             url: "www.eileenpunk.com"
+            image: "http://www.eileenpunk.com/assets/images/og.jpg"
 
-    # eu:
-    #     meta:
-    #         title:  "Nuevo hipermercado EROSKI Berango | EROSKI contigo"
-    #         description: "Hemos remodelado tu híper EROSKI Berango para que tengas más variedad y calidad donde elegir. Visítanos en Ctra. Bilbao Plentzia. 48990 Berango - Bizkaia."
-    #         url: "www.eroski.es/hipermercado-berango"
-    #         image: "http://www.eroski.es/assets/logo-op.png"
-    #     phone: "902 540 340"
-    #     schedule: "astelehenetik larunbatera"
-    #     opening: "9:00tik 22:00ra"
+    es:
+        meta:
+            title:  "EileenPunk"
+            description: "This Eileen Punk never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
+            url: "www.eileenpunk.com"
+            image: "http://www.eileenpunk.com/assets/images/og.jpg"

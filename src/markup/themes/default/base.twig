@@ -2,29 +2,44 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        {% set currentYear = 'now'|date('Y') %}
+        <meta name="expires" content="{{ 'now'|date('D, d M') }} {{ currentYear +1 }}">
 
-        {% set page_meta_title       = page[locale].meta.title %}
-        {% set page_meta_description = page[locale].meta.description %}
+        {% set page_og_title         = page[locale].og.title %}
+        {% set page_og_description   = page[locale].og.description %}
+        {% set page_og_url           = page[locale].og.url %}
+        {% set page_og_image         = page[locale].og.image %}
+        {% set page_og_siteName      = page[locale].og.siteName %}
         {% set page_title            = page[locale].title %}
 
         {% set globals_meta_title       = globals[locale].meta.title %}
         {% set globals_meta_description = globals[locale].meta.description %}
         {% set globals_meta_url         = globals[locale].meta.url %}
         {% set globals_meta_image       = globals[locale].meta.image %}
-        {% set globals_title            = globals.eileenpunk %}
+        {% set globals_title            = globals.runroom %}
 
-        <title>{{ page_meta_title|default(page_title)|default(globals_meta_title)|default(globals_title) }}</title>
+        <title>{{ page_meta_title|default(page_og_title)|default(page_title)|default(globals_meta_title)|default(globals_title) }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="http://www.eileenpunk.com/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="http://www.runroom.com/favicon.ico" type="image/x-icon" />
+        <link rel="canonical" href="{{ page[locale].canonical|default('http://www.runroom.com') }}" />
 
         <meta name="description" content="{{ page_meta_description|default(page_og_description)|default(globals_meta_description) }}" />
 
-        <link rel="stylesheet" href="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.stylesheets }}styles.min.css" />
-        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.vendors }}modernizr.js"></script>
+        <meta property="og:title" content="{{ page_og_title|default(page_meta_title)|default(page_title)|default(globals_meta_title)|default(globals_runroom) }}"/>
+        <meta property="og:site_name" content="{{ page_og_siteName|default(globals_runroom) }}"/>
+        <meta property="og:image" content="{{ page_og_image|default(globals_meta_image) }}"/>
+        <meta property="og:url" content="{{ page_og_url|default(globals_meta_url) }}" />
+        <meta property="og:description" content="{{ page_og_description|default(page_meta_description)|default(globals_meta_description) }}" />
+
+        <link rel="stylesheet" href="{{ globals.paths.stylesheets }}styles.min.css" />
+        <script src="{{ globals.paths.vendors }}modernizr.js"></script>
         {% block headerJs %}{% endblock %}
     </head>
-    <body>
+    <body data-utmcampaign="{{ page.utm.campaign|default('') }}" data-utmdate="{{ page.utm.date|default('') }}">
+        {% include '../../components/google-gtm.twig' %}
+
         {% block header %}
             {% include 'includes/header.twig' %}
         {% endblock %}
@@ -35,10 +50,10 @@
             {% include 'includes/footer.twig' %}
         {% endblock %}
 
-        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}polyfills.js"></script>
-        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.vendors }}jquery.js"></script>
-        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}libs/waypoints.min.js"></script>
-        <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}scripts.js"></script>
+        <script src="{{ globals.paths.javascripts }}polyfills.js"></script>
+        <script src="{{ globals.paths.vendors }}jquery.js"></script>
+        <script src="{{ globals.paths.javascripts }}libs/waypoints.min.js"></script>
+        <script src="{{ globals.paths.javascripts }}scripts.js"></script>
 
         {% block javascripts %}{% endblock %}
     </body>

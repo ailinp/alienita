@@ -3,8 +3,8 @@
 
 // =Font size
 // ------------------------------------------------------
-$eroski-max-width: 1115px !default;
 $global-max-width: 1000px !default;
+$global-medium-width: 800px !default;
 $global-font-size-px: 16px !default;
 $global-gutter: 15px !default;
 $global-font-size: 100%;
@@ -18,79 +18,44 @@ $grid-columns: 12 !default;
 $c-white: #fff;
 $c-black: #000;
 
-$c-neutroLightest: #ffffff;
-$c-neutroLighter: #e1e1e1;
-$c-neutroLight: #d7d7d7;
-$c-neutro: #909094;
-$c-neutroDark: #666666;
-$c-neutroDarker: #4e4e4e;
-$c-neutroDarkest: #000000;
+$c-mainLight: #ff183b;
+$c-main: #bd2831;
+$c-mainDark: #8c1313;
 
-$c-eroskiRedLightest: #fff;
-$c-eroskiRedLighter: #fff;
-$c-eroskiRedLight: #E83C29;
-$c-eroskiRed: #e0001c;
-$c-eroskiRedDark: #d60b1c;
-$c-eroskiRedDarker: #b81321;
-$c-eroskiRedDarkest: #fff;
+$c-neutroLightest:  #fff;
+$c-neutroLighter:   #f9f9f9;
+$c-neutroLight:     #f3f3f3;
+$c-neutro:          #ccc;
+$c-neutroDark:      #999;
+$c-neutroDarker:    #666;
+$c-neutroDarkest:   #333;
 
-$c-eroskiGreenLightest: #fff;
-$c-eroskiGreenLighter: #003402;
-$c-eroskiGreenLight: #245127;
-$c-eroskiGreen: #4E7046;
-$c-eroskiGreenDark: #fff;
-$c-eroskiGreenDarker: #fff;
-$c-eroskiGreenDarkest: #fff;
+// =UI colors
+// ------------------------------------------------------ */
+$c-body-bg: $c-neutroLightest;
+$c-content-bg: $c-neutroLightest;
+$c-text: $c-neutroDarker;
+$c-hover: lighten($c-main,10%);
 
-$c-eroskiBlueLightest: #d5f0f7;
-$c-eroskiBlueLighter: #b6e3ef;
-$c-eroskiBlueLight: #97d4e9;
-$c-eroskiBlue: #6ec4e8;
-$c-eroskiBlueDark: #40b4e5;
-$c-eroskiBlueDarker: #00a0df;
-$c-eroskiBlueDarkest: #0095d7;
+$c-borders: $c-neutro;
+$c-link: $c-main;
 
-$c-eroskiGrayLight: #F2F2F2;
-$c-eroskiGray: #808080;
-$c-eroskiGrayDarker: #262324;
+$c-facebook: #355199;
+$c-twitter: #00acee;
+$c-instagram: #5d7a9f;
+$c-mail: #5c9bc6; // MAIL BUTTON
+$c-tel: #779960;  // TELEPHONE BUTTON
 
-$c-eroskiOrangeLighter: #d4beb2;
-$c-eroskiOrange: #ff6400;
+$c-service1: #d6943d;
+$c-service2: #cf553e;
+$c-service3: #ba365a;
+$c-service4: #833562;
+$c-service5: #50396b;
+$c-service6: #40323c;
 
-$c-eroskiDarkBlue: #003a5c;
-
-$c-eroskiYellow: #e2c932;
-
-$c-naturBeige: #483627;
-
-$c-seleqtiaBlack: #021311;
-
-// $c-bellePurple: #9e1a96;
-$c-belleMelon: #fff0e9;
-
-$c-bellePurpleDarker: #601B5B;
-$c-bellePurpleDark: #6F2E68;
-$c-bellePurple: #864180;
-$c-bellePurpleLight: #805580;
-$c-bellePurpleLighter: #956390;
-$c-bellePurpleLightest: #EBE1E9;
-
-$c-belleBeigeLightest: #fff;
-$c-belleBeigeLighter: #F4F0DC;
-$c-belleBeigeLight: #E7E1CD;
-$c-belleBeige: #D9CCB3;
-$c-belleBeigeDark: #fff;
-$c-belleBeigeDarker: #fff;
-$c-belleBeigeDarkest: #fff;
-
-$c-sanniaBlueLightest: #ebf5f3;
-$c-sanniaBlueLighter: #fff;
-$c-sanniaBlueLight: #76b5eb;
-$c-sanniaBlue: #00abe9;
-$c-sanniaBlueDark: #fff;
-$c-sanniaBlueDarker: #fff;
-$c-sanniaBlueDarkest: #fff;
-
+$services-num: 1 2 3 4 5 6;
+$services-colors: $c-service1 $c-service2 $c-service3 $c-service4 $c-service5 $c-service6;
+$service-style: zip($services-num, $services-colors);
 
 // Here we define the lower and upper bounds for each media size
 $xsmall-range:  0, 30rem;           /* 0, 480px */

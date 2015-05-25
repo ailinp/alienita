@@ -36,23 +36,23 @@ require('gulp-grunt')(gulp);
 function notify(message, emoticon) {
     switch (emoticon) {
         case 'common':
-            emoticon = '(」゜ロ゜)」';
+            emoticon = '(｀◕‸◕´+)';
             break;
         case 'start':
-            emoticon = '(ﾉ･ｪ･)ﾉ';
+            emoticon = '໒( ᓀ ‸ ᓂ )७';
             break;
         case 'yeah':
             emoticon = '＼（＠￣∇￣＠）／';
             break;
         case 'crazy':
-            emoticon = '(⊙_◎)';
+            emoticon = '╭(๑¯д¯๑)╮';
             break;
         case 'fuck':
-            emoticon = '(╯°□°）╯︵ ┻━┻';
+            emoticon = '凸(⊙▂⊙✖ )';
             break;
         case 'writing':
         case undefined:
-            emoticon = '(●￣(ｴ)￣●)ゞ';
+            emoticon = '(๑ò︵ò๑)';
             break;
     }
     gutil.log(emoticon +' '+ message);
@@ -188,8 +188,8 @@ gulp.task('markup', ['concat:json'], function () {
     emailList       = json_data.page.email;
 
     return gulp.src([
-            path.src.base +'/*.twig',
-            '!'+ path.src.base +'/_*.twig'
+            path.src.base +'/web/**/*.twig',
+            '!'+ path.src.base +'/web/**/_*.twig'
         ])
         .pipe(twig({
             data: json_data,
@@ -284,7 +284,7 @@ gulp.task('svg-sprite', function(callback) {
 gulp.task('imagemin', function() {
 
     return gulp.src(path.src.image +'/**/*')
-        .pipe(changed(path.dest.image))
+       // .pipe(changed(path.dest.image))
         .pipe(imagemin())
         .pipe(gulp.dest(path.dest.image));
 });
