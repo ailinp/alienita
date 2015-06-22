@@ -70,43 +70,33 @@ globals:
             url: "www.eileenpunk.com"
             image: "http://www.eileenpunk.com/assets/images/og.jpg"
 header:
-    es:
-        logo:
-            link: "http://www.eileenpunk.com"
-            image: "apple-touch-icon-72x72-precomposed.png"
-
-        menu:
-            -
-                link: "#"
-                utmterm: ""
-                title: "clinetes"
-                class: "js-track-superonline"
-            -
-                link: "#"
-                utmterm: ""
-                title: "sobre norotros"
-            -
-                link: "#"
-                utmterm: ""
-                title: "servicios"
-            -
-                link: "#"
-                utmterm: ""
-                title: "proyectos"
-            -
-                link: "#"
-                utmterm: ""
-                title: "blog"
-            -
-                link: "#"
-                utmterm: ""
-                title: "contacto"
+    logo:
+        link: "http://www.eileenpunk.com"
+        image: "apple-touch-icon-72x72-precomposed.png"
 
     en:
-        logo:
-            link: "http://www.eileenpunk.com"
-            image: "apple-touch-icon-72x72-precomposed.png"
+        menu:
+            -
+                link: "/en/about"
+                title: "about"
+                class: ""
+            -
+                link: "/en/illustration"
+                title: "illustration"
+            -
+                link: "/en/graphic-design"
+                title: "graphic design"
+            -
+                link: "/en/photography"
+                title: "photography"
+            -
+                link: "/en/publication"
+                title: "publication"
+            -
+                link: "/en/contact"
+                title: "contact"
 
+    es:
         menu:
             -
                 link: "#"
