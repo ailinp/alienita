@@ -4,25 +4,21 @@
 /* =Font familys
 /* -------------------------------------------------------------------------- */
 
-$t-robotoBlack: 'Roboto-Black', sans-serif;
-$t-robotoBlackItalic: 'Roboto-BlackItalic', sans-serif;
-$t-robotoBold: 'Roboto-Bold', sans-serif;
-$t-robotoBoldItalic: 'Roboto-BoldItalic', sans-serif;
-$t-robotoMedium: 'Roboto-Medium', sans-serif;
-$t-robotoMediumItalic: 'Roboto-MediumItalic', sans-serif;
-$t-robotoRegular: 'Roboto-Regular', sans-serif;
-$t-robotoItalic: 'Roboto-Italic', sans-serif;
-$t-robotoLight: 'Roboto-Light', sans-serif;
-$t-robotoLightItalic: 'Roboto-LightItalic', sans-serif;
-$t-robotoThin: 'Roboto-Thin', sans-serif;
-$t-robotoThinItalic: 'Roboto-ThinItalic', sans-serif;
-$t-serif: serif;
+$t-ralewayheavy: 'ralewayheavy', Arial, Helvetica,sans-serif;
+$t-ralewayextrabold: 'ralewayextrabold', Arial, Helvetica,sans-serif;
+$t-ralewaybold: 'ralewaybold', Arial, Helvetica,sans-serif;
+$t-ralewaysemibold: 'ralewaysemibold', Arial, Helvetica,sans-serif;
+$t-ralewaymedium: 'ralewaymedium', Arial, Helvetica,sans-serif;
+$t-ralewayregular: 'ralewayregular', Arial, Helvetica,sans-serif;
+$t-ralewaylight: 'ralewaylight', Arial, Helvetica,sans-serif;
+$t-ralewayextralight: 'ralewayextralight', Arial, Helvetica,sans-serif;
+$t-ralewaythin: 'ralewaythin', Arial, Helvetica,sans-serif;
+$t-poiret: 'poiret', Arial, Helvetica,sans-serif;
 
 html, body {
     color: $c-text;
-    font-family: $t-robotoLight;
+    font-family: $t-ralewayregular;
     font-size: $global-font-size;
-    font-weight: 300;
     line-height: $global-line-height;
 }
 
@@ -48,7 +44,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 h1,
 .t-h1 {
     color: $c-neutroDarker;
-    font-family: $t-robotoLight;
+    font-family: $t-ralewayregular;
     font-size: units(33px);
     line-height: 120%;
 }
@@ -81,5 +77,5 @@ p {
 }
 
 b, strong {
-    font-family: $t-robotoMedium;
+    font-family: $t-ralewayregular;
 }

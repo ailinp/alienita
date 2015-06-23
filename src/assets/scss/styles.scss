@@ -2,13 +2,14 @@
 @import "base/variables";
 @import "utils/functions";
 @import "utils/mixins";
-@import "base/grid";
 @import "utils/utilities";
 
 @import "base/reset";
 @import "base/fonts";
+@import "base/foundation";
 @import "base/typography";
 @import "base/icomoon";
+@import "base/icons";
 
 // LIBRARIES ===================================================================
 @import "libs/animate";

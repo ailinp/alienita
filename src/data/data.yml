@@ -10,38 +10,38 @@ footer:
     conditions:
         es:
             -
-                link: "http://www.runroom.com"
+                link: "#"
                 utmterm: ""
-                title: "© 2015 Runroom"
+                title: "© 2015 eileenpunk"
             -
-                link: "http://www.runroom.com"
+                link: "http://www.eileenpunk.com"
                 utmterm: ""
                 title: "Todos los derechos reservados"
             -
-                link: "http://www.eroski.es/conoce-eroski/condiciones-generales/politica-de-cookies"
+                link: "#"
                 utmterm: "footer-cookies"
                 title: "Aviso Legal"
 
         en:
             -
-                link: "http://www.runroom.com"
+                link: "http://www.eileenpunk.com"
                 utmterm: ""
-                title: "© 2015 Runroom"
+                title: "© 2015 eileenpunk"
             -
-                link: "http://www.runroom.com"
+                link: "http://www.eileenpunk.com"
                 utmterm: ""
                 title: "All rights reserved"
             -
-                link: "http://www.eroski.es/conoce-eroski/condiciones-generales/politica-de-cookies?locale=eu"
+                link: "#"
                 utmterm: "footer-cookies"
                 title: "Legal advice"
 
     socials:
         -
-            link: "http://www.twitter.com/eroski"
+            link: "http://www.twitter.com/"
             title: "twitter"
         -
-            link: "http://www.facebook.com/eroski"
+            link: "http://www.facebook.com/"
             title: "facebook"
 
 globals:

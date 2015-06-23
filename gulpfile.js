@@ -103,7 +103,7 @@ function getEmailOptions() {
         user: 'api:key-47e4e335648ee62db0e5e50eef0aac70',
         url: 'https://api.mailgun.net/v3/sandbox52b5edc2621944d0b12f79a5c104df18.mailgun.org/messages',
         form: {
-            from: 'EROSKI Landings <no-reply@runroom.com>',
+            from: 'revolution <no-reply@runroom.com>',
             to: 'eileenpunk <eileenpunk.web@gmail.com>',
             cc: '',
             subject: '[eileenpunk] release '+ pageName,
