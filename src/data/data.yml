@@ -99,29 +99,28 @@ header:
     es:
         menu:
             -
-                link: "#"
-                utmterm: ""
-                title: "clients"
+                link: ""
+                title: ""
+                class: ""
             -
-                link: "#"
-                utmterm: ""
-                title: "about us"
+                link: ""
+                title: ""
             -
-                link: "#"
-                utmterm: ""
-                title: "services"
+                link: ""
+                title: ""
             -
-                link: "#"
-                utmterm: ""
-                title: "projects"
+                link: ""
+                title: ""
             -
-                link: "#"
-                utmterm: ""
-                title: "blog"
+                link: ""
+                title: ""
             -
-                link: "#"
-                utmterm: ""
-                title: "contact"
+                link: ""
+                title: ""
+
+    language:
+        es: "es"
+        en: "en"
 
 home:
     es:
