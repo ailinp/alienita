@@ -1,4 +1,4 @@
-<header class="Header">
+{# <header class="Header">
     <div class="u-wrapper">
         <div class="Header-logo">
             <a href="{{ header.logo.link }}" title="EileenPunk"><img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}{{ header[locale].logo.image }}" alt="{{ globals.eileenpunk }}"></a>
@@ -8,11 +8,52 @@
             <nav>
                 <ul>
                     {% for item in header.en.menu %}
-                    {# {% for item in header[locale].menu %} #}
+                    {% for item in header[locale].menu %}
                     <li><a {% if item.class %}class="{{ item.class }}"{% endif %} href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a></li>
                     {% endfor %}
                 </ul>
             </nav>
         </div>
     </div>
-</header>
+</header> #}
+
+<header class="Header">
+        <div class="u-wrapper">
+            <div class="Header-logo">
+                <a href="{{ header.logo.link }}" title="EileenPunk"><img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}{{ header.logo.image }}" alt="{{ globals.eileenpunk }}"></a>
+            </div>
+            <div class="Header-mobileMenuIcon js-mobileMenu"><a href="#" no-utm><img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}eroski-mobile-menu.png"></a></div>
+            <div class="Header-menu js-headerMenu">
+                <nav class="menu-forMobile">
+                    <ul>
+                        {% for item in header.en.menu %}
+                        {# {% for item in header[locale].menu %} #}
+                        <li><a {% if item.class %}class="{{ item.class }}"{% endif %} href="{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                <nav class="menu-forDesktop">
+                    <ul>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="illustration.html">illustration</a>
+                            <ul class="sub-menu">
+                                <li><a href="illustration.html">illustration</a></li>
+                                <li><a href="comics.html">comics</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="editorial.html">graphic design</a>
+                            <ul class="sub-menu design-ul">
+                                <li><a href="editorial.html">editorial</a></li>
+                                <li><a href="web-design.html">web design</a></li>
+                                <li><a href="packaging.html">packaging</a></li>
+                                <li><a href="material.html">material</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="photography.html">photography</a></li>
+                        <li><a href="publication.html">publication</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
