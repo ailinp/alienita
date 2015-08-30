@@ -9,6 +9,81 @@
     width: 100%;
 
     & > .u-wrapper {
-        padding: gutter(.2) 0 0!important;
+        padding: gutter(.3) 0 0!important;
+
+        .mainSection {
+            padding: gutter(3) gutter(1.3);
+
+            p {
+                color: $c-main;
+                font-family: $t-ralewaybold;
+                font-size: units(28px);
+                font-size: 7.5vmin;
+                font-weight: 800;
+                line-height: 1.3;
+                margin: 0 auto;
+                max-width: units(580px);
+
+                @media #{$small-up} {
+                    font-size: units(35px);
+                    font-size: 6vmin;
+                }
+
+                @media #{$xmedium-up} {
+                    font-size: units(40px);
+                    font-size: 5.5vw;
+                }
+
+                @media #{$medium-up} {
+                    font-size: units(45px);
+                    font-size: 5vw;
+                }
+
+                @media #{$large-up} {
+                    font-size: units(50px);
+                    font-size: 4.5vw;
+                }
+            }
+
+            span {
+                display: block;
+                font-size: units(22px);
+                font-size: 6vmin;
+                padding: gutter(2) 0;
+
+                @media #{$small-up} {
+                    font-size: units(24px);
+                    font-size: 5vmin;
+                }
+
+                @media #{$xmedium-up} {
+                    font-size: units(22px);
+                    font-size: 2.8vw;
+                }
+
+                @media #{$medium-up} {
+                    font-size: units(28px);
+                    font-size: 2.8vw;
+                }
+
+                @media #{$large-up} {
+                    font-size: units(35px);
+                    font-size: 2.8vw;
+                }
+            }
+        }
     }
+}
+
+p::selection,
+a::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+span::selection,
+strong::selection,
+b::selection {
+    color: $c-selection;
 }

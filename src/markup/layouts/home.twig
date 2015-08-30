@@ -9,9 +9,7 @@
 <section class="Home">
     <div class="u-wrapper row">
         <div class="{{ page.commonStuff.class.mainSection|raw }}">
-            <p class="homeMainClaim">This Eileen:Punk is lazy. She hasn't figured out how to deal with her home page yet.</p>
-            <span>( Did I just say she's hard working? ...Oops :P ... )</span>
-            <p class="homeMainClaim">BUT! This page is RESPONSIVE.</p>
+            <p class="homeMainClaim">{{ mainSection.home[locale]|raw }}</p>
         </div>
         {% embed '../components/aside.twig' %}
             {% block title %}{{ aside.introduction.forHome.title.en|raw }}{% endblock %}
