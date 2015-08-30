@@ -4,11 +4,11 @@ globals:
     publish: false
 
     paths:
-        images: /assets/images/
-        javascripts: /assets/javascripts/
-        stylesheets: /assets/stylesheets/
-        fonts: /assets/fonts/
-        vendors: /assets/javascripts/libs/vendor/
+        images: assets/images/
+        javascripts: assets/javascripts/
+        stylesheets: assets/stylesheets/
+        fonts: assets/fonts/
+        vendors: assets/javascripts/libs/vendor/
 
     en:
         meta:

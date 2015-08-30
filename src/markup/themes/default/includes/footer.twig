@@ -1,25 +1,47 @@
-<footer>
-    <div class="FooterLinks">
-        <div class="u-wrapper for-eroski">
-            <nav class="FooterLinks-nav u-clearfix">
+<footer id="Footer">
+    <section class="FooterContent">
+        <div class="u-wrapper">
+            <h1>{{ footer.title[locale]|raw }}</h1>
 
-                <ul class="FooterLinks-nav u-clearfix">
-                    {% for item in footer.conditions[locale] %}
-                    <li><a href="{{ item.link }}" data-utmterm="{{ item.utmterm }}" target="_blank" title="{{ item.title }}">{{ item.title }}</a></li>
-                    {% endfor %}
-                    <li class="SocialIcons">
-                        {% for item in footer.socials %}
-                        <a class="ico--{{ item.title }}" href="{{ item.link }}" title="Seguir">{{ item.title }}</a>
-                        {% endfor %}
-                    </li>
+{# -------------- language dropdown --------------- #}
+            <div class="FooterContent-forMobile js-footerDropdown" tabindex="1">
+                <span>Pick another language</span>
+                <ul class="languagesForMobile">
+                {% for content in footer.language %}
+                    <li {% if content.class %}class="{{ content.class }}"{% endif %}><a href="{{ getUrlPrefix(page[locale]) }}{{ content.link|raw }}">{{ content.title|raw }}</a></li>
+                {% endfor %}
                 </ul>
+            </div>
+{# -------------- end of language dropdown --------------- #}
 
-            </nav>
             <ul class="languages">
-                <li class="es"><a href="{{ localeLinks.es }}">{{ header.language.es }}</a></li>
-                <li class="en"><a href="{{ localeLinks.en }}">{{ header.language.en }}</a></li>
+                <li class="{{ enClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.en }}">English</a></li>
+                <li class="{{ esClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.es }}">Español</a></li>
+                <li class="{{ cnClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.cn }}">中文</a></li>
+                <li class="{{ frClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.fr }}">Français</a></li>
+                <li class="{{ deClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.de }}">Deutsch</a></li>
+                <li class="{{ itClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.it }}">Italiano</a></li>
+                <li class="{{ jpClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.jp }}">日本語</a></li>
+                <li class="{{ krClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.kr }}">한국어</a></li>
+                <li class="{{ ptClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.pt }}">Português</a></li>
+                <li class="{{ aeClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.ae }}">العربية</a></li>
+                <li class="{{ seClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.se }}">Svenska</a></li>
+                <li class="{{ caClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.ca }}">Català</a></li>
+                <li class="{{ hkClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.hk }}">廣東話</a></li>
+                <li class="{{ nlClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.nl }}">Nederlands</a></li>
+                <li class="{{ grClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.gr }}">Ελληνικά</a></li>
+                <li class="{{ czClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.cz }}">Čeština</a></li>
+                <li class="{{ ruClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.ru }}">Русский</a></li>
+                <li class="{{ thClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.th }}">ไทย</a></li>
+                <li class="{{ ilClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.il }}">עברית</a></li>
+                <li class="{{ fiClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.fi }}">Suomi</a></li>
+                <li class="{{ trClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.tr }}">Türkçe</a></li>
+                <li class="{{ huClass }}"><a href="{{ getUrlPrefix(page[locale]) }}{{ localeLinks.hu }}">Magyar</a></li>
             </ul>
+            <p>{{ footer.description.en|raw }}</p>
         </div>
-    </div>
-
+    </section>
+    <section class="CopyRight">
+        <span>{{ footer.copyRight|raw }}</span>
+    </section>
 </footer>

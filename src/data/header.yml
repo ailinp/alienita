@@ -6,24 +6,46 @@ header:
     en:
         menu:
             -
-                link: "/en/about"
+                link: "en/about"
                 title: "about"
                 class: ""
             -
-                link: "/en/illustration"
-                title: "illustration"
+                link: "en/painting"
+                title: "painting"
+                class: "forDesktop"
             -
-                link: "/en/graphic-design"
-                title: "graphic design"
+                link: "en/comics"
+                title: "comics"
+                class: "forDesktop"
             -
-                link: "/en/photography"
+                link: "en/editorial"
+                title: "editorial"
+                class: "forDesktop"
+            -
+                link: "en/branding"
+                title: "branding"
+                class: "forDesktop"
+            -
+                link: "en/photography"
                 title: "photography"
+                class: "forDesktop"
             -
-                link: "/en/publication"
+                link: "en/publication"
                 title: "publication"
+                class: "forDesktop"
             -
-                link: "/en/contact"
+                link: "#"
+                title: "works"
+                class: "forMobile"
+            -
+                link: "#"
                 title: "contact"
+                class: "forMobile"
+            -
+                link: "#Footer"
+                title: "language"
+                class: "forMobile"
+
 
     es:
         menu:
@@ -46,7 +68,3 @@ header:
             -
                 link: ""
                 title: ""
-
-    language:
-        es: "es"
-        en: "en"

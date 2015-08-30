@@ -7,54 +7,135 @@ about:
         title: "about us"
         content: "We are a company with 10 years of experience in online media, formed by a team of 27 people, passionate for our work and committed to the values of Agile. We love to learn, share, find the best solution for our customers and grow together with each new project. We like challenges and we love what we do."
 footer:
-    conditions:
-        es:
-            -
-                link: "#"
-                utmterm: ""
-                title: "© 2015 eileenpunk"
-            -
-                link: "http://www.eileenpunk.com"
-                utmterm: ""
-                title: "Todos los derechos reservados"
-            -
-                link: "#"
-                utmterm: "footer-cookies"
-                title: "Aviso Legal"
+    title:
+        en: "If your English sucks, here're more options for you. Choose wisely!"
+        es: "Si tu español apesta, escoge aquello en lo que eres bueno!"
+        cn: "如果你汉语巨烂，就选个别的靠谱的吧！"
+        fr: "Si vous ne maîtrisez pas le français, choisissez une autre langue!"
+        de: "Falls Ihre Deutschkenntnisse nicht ausreichen, wählen Sie bitte eine andere Sprache!"
+        it: "Se il tuo italiano fa schifo, scegli quella in cui sei bravo!"
+        jp: "もしあなたの日本語が上手くなければ、他の言語を選んでください。"
+        kr: "만약 당신의 한국어가 형평없다면 당신이 잘할 수 있는것을 선택하세요!"
+        pt: "Se o teu português é mau escolhe a língua em que és bom."
+        ae: "إذا كنت لا يتكلمون العربية، الرجاء اختيار لغة أخرى"
+        se: "Om du inte talar svenska, vänligen välj ett annat språk!"
+        ca: "Si el teu català fa pudor, escull aquell en el que ets bo!"
+        hk: "白話屎到痹呀嘛，揀過第二樣啱睇㗎啦喂！"
+        nl: "Als jouw Nederlands belabberd is, kies een andere taal!"
+        gr: "Αν τα ελληνικά σας είναι χάλια, διαλέξτε άλλη γλώσσα!"
+        cz: "Pokud česky neumíš, zvol si jazyk ve kterém jsi dobrý."
+        ru: "Если у Вас плохо с русским, выберите другой язык!"
+        th: "ถ้าคุณไม่พูดภาษาไทยโปรดเลือกภาษาอื่น!"
+        il: "אם ידיעתך בשפה העברית לא מספיק טובה, תעברי לשפה אחרת."
+        fi: "Jos suomen kielesi on surkeaa, valitse jokin muu missä olet hyvä!"
+        tr: "Eğer Türk bilgin yoksa, başka bir dil seçiniz!"
+        hu: "If your Hungarian sucks, there are other options for you!"
 
-        en:
-            -
-                link: "http://www.eileenpunk.com"
-                utmterm: ""
-                title: "© 2015 eileenpunk"
-            -
-                link: "http://www.eileenpunk.com"
-                utmterm: ""
-                title: "All rights reserved"
-            -
-                link: "#"
-                utmterm: "footer-cookies"
-                title: "Legal advice"
-
-    socials:
+    language:
         -
-            link: "http://www.twitter.com/"
-            title: "twitter"
+            link: "en"
+            title: "English"
+            class: ""
         -
-            link: "http://www.facebook.com/"
-            title: "facebook"
+            link: "es"
+            title: "Español"
+            class: ""
+        -
+            link: "cn"
+            title: "中文"
+            class: ""
+        -
+            link: "fr"
+            title: "Français"
+            class: ""
+        -
+            link: "de"
+            title: "Deutsch"
+            class: ""
+        -
+            link: "it"
+            title: "Italiano"
+            class: ""
+        -
+            link: "jp"
+            title: "日本語"
+            class: ""
+        -
+            link: "kr"
+            title: "한국어"
+            class: ""
+        -
+            link: "pt"
+            title: "Português"
+            class: ""
+        -
+            link: "ae"
+            title: "العربية"
+            class: ""
+        -
+            link: "se"
+            title: "Svenska"
+            class: ""
+        -
+            link: "ca"
+            title: "Català"
+            class: ""
+        -
+            link: "hk"
+            title: "廣東話"
+            class: ""
+        -
+            link: "nl"
+            title: "Nederlands"
+            class: ""
+        -
+            link: "gr"
+            title: "Ελληνικά"
+            class: ""
+        -
+            link: "cz"
+            title: "Čeština"
+            class: ""
+        -
+            link: "ru"
+            title: "Русский"
+            class: ""
+        -
+            link: "th"
+            title: "ไทย"
+            class: ""
+        -
+            link: "il"
+            title: "עברית"
+            class: ""
+        -
+            link: "fi"
+            title: "Suomi"
+            class: ""
+        -
+            link: "tr"
+            title: "Türkçe"
+            class: ""
+        -
+            link: "hu"
+            title: "Magyar"
+            class: ""
 
+    description:
+        en: "* Those languages are listed because of a reason. Either Eileen does speak a little bit of it, or she has been to that language speaking place, or some of her dearest friends are from there."
+
+    copyRight: "© COPYRIGHT EILEEN PUNK 2015"
 globals:
     eileenpunk: "EileenPunk"
     release: false
     publish: false
 
     paths:
-        images: /assets/images/
-        javascripts: /assets/javascripts/
-        stylesheets: /assets/stylesheets/
-        fonts: /assets/fonts/
-        vendors: /assets/javascripts/libs/vendor/
+        images: assets/images/
+        javascripts: assets/javascripts/
+        stylesheets: assets/stylesheets/
+        fonts: assets/fonts/
+        vendors: assets/javascripts/libs/vendor/
 
     en:
         meta:
@@ -77,24 +158,46 @@ header:
     en:
         menu:
             -
-                link: "/en/about"
+                link: "en/about"
                 title: "about"
                 class: ""
             -
-                link: "/en/illustration"
-                title: "illustration"
+                link: "en/painting"
+                title: "painting"
+                class: "forDesktop"
             -
-                link: "/en/graphic-design"
-                title: "graphic design"
+                link: "en/comics"
+                title: "comics"
+                class: "forDesktop"
             -
-                link: "/en/photography"
+                link: "en/editorial"
+                title: "editorial"
+                class: "forDesktop"
+            -
+                link: "en/branding"
+                title: "branding"
+                class: "forDesktop"
+            -
+                link: "en/photography"
                 title: "photography"
+                class: "forDesktop"
             -
-                link: "/en/publication"
+                link: "en/publication"
                 title: "publication"
+                class: "forDesktop"
             -
-                link: "/en/contact"
+                link: "#"
+                title: "works"
+                class: "forMobile"
+            -
+                link: "#"
                 title: "contact"
+                class: "forMobile"
+            -
+                link: "#Footer"
+                title: "language"
+                class: "forMobile"
+
 
     es:
         menu:
@@ -117,11 +220,6 @@ header:
             -
                 link: ""
                 title: ""
-
-    language:
-        es: "es"
-        en: "en"
-
 home:
     es:
         title: "Estrategias y herramientas online que potencian el negocio y la visibilidad de nuestros clientes."

@@ -205,6 +205,9 @@ gulp.task('markup', ['concat:json'], function () {
 
                         } else if (isPublish) {
                             url = '/'+ page.publishUrl +'/';
+
+                        } else {
+                            url = '/';
                         }
 
                         return url;
@@ -362,6 +365,19 @@ gulp.task('build', function(callback) {
         'markup',
         'javascripts',
         'copy:fonts',
+        callback
+    );
+});
+
+// PUBLISH TASK ================================================================
+gulp.task('setPublish', function() {
+    isPublish = true;
+});
+
+gulp.task('publish', function(callback) {
+    runSequence(
+        'setPublish',
+        'build',
         callback
     );
 });

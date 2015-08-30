@@ -1,46 +1,30 @@
-/* =Slide menu down (class toggle)
+/* =Language dropdown (class toggle)
 -------------------------------------------------------------------------- */
 'use strict';
 
-$('document').ready(function() {
+function DropDown(e) {
+    this.dd = e;
+    this.initEvents();
+}
 
-    var mobile_menu = $('.js-mobileMenu'),
-        header_menu = $('.js-headerMenu'),
-        menu_class_open = 'is--open';
+DropDown.prototype = {
+    initEvents : function() {
+        var obj = this;
 
-    // Mobile menu
-    mobile_menu.on('click', function() {
-        header_menu.slideToggle().toggleClass(menu_class_open);
-    });
+        obj.dd.on('click', function(event){
+            jQuery(this).toggleClass('is-open');
+            event.stopPropagation();
+        });
+    }
+}
 
-    $('.js-footerColumnsTitle').on('click', function(event) {
+$(function() {
 
-        event.preventDefault();
+    var dd = new DropDown( jQuery('.js-footerDropdown') );
 
-        if ($(window).width() > 768) {
-            return;
-        }
-
-        var submenu  = $(this).parent().find('ul'),
-            submenus = $('.js-footerColumnsList'),
-            is_open  = submenu.hasClass(menu_class_open);
-
-        submenus.removeClass(menu_class_open).hide();
-
-        if (!is_open) {
-            submenu.addClass(menu_class_open).slideDown();
-        }
-    });
-
-    $(window).resize(function(){
-
-        if ($(window).width() > 768) {
-            $('.js-footerColumnsList').show().removeClass(menu_class_open);
-        }
-
-        if ($(window).width() > 626) {
-            header_menu.show().removeClass(menu_class_open).removeAttr('style');
-        }
+    $(document).click(function() {
+      // all dropdowns
+        $('.js-footerDropdown').removeClass('is-open');
     });
 
 });

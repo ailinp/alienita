@@ -87,6 +87,7 @@
     width: 100%;
     max-width: $global-max-width;
     margin: 0 auto;
+    padding: 0 gutter();
     z-index: 1;
 }
 

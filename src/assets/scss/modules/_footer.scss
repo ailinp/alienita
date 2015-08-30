@@ -1,83 +1,225 @@
 @media screen {
+    .FooterContent {
+        background: $c-mainLight;
+        padding: gutter(2) 0;
+        width: 100%;
 
-    .for-browser, .for-tablet {
-        display: none;
-    }
-
-    .FooterLinks {
-        background: #333;
-
-        .u-wrapper {
-            padding: 0;
+        h1 {
+            color: $c-main;
+            font-family: $t-poiret;
+            font-size: units(22px);
+            font-weight: 800;
+            margin: 0 auto;
+            padding: 0 0 gutter(2);
+            text-align: center;
         }
 
-        .FooterLinks-nav {
+        .FooterContent-forMobile {
             display: block;
-            margin: gutter() auto;
+        }
+
+        .FooterContent-forMobileContent {
+            display: none;
+        }
+
+        .is--open {
+            display: block;
+        }
+
+        .languages {
+            display: none;
+        }
+
+        p {
+            color: $c-white;
+            font-family: $t-poiret;
+            font-size: units(16px);
+            line-height: 1.2;
+            margin: 0 auto;
+            max-width: units(980px);
+            width: 100%;
+        }
+    }
+
+    .CopyRight {
+        padding: gutter(.5) 0;
+
+        span {
+            color: $c-main;
+            display: block;
+            font-size: units(15px);
+            text-align: center;
+        }
+    }
+}
+
+@media #{$small-up} {
+    .FooterContent {
+        h1 {
+            font-size: units(25px);
+        }
+
+        .FooterContent-forMobile,
+        .FooterContent-forMobileContent {
+            display: none;
+        }
+
+        .languages {
+            display: block;
+            margin: 0 auto;
+            padding: 0 0 gutter();
             text-align: center;
 
             li {
-                display: block;
-                border-bottom: 1px solid #333;
+                display: inline-block;
+                margin: units(2px) units(1px);
 
                 a {
-                    display: block;
-                    font-size: 0.875rem;
-                    color: $c-white;
-                    width: 100%;
-                    line-height: 100%;
-                    padding: units(15px);
-                    text-decoration: none;
+                    background: rgba($c-main, .5);
+                    color: $c-mainLight;
+                    display: inline-block;
+                    font-family: arial;
+                    padding: units(8px) units(15px);
 
                     &:hover {
-                        text-decoration: underline;
-                    }
-                }
-
-                &:last-child {
-                    border-bottom: 0;
-                }
-
-                &.SocialIcons {
-                    float: right;
-                    margin: units(10px);
-
-                    a {
-                        display: inline-block;
-                        width: units(40px);
-                        margin: 0 5px;
+                        background: $c-main;
+                        color: $c-white;
                     }
                 }
             }
+
+            .active {
+                a {
+                    color: $c-white;
+                }
+            }
+
+            .inactive {
+                a {
+                    color: $c-mainLight;
+                }
+            }
+        }
+
+        p {
+            font-size: units(18px);
+            line-height: 1.3;
         }
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media #{$medium-up} {
+    .FooterContent {
+        h1 {
+            font-size: units(30px);
+        }
 
-    .for-tablet {
-        display: block;
-    }
-
-    .FooterLinks {
-        background: #333;
-
-        .FooterLinks-nav {
+        .languages {
             li {
-                display: inline-block;
-                border-bottom: 0;
-                border-right: 1px solid $c-white;
+                margin: units(4px) units(2px);
 
                 a {
-                    padding: units(5px);
-
-                }
-
-                &:last-child,
-                &:nth-last-child(2) {
-                    border-right: 0;
+                    border-radius: units(5px);
                 }
             }
         }
+
+        p {
+            font-size: units(20px);
+            line-height: 1.3;
+        }
     }
 }
+
+
+// -------------- language dropdown --------------- //
+
+.FooterContent-forMobile {
+    position: relative;
+    display: block;
+    margin: 0 auto gutter();
+    padding: units(10px) units(15px);
+    background: rgba($c-main, .5);
+    cursor: pointer;
+    outline: none;
+
+    span {
+        color: $c-mainLight;
+    }
+
+    &:hover {
+        span {
+            color: $c-white;
+        }
+    }
+
+    &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+            right: units(16px);
+            top: 50%;
+        margin-top: units(-3px);
+        border-width: 6px 6px 0 6px;
+        border-style: solid;
+        border-color: $c-white transparent;
+    }
+
+    .languagesForMobile {
+        display: none;
+        position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+        margin: 0;
+        background: $c-white;
+        list-style: none;
+        opacity: 0;
+        pointer-events: none;
+
+        li {
+            background: rgba($c-main, .5);
+            border-bottom: 1px solid $c-main;
+
+            &:last-child {
+                border-bottom: 0;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: $c-white;
+                padding: units(10px) units(15px);
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover a {
+                background: $c-main;
+            }
+        }
+    }
+
+    &.is-open {
+        background: $c-main;
+        opacity: 1;
+
+        span {
+            color: white;
+        }
+
+        &:after {
+            border-width: 0 6px 6px 6px;
+            border-color: $c-white transparent;
+        }
+
+        .languagesForMobile {
+            display: block;
+            margin-bottom: gutter();
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
+}
+
+// -------------- end of language dropdown --------------- //
