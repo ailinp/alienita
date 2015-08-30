@@ -131,14 +131,13 @@
                 width: auto;
 
                 ul {
-                    display: inline-block;
                     margin: 0;
 
                     li {
                         width: auto;
 
                         a {
-                            padding: gutter(1.5) gutter(.65) gutter();
+                            padding: units(25px) gutter(.65) units(12px);
                         }
                     }
                 }
@@ -187,7 +186,7 @@
                 ul {
                     li {
                         a {
-                            padding: gutter(1.5) gutter() gutter();
+                            padding: units(25px) gutter() units(12px);
                         }
                     }
                 }

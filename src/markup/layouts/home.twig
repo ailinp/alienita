@@ -1,15 +1,22 @@
 {% extends '../themes/'~ page.theme|default('default') ~'/base.twig' %}
 
 {% block content %}
+{% embed '../components/top-heading.twig' %}
+    {% block link %}{{ topHeading.links[locale].toAbout|raw }}{% endblock %}
+    {% block claim %}{{ topHeading.home[locale]|raw }}{% endblock %}
+{% endembed %}
 
 <section class="Home">
-    <div class="u-wrapper">
-        <h1>{{ home[locale].title|raw }}</h1>
-        <p>{{ home[locale].content|raw }}</p>
-        <h1>{{ home[locale].title|raw }}</h1>
-        <p>{{ home[locale].content|raw }}</p>
-        <h1>{{ home[locale].title|raw }}</h1>
-        <p>{{ home[locale].content|raw }}</p>
+    <div class="u-wrapper row">
+        <div class="{{ page.commonStuff.class.mainSection|raw }}">
+            <p class="homeMainClaim">This Eileen:Punk is lazy. She hasn't figured out how to deal with her home page yet.</p>
+            <span>( Did I just say she's hard working? ...Oops :P ... )</span>
+            <p class="homeMainClaim">BUT! This page is RESPONSIVE.</p>
+        </div>
+        {% embed '../components/aside.twig' %}
+            {% block title %}{{ aside.introduction.forHome.title.en|raw }}{% endblock %}
+            {% block description %}{{ aside.introduction.forHome.description.en|raw }}{% endblock %}
+        {% endembed %}
     </div>
 </section>
 

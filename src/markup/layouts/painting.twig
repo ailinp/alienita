@@ -1,6 +1,10 @@
 {% extends '../themes/'~ page.theme|default('default') ~'/base.twig' %}
 
 {% block content %}
+{% embed '../components/top-heading.twig' %}
+    {% block link %}{{ topHeading.links[locale].toComics|raw }}{% endblock %}
+    {% block claim %}{{ topHeading.painting[locale]|raw }}{% endblock %}
+{% endembed %}
 
 <section class="About">
     <div class="u-wrapper">

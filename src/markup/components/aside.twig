@@ -1,0 +1,19 @@
+<aside class="{{ page.commonStuff.class.aside|raw }}">
+    <div class="introduction">
+        <h2>{% block title %}{% endblock %}</h2>
+        <p>{% block description %}{% endblock %}</p>
+    </div>
+    {# {% block asideForAbout %}{% endblock %} #}
+    <div class="categories">
+        <h2>{{ aside.categories.title.en|raw }}</h2>
+        <ul>
+            {% for content in aside.categories.content.en %}
+                <li><a href="{{ getUrlPrefix(page[locale]) }}{{ content.link }}">{{ content.title|raw }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="contact">
+        <h2>{{ aside.contact.title.en|raw }}</h2>
+        <p><a href="{{ aside.contact.mailTo|raw }}">{{ aside.contact.content.en|raw }}</a></p>
+    </div>
+</aside>

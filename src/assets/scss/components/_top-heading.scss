@@ -1,0 +1,30 @@
+.Top-heading {
+    background: $c-mainLight;
+    display: inline-block;
+    padding-top: units(75px);
+    overflow: hidden;
+    width: 100%;
+
+    @media #{$small-up} {
+        padding-top: units(58px);
+    }
+
+    & > .u-wrapper {
+        background: $c-main;
+
+        a {
+            color: $c-mainLight;
+            display: inline-block;
+            font-family: $t-poiret;
+            font-size: units(20px);
+            font-weight: 100;
+            line-height: 1.2;
+            margin: 0;
+            padding: gutter(1.2) 0;
+
+            @media #{$medium-up} {
+                font-size: units(25px);
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.Home,
+.About,
+.Painting,
+.Comics,
+.Editorial,
+.Branding,
+.Photography,
+.Publication {
+    width: 100%;
+
+    & > .u-wrapper {
+        padding: gutter(.2) 0 0!important;
+    }
+}

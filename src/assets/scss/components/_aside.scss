@@ -1,0 +1,17 @@
+aside {
+    background: $c-mainLighter;
+    padding: gutter(1.3)!important;
+    text-align: left;
+
+    h2 {
+        color: $c-main;
+        font-family: $t-poiret;
+        font-size: units(18px);
+        font-weight: 800;
+    }
+
+    p {
+        color: $c-mainDark;
+        font-size: units(14px);
+    }
+}
