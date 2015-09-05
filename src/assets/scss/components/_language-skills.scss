@@ -1,0 +1,86 @@
+.languageSkills-content{
+    width: 100%;
+
+    .languageSkills-item{
+        background: rgba(255, 255, 255, 0.7);
+        display: block;
+        height: units(40px);
+        margin-bottom: gutter();
+        width: 100%;
+
+        .english,
+        .spanish,
+        .mandarin,
+        .cantonese {
+            background: -webkit-linear-gradient(135deg,
+                #ff8192 25%, #ff99a7 25%,
+                #ff99a7 50%, #ff8192 50%,
+                #ff8192 75%, #ff99a7 75%);
+            background: -moz-linear-gradient(135deg,
+                #ff8192 25%, #ff99a7 25%,
+                #ff99a7 50%, #ff8192 50%,
+                #ff8192 75%, #ff99a7 75%);
+            background: -o-linear-gradient(135deg,
+                #ff8192 25%, #ff99a7 25%,
+                #ff99a7 50%, #ff8192 50%,
+                #ff8192 75%, #ff99a7 75%);
+            background-size: units(50px) units(50px);
+            height: units(40px);
+            padding-left: units(10px);
+            -webkit-animation: animasi 3.0s linear infinite;
+               -moz-animation: animasi 3.0s linear infinite;
+                 -o-animation: animasi 3.0s linear infinite;
+
+            span {
+                color: $c-white;
+                display: block;
+                font-size: units(16px);
+                line-height: 2.5;
+            }
+        }
+
+        .english{
+            width: 95%;
+        }
+
+        .spanish{
+            width: 65%;
+        }
+
+        .mandarin,
+        .cantonese{
+            width: 100%;
+        }
+    }
+}
+
+
+@-webkit-keyframes animasi {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px
+    }
+}
+
+@-moz-keyframes animasi {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px
+    }
+}
+
+@-o-keyframes animasi {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px
+    }
+}

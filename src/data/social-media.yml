@@ -1,0 +1,20 @@
+socialMedia:
+    content:
+        -
+            link: "https://www.facebook.com/eileen.punk"
+            icon: "facebook"
+        -
+            link: "https://twitter.com/eileenpunk1"
+            icon: "twitter"
+        -
+            link: "https://es.linkedin.com/pub/eileen-punk/4b/32/11"
+            icon: "linkedin"
+        -
+            link: "https://www.pinterest.com/eileenpunk922/"
+            icon: "pinterest-square"
+        -
+            link: "http://eileenpunk.tumblr.com/"
+            icon: "tumblr"
+        -
+            link: "http://instagram.com/eileenpunk/"
+            icon: "instagram"

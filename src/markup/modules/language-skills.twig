@@ -1,0 +1,13 @@
+<div class="languageSkills">
+    <h2>{{ aside.languageSkills.title.en|raw }}</h2>
+    <div class="languageSkills-content">
+    {% for content in aside.languageSkills.content %}
+        <div class="languageSkills-item">
+            <div class="{{ content.class|raw }}">
+                <span>{{ content.title|raw }}</span>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+    <p>{{ aside.languageSkills.description.en|raw }}</p>
+</div>

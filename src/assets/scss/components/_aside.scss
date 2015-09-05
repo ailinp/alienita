@@ -9,7 +9,7 @@ aside {
 
     .introduction,
     .babySlider,
-    .languageSkill,
+    .languageSkills,
     .categories,
     .contact,
     .social {
@@ -31,5 +31,29 @@ aside {
         color: $c-mainDark;
         font-size: units(14px);
         margin-bottom: gutter();
+
+        a {
+            color: $c-mainDark;
+            text-decoration: underline;
+
+            &:hover {
+                color: $c-mainLight;
+            }
+        }
+    }
+
+    .categories-item {
+        background: rgba($c-white, .5);
+        border-left: solid 3px $c-main;
+        color: $c-main;
+        display: block;
+        margin: units(5px) 0 units(5px) units(-20px);
+        padding: units(8px) units(17px);
+
+        &:hover {
+            background: $c-main;
+            color: $c-white;
+            margin: units(5px) units(-20px) units(5px) 0;
+        }
     }
 }

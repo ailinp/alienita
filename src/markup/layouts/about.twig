@@ -1,15 +1,25 @@
 {% extends '../themes/'~ page.theme|default('default') ~'/base.twig' %}
 
 {% block content %}
+
 {% embed '../components/top-heading.twig' %}
     {% block link %}{{ topHeading.links[locale].toPainting|raw }}{% endblock %}
     {% block claim %}{{ topHeading.about[locale]|raw }}{% endblock %}
 {% endembed %}
 
 <section class="About">
-    <div class="u-wrapper">
-        <h1>{{ about[locale].title|raw }}</h1>
-        <p>{{ about[locale].content|raw }}</p>
+    <div class="u-wrapper row">
+        <div class="{{ page.commonStuff.class.mainSection|raw }}">
+            <p class="homeMainClaim">{{ mainSection.home[locale]|raw }}</p>
+        </div>
+        {% embed '../components/aside.twig' %}
+            {% block title %}{{ aside.introduction.forAbout.title.en|raw }}{% endblock %}
+            {% block description %}{{ aside.introduction.forAbout.description.en|raw }}{% endblock %}
+            {% block asideForAbout %}
+                {% include '../modules/baby-slider.twig' %}
+                {% include '../modules/language-skills.twig' %}
+            {% endblock %}
+        {% endembed %}
     </div>
 </section>
 

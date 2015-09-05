@@ -1,0 +1,9 @@
+<div class="babySlider">
+    <h2>{{ aside.babySlider.title.en|raw }}</h2>
+    <div class="babySlider-content">
+    {% for content in aside.babySlider.content %}
+        <img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}/baby-slider/{{ content.image|raw }}.jpg" alt="{{ content.alt|raw }}">
+    {% endfor %}
+    </div>
+    <p>{{ aside.babySlider.description.en|raw }}</p>
+</div>

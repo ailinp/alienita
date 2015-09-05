@@ -1,0 +1,10 @@
+<div class="SocialMedia">
+    <div class="SocialMedia-wrapper">
+        {% for content in socialMedia.content %}
+        <div class="SocialMedia-item">
+            <span class="js-SocialMedia-active icon fa fa-{{ content.icon|raw }}"></span>
+            <a class="text" href="{{ content.link|raw }}"><i class="fa fa-{{ content.icon|raw }}"></i></a>
+        </div><!-- Menu Item -->
+        {% endfor %}
+    </div><!-- Menu Wrap -->
+</div>

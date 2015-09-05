@@ -1,0 +1,173 @@
+.SocialMedia {
+    height: units(56px);
+    padding: 0;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+
+    .SocialMedia-wrapper {
+        background: $c-white;
+        height: auto;
+        line-height: units(13px);
+        margin: 0;
+        max-width: units(320px);
+        padding: 0;
+        position: absolute;
+            top: 0;
+            left: units(-20px);
+        text-align: left;
+        width: 118%;
+
+        @media #{$xmedium-only} {
+            width: 123%;
+        }
+
+        .SocialMedia-item {
+            width: 15.3%;
+            height: units(55px);
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            border-radius: units(3px);
+
+            @media #{$xmedium-only} {
+                width: 15%;
+            }
+
+            i {
+                width:100%;
+                padding: units(7px) 0 units(5px);
+                border-radius: units(3px);
+            }
+
+
+            i.fa-facebook {
+                background: #3B5998;
+                color: $c-white;
+            }
+
+            i.fa-twitter {
+                background: #44CCF6;
+                color: $c-white;
+            }
+
+            i.fa-youtube {
+                background: #CE332D;
+                color: $c-white;
+            }
+
+            i.fa-linkedin {
+                background: #0275B6;
+                color: $c-white;
+            }
+
+            i.fa-google-plus {
+                background: #D13F2D;
+                color: $c-white;
+            }
+
+            i.fa-dribbble {
+                background: #EA4C89;
+                color: $c-white;
+            }
+
+            i.fa-pinterest-square {
+                background: #CB2027;
+                color: $c-white;
+            }
+
+            i.fa-stack-overflow {
+                background: #FEA501;
+                color: $c-white;
+            }
+
+            i.fa-tumblr {
+                background: #274152;
+                color: $c-white;
+            }
+
+            i.fa-instagram {
+                background: #517FA3;
+                color: $c-white;
+            }
+
+            i.fa-vimeo-square {
+                background: #86C9EF;
+                color: $c-white;
+            }
+
+            .icon {
+                background: $c-white;
+                border-radius: 50%;
+                color: $c-main;
+                display: block;
+                font-size: units(25px);
+                height: units(32px);
+                padding: units(15px) 0 units(5px);
+                position: absolute;
+                    top: 5px;
+                    left: 0px;
+                text-align:center;
+                -webkit-transition: all 0.5s ease-in-out;
+                   -moz-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                     -o-transition: all 0.5s ease-in-out;
+                        transition: all 0.5s ease-in-out;
+                width: 100%;
+
+                &:hover {
+                    top: units(-29px);
+                    font-size: units(20px);
+                    -webkit-transition: all 0.3s ease-in-out;
+                       -moz-transition: all 0.3s ease-in-out;
+                        -ms-transition: all 0.3s ease-in-out;
+                         -o-transition: all 0.3s ease-in-out;
+                            transition: all 0.3s ease-in-out;
+                }
+            }
+
+            span.active {
+                top: units(-20px) !important;
+                font-size: units(0px) !important;
+            }
+
+            .text {
+                background-color: $c-white;
+                border-top: $c-main thin solid;
+                border-top-width: units(9px);
+                border-radius: units(6px);
+                display: block;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 0px;
+                font-weight: normal;
+                padding: units(20px) 0 units(17px);
+                position: absolute;
+                    bottom: units(-54px);
+                text-align: center;
+                text-decoration: none;
+                transition: all 0.3s ease-in-out;
+                -webkit-transition: all 0.3s ease-in-out;
+                   -moz-transition: all 0.3s ease-in-out;
+                    -ms-transition: all 0.3s ease-in-out;
+                     -o-transition: all 0.3s ease-in-out;
+                width: 100%;
+            }
+
+            &:hover {
+                .text {
+                    border-top: $c-mainLight thin dotted;
+                    border-top-width: 0;
+                    bottom: 0;
+                    font-size: units(25px);
+                    padding: 0;
+                    text-align: center;
+                    -webkit-transition: all 0.5s ease-in-out;
+                       -moz-transition: all 0.5s ease-in-out;
+                        -ms-transition: all 0.5s ease-in-out;
+                         -o-transition: all 0.5s ease-in-out;
+                            transition: all 0.5s ease-in-out;
+                }
+            }
+        }
+    }
+}
