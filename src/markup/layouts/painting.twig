@@ -6,10 +6,15 @@
     {% block claim %}{{ topHeading.painting[locale]|raw }}{% endblock %}
 {% endembed %}
 
-<section class="About">
-    <div class="u-wrapper">
-        <h1>{{ about[locale].title|raw }}</h1>
-        <p>{{ about[locale].content|raw }}</p>
+<section class="Painting">
+    <div class="u-wrapper row">
+        <div class="{{ page.commonStuff.class.mainSection|raw }}">
+            <p class="homeMainClaim">{{ mainSection.home[locale]|raw }}</p>
+        </div>
+        {% embed '../components/aside.twig' %}
+            {% block title %}{{ aside.introduction.forPainting.title.en|raw }}{% endblock %}
+            {% block description %}{{ aside.introduction.forPainting.description.en|raw }}{% endblock %}
+        {% endembed %}
     </div>
 </section>
 
