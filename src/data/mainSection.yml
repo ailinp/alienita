@@ -1,47 +1,10 @@
 mainSection:
-    home:
-        en: "This Eileen Punk is lazy. She hasn't figured out how to deal with her home page yet.</p>
-            <span class=\"homeMainSpan\">( Did I just say she's hard working?<br>...Oops :P ... )</span>
-            <p class=\"homeMainClaim\">BUT! This page is RESPONSIVE."
-
-        es: "¡Bienvenido!<br>¡Qué suerte que hablamos la misma lengua!<br>Te recomiendo que vayas a la página de los comics.<br>De momento, es la única página que se escribe en castellano.<br>Pero bueno, como ya hablo spanglish perfectamente, traducirlo a castellano es solo cuestión de tiempo :D"
-
-        cn: "等我哪天喝饱睡足了，中文一定是我首先要翻译的语言。对于那些带着好奇心冒充自己会中文而点击进来的人，要不你还是到别的页面逛逛？浏览器自带的翻译都是瞎扯的，别看了！"
-
-        fr: "Quoi qu’on en dise, je trouve que le français est une des plus belles langues du monde! Bien que je n’aie que des bases... Mais croyez-moi, je connais beaucoup de chansons françaises! Apprendre le français est sur ma liste des choses à faire!"
-
-        de: "Ich weiss nicht warum, aber die meisten meiner Freunde kommen aus Deutschland. Und einige andere Freunde, die nicht Deutsche sind, sprechen Deutsch. Ich hatte sogar einige deutsche Freunde bevor ich nach Europa kam. Haben wir deutsches Bier getrunken? Klar!"
-
-        it: "Il motivo per cui ho usato l'italiano è perché sono stata in quel paese dal cibo delizioso e lo amo. Penso che ognuno dovrebbe avere degli amici italiani.<br>Sono sicura che renderebbero la tua vita più interessante :D"
-
-        jp: "私はいつも少しだけ日本語を話します。でもほんの少しだけです。私の父は日本語を話しますが、私に日本語をすべて教え終わりませんでした。<br>とにかく、もし私が訪れたことのある国でもっとも素晴らしい国を私に選ばせたら、間違いなく日本を選ぶでしょう！"
-
-        kr: "유럽에 왔을 때 만났던 첫번째 친구는 한국인이었습니다. 그리고 제가 프리랜서가 되고 나서 만난 저의 첫 고객 역시 한국인이었습니다.<br>저는 이러한 상황들이 단순한 우연이라 생각하지 않습니다.<br>저를 믿어주세요. 한국인들은 어느곳에나 있습니다.<br>그리고 이러한 편지들은 너무 사랑스럽습니다."
-
-        pt: "Português e Espanhol são línguas muito parecidas. Ainda assim, eu não falo nada de português. Soa mais suave e doce, o que dá uma sensação totalmente diferente.<br>A primeira vez que ouvi falar de Portugal foi por causa de Macau, e claro, por causa dos casinos de lá."
-
-        ae: "The reason why I put Arabic on my list is kind of special.<br>I don't speak any Arabic and I don't know anyone who speaks it.<br>However, as you know, I'm a left handed. I'm a perfect Arabic learner! If you prefer to read like this,<br>.this like write can I"
-
-        se: "I heard some great things about Sweden from one of my old colleagues long before I came to Europe. Relax, all positive things. And I heard the people there are so nice!"
-
-        ca: "Que extrany que visc a Barcelona però no parlo quasi res de català.<br>Dic \"quasi\" perquè hi ha una frase en català \"Molt bé, adeu!\"<br>que dic tots els dies quan surto de casa, pujo amb l'ascensor i veig algun dels meus veïns!"
-
-        hk: "乜啫～～～<br>睇唔掂啲雞腸啊？咁都冇計㗎喎，都叫咗你翻學比心機溫書㗎啦，話極都唔聽。家下大鍋嘞，及來及去都冇樣嘢啱睇喎～～～人哋翻譯都要諗掂先得㗎，搞掂話你知啦！"
-
-        nl: "Als je me vraagt wat mijn favoriet land is in Europa, dan zeg ik zeker: \"Nederland\". Geloof me, ik heb echt een beetje Nederlands geleerd vorig jaar en begon de taal echt leuk te vinden. Nederlands is een woordenrijke taal. Een boek in het Nederlands is drie keer dikker dan een versie in andere talen, en een Nederlander is drie keer langer dan anderen."
-
-        gr: "Η Ελλάδα μου θυμίζει τα 26α γενέθλιά μου. Πέρασα υπέροχα εκείνη την ημέρα, χωρίς να κάνω τίποτα άλλο εχτός απο το να αράζω στην μαύρη παραλία της Σαντορίνης. Αυτό είναι παράδεισος! Αυτό σίγουρα είναι!"
-
-        cz: "Chtěla jsem jet do Česka, fakt jsem chtěla! Zarezervovala jsem si letenku a hotely. Pak se ale něco stalo, a musela jsem svůj výlet odložit. Pokud chceš vědět co se mi v té době stalo, prosím zvol si jiný jazyk a uvidíš zda budeš mít štěstí."
-
-        ru: "Самое ближайшее место к России, где я был - это граница между Россией и севером Китая. Я не помню на что это было похоже. Я был просто ребенком, и это было зимой. Все, что я помню, то, что все было окутано белым снегом , люди прятали нос от холода, и много машин на улице."
-
-        th: "ไทยเป็นภาษาที่น่าสนใจ เพื่อนของฉันและฉันมักจะเลียนแบบเสียงเพื่อความสนุกสนาน บางส่วนของการโฆษณาในประเทศไทยได้งานที่ดีมากของนวัตกรรม และประเทศไทยเป็นสถานที่ที่ฉันควรจะได้รับ แต่ผมยังไม่ได้ เกือบทุกหนึ่งในเพื่อนของฉันได้รับมีอย่างน้อยหนึ่งครั้งและพวกเขาให้บอกฉันว่ามันเป็นสิ่งที่น่ากลัว!"
-
-        il: "אם הייתי צריך לבחור בתרבות המכובדת ביותר בעולם, הייתי אומר יהדות.<br>החברה הכי טובה שלי היא יהודיה, לא השכח את חג ראש השנה שביליתי בקרב המשפחה שלה.<br>אני אוהבת את התחבות היהודי. לא השכח את חג ראש השנה שביליתי בקרב משפחה של יהודים."
-
-        fi: "Näitkö sen suomalaisen tytön sarjakuvissani? Opiskelimme aikoinaan espanjaa samassa kielikoulussa. Ja kyllä, hän sanoi, että suomalaiset vauvat tulevat maidon toimittajilta. Kuinka onnekkaita he ovatkaan! Minun äitini sanoi, että minut noukittiin roskiksesta."
-
-        tr: "A very good friend of mine keeps telling me that she wants to go to Turkey. All I am thinking is eating kebab, dancing with a big fat turkey in an oven. I don’t think the turkish people eat turkey. That’s why I said I would dance with one."
-
-        hu: "I went to Hungary last christmas, and I will never forget that trip heading east of Europe. I lost my beloved grandpa the night I arrived to Budapest. I remember the sky was so clear. I said why don’t you snow? It must had heard me. It brought me a heavy snow the next morning. It was the first snow in 2014. I was wearing all that white snow, canceled the rest of my trip, got on the plane, flew straight back to my family.<br>I don’t speak Hungarian. This page is for my grandpa in heaven. I hope he can rest in peace. Grandpa, if you can hear me, your little brat misses you so much."
+    Painting:
+        -
+            backgroundImage: "painting-01"
+            title: "Shire"
+            subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
+        -
+            backgroundImage: "painting-01"
+            title: "Shire"
+            subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."

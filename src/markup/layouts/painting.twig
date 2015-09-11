@@ -7,9 +7,26 @@
 {% endembed %}
 
 <section class="Painting">
-    <div class="u-wrapper row">
+    <div class="u-wrapper row collapse">
         <div class="{{ page.commonStuff.class.mainSection|raw }}">
-            <p class="homeMainClaim">{{ mainSection.home[locale]|raw }}</p>
+        {% for content in mainSection.Painting %}
+            <a class="previewBlock {{ content.backgroundImage }}" href="#">
+                <div class="info-container">
+                    <div class="info-content">
+                        <span class="info-title">{{ content.title|raw }}</span>
+                        <span class="info-sudtitle">{{ content.subtitle|raw }}</span>
+                    </div>
+                </div>
+            </a>
+            <div class="previewBlock-open previewBlock-hidden">
+                <div class="previewBlock-container">
+                    <a href="#" class="previewBlock-close"></a>
+                    <div class="previewBlock-content">
+                        hola hola
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
         </div>
         {% embed '../components/aside.twig' %}
             {% block title %}{{ aside.introduction.forPainting.title.en|raw }}{% endblock %}

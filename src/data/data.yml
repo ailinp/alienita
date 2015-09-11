@@ -501,15 +501,7 @@ header:
                 link: ""
                 title: ""
 home:
-    es:
-        title: "Estrategias y herramientas online que potencian el negocio y la visibilidad de nuestros clientes."
-        content: "Ofrecemos soluciones integrales: consultoría, estrategia, marketing online, diseño, usabilidad, desarrollo técnico, posicionamiento y medición."
-
-    en:
-        title: "We develop online strategies and tools that enhance the visibility and the business of our customers."
-        content: "We offer integrated solutions: consulting, strategy, online marketing, design, usability, technical development, positioning and measurement."
-mainSection:
-    home:
+    mainSection:
         en: "This Eileen Punk is lazy. She hasn't figured out how to deal with her home page yet.</p>
             <span class=\"homeMainSpan\">( Did I just say she's hard working?<br>...Oops :P ... )</span>
             <p class=\"homeMainClaim\">BUT! This page is RESPONSIVE."
@@ -555,6 +547,16 @@ mainSection:
         tr: "A very good friend of mine keeps telling me that she wants to go to Turkey. All I am thinking is eating kebab, dancing with a big fat turkey in an oven. I don’t think the turkish people eat turkey. That’s why I said I would dance with one."
 
         hu: "I went to Hungary last christmas, and I will never forget that trip heading east of Europe. I lost my beloved grandpa the night I arrived to Budapest. I remember the sky was so clear. I said why don’t you snow? It must had heard me. It brought me a heavy snow the next morning. It was the first snow in 2014. I was wearing all that white snow, canceled the rest of my trip, got on the plane, flew straight back to my family.<br>I don’t speak Hungarian. This page is for my grandpa in heaven. I hope he can rest in peace. Grandpa, if you can hear me, your little brat misses you so much."
+mainSection:
+    Painting:
+        -
+            backgroundImage: "painting-01"
+            title: "Shire"
+            subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
+        -
+            backgroundImage: "painting-01"
+            title: "Shire"
+            subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
 page:
     name: "EileenPunk"
     slug: "eileenpunk"
