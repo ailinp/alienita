@@ -1,0 +1,15 @@
+<div class="TechnicalSkills">
+    <h2>{{ about.TechnicalSkills.title.en }}</h2>
+    <div class="TechnicalSkills-container row">
+        {% for content in about.TechnicalSkills.content %}
+                <div class="TechnicalSkills-item">
+                    <ul>
+                    {% for list in content.list %}
+                        <li>{{ list|raw }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+        {% endfor %}
+        <p class="TechnicalSkills-cliam columns">{{ about.TechnicalSkills.claim.en }}</p>
+    </div>
+</div>

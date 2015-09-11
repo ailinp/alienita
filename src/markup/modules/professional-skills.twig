@@ -1,0 +1,13 @@
+<div class="ProfessionalSkills row">
+    <h2>{{ about.ProfessionalSkills.title.en }}</h2>
+    <div class="ProfessionalSkills-container">
+        {% for content in about.ProfessionalSkills.content %}
+        <div class="ProfessionalSkills-content row">
+            <span class="ProfessionalSkills-title columns small-24 small-centered medium-8 medium-uncentered large-6">{{ content.title|raw }}</span>
+            <div class="ProfessionalSkills-chart columns small-24 small-centered medium-16 medium-uncentered large-18">
+                <span class="bar {{ content.chart }}"></span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

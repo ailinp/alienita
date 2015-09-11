@@ -1,0 +1,14 @@
+.PersonalSkills-chart {
+    position: relative;
+    color: $c-neutroDark;
+    font-family: $t-ralewaymedium;
+    font-size: units(16px);
+    margin: 0 auto gutter(2);
+    text-align: center;
+}
+
+.PersonalSkills-chart canvas {
+    position: absolute;
+        top: 0;
+        left: 0;
+}

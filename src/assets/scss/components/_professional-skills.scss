@@ -1,0 +1,105 @@
+.ProfessionalSkills-content {
+    padding-right: gutter(2);
+
+    @media #{$medium-up} {
+        padding-right: gutter(3.5);
+    }
+
+    .ProfessionalSkills-title {
+        color: $c-neutroDark;
+        display: block;
+        font-size: units(16px);
+        font-family: $t-ralewaymedium;
+        line-height: 1.2;
+        margin-bottom: gutter(.5);
+
+        @media #{$xmedium-up} {
+            display: inline-block;
+            margin-bottom: 0;
+        }
+
+        @media #{$medium-up} {
+            padding-left: gutter(2);
+        }
+    }
+
+    .ProfessionalSkills-chart {
+        margin-bottom: units(20px);
+        background: #e9e5e2;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+        background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+        background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+        background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+        background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+        background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
+        border-radius: units(10px);
+        box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+        height: units(20px);
+        -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+        -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+
+        .bar {
+            height: units(16px);
+            margin: units(1px) units(-2px);
+            position: absolute;
+            border-radius: units(10px);
+            -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+            -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+            box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+            padding: 0;
+        }
+
+        .graphic-design, .front-end, .drawing, .photography, .editorial {
+            background-color: $c-mainLight;
+            background-image: -webkit-gradient(linear, left top, left bottom, from($c-mainLight), to($c-main));
+            background-image: -webkit-linear-gradient(top, $c-mainLight, $c-main);
+            background-image: -moz-linear-gradient(top, $c-mainLight, $c-main);
+            background-image: -ms-linear-gradient(top, $c-mainLight, $c-main);
+            background-image: -o-linear-gradient(top, $c-mainLight, $c-main);
+            background-image: linear-gradient(top, $c-mainLight, $c-main);
+            height: 16px;
+        }
+
+        .graphic-design {
+            -moz-animation:graphic-design 2s ease-out;
+            -webkit-animation:graphic-design 2s ease-out;
+            width: 70%;
+        }
+
+        .front-end {
+            -moz-animation:front-end 2s ease-out;
+            -webkit-animation:front-end 2s ease-out;
+            width:80%;
+        }
+
+        .drawing {
+            -moz-animation:drawing 2s ease-out;
+            -webkit-animation:drawing 2s ease-out;
+            width:99%;
+        }
+
+        .photography {
+            -moz-animation:photography 2s ease-out;
+            -webkit-animation:photography 2s ease-out;
+            width:60%;
+        }
+
+        .editorial {
+            -moz-animation:editorial 2s ease-out;
+            -webkit-animation:editorial 2s ease-out;
+            width:90%;
+        }
+    }
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes front-end { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes drawing { 0%  { width:0px;} 100%{ width:99%;}  }
+@-moz-keyframes photography { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes editorial { 0%  { width:0px;} 100%{ width:90%;}  }
+
+@-webkit-keyframes graphic-design { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes front-end { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes drawing { 0%  { width:0px;} 100%{ width:99%;}  }
+@-webkit-keyframes photography { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes editorial { 0%  { width:0px;} 100%{ width:90%;}  }

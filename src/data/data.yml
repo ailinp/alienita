@@ -1,11 +1,148 @@
 about:
-    es:
-        title: "sobre nosotros"
-        content: "Somos una empresa con 10 años de experiencia en el medio online formada por un equipo de 27 personas, apasionadas por nuestro trabajo y comprometidas con los valores del agilismo. Nos gusta aprender, compartir, encontrar la mejor solución para nuestros clientes y crecer juntos en cada nuevo proyecto. Nos gustan los retos y nos gusta lo que hacemos."
+    ProfessionalSkills:
+        title:
+            en: "PROFESSIONAL SKILLS"
 
-    en:
-        title: "about us"
-        content: "We are a company with 10 years of experience in online media, formed by a team of 27 people, passionate for our work and committed to the values of Agile. We love to learn, share, find the best solution for our customers and grow together with each new project. We like challenges and we love what we do."
+        content:
+            -
+                title: "Graphic Design"
+                chart: "graphic-design"
+            -
+                title: "Front-end"
+                chart: "front-end"
+            -
+                title: "Drawing"
+                chart: "drawing"
+            -
+                title: "Photography"
+                chart: "photography"
+            -
+                title: "Editorial"
+                chart: "editorial"
+
+    PersonalSkills:
+        title:
+            en: "PERSONAL SKILLS"
+
+        content:
+            -
+                title: "Visual Design"
+                percentage: "75"
+            -
+                title: "Programming"
+                percentage: "85"
+            -
+                title: "UX"
+                percentage: "60"
+            -
+                title: "Strategy"
+                percentage: "70"
+            -
+                title: "Creativity"
+                percentage: "97"
+            -
+                title: "Team Work"
+                percentage: "80"
+
+    TechnicalSkills:
+        title:
+            en: "TECHNICAL SKILLS"
+
+        content:
+            -
+                list:
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - "Sublime"
+
+            -
+                list:
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - "Photoshop"
+
+            -
+                list:
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - "Illustrator"
+
+            -
+                list:
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - "InDesign"
+
+            -
+                list:
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - "Premiere"
+
+            -
+                list:
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - ""
+                    - "3Dmax"
+        claim:
+            en: "Hover your mouse over each skill, you'll see how much she loves those technical stuff :P"
+
+    explanation:
+        title: "Now let me explain..."
+
+        content:
+            - "This <b>Eileen Punk</b> is NOT a punk."
+            - "<span>(Maybe she once was, but not anymore.)</span>"
+            - "She named herself <b>Punk</b> because the pronunciation of her family name sounds very punky.<br>And yes, <b>Eileen</b> is her very first original given name.<br>Feel free to call her, but please pronounce it correctly in English."
+            - "<span>(For those Spanish fellows, se pronuncia: <b>Ailin</b>, no <b>Eilin</b>, Gracias!)</span>"
 aside:
     introduction:
         forHome:
@@ -146,6 +283,9 @@ aside:
             -
                 class: "cantonese"
                 title: "Cantonese"
+            -
+                class: "catalan"
+                title: "Catalan"
 footer:
     title:
         en: "If your English sucks, here're more options for you. Choose wisely!"
@@ -371,7 +511,7 @@ home:
 mainSection:
     home:
         en: "This Eileen Punk is lazy. She hasn't figured out how to deal with her home page yet.</p>
-            <span>( Did I just say she's hard working?<br>...Oops :P ... )</span>
+            <span class=\"homeMainSpan\">( Did I just say she's hard working?<br>...Oops :P ... )</span>
             <p class=\"homeMainClaim\">BUT! This page is RESPONSIVE."
 
         es: "¡Bienvenido!<br>¡Qué suerte que hablamos la misma lengua!<br>Te recomiendo que vayas a la página de los comics.<br>De momento, es la única página que se escribe en castellano.<br>Pero bueno, como ya hablo spanglish perfectamente, traducirlo a castellano es solo cuestión de tiempo :D"

@@ -1,4 +1,57 @@
 .About {
-    text-align: center;
+    .ProfessionalSkills,
+    .PersonalSkills,
+    .TechnicalSkills {
+        margin-bottom: gutter(3);
 
+        h2 {
+            color: $c-main;
+            font-family: $t-poiret;
+            font-weight: 800;
+            margin-bottom: gutter(3);
+        }
+    }
+
+    .About-explanation {
+        border-top: solid 10px $c-mainLight;
+        border-bottom: solid 10px $c-mainLight;
+        padding: gutter(3) 0;
+        text-align: center;
+
+        h2 {
+            background: rgba($c-mainLight, .6);
+            color: $c-main;
+            display: inline-block;
+            font-family: $t-poiret;
+            margin-bottom: gutter(2);
+            padding: gutter(.6) gutter(2);
+        }
+
+        ul {
+            color: $c-neutroDark;
+            font-size: units(18px);
+            line-height: 1.3;
+            margin: 0 auto;
+            width: 100%;
+
+            @media #{$medium-up} {
+                font-size: units(20px);
+                line-height: 1.5;
+            }
+
+            @media #{$large-up} {
+                width: 85%;
+            }
+
+            span {
+                display: block;
+                font-family: $t-poiret;
+                margin: gutter(.5) auto;
+
+                b {
+                    font-family: $t-ralewaymedium;
+                }
+            }
+        }
+    }
 }

@@ -11,7 +11,8 @@
         .english,
         .spanish,
         .mandarin,
-        .cantonese {
+        .cantonese,
+        .catalan {
             background: -webkit-linear-gradient(135deg,
                 #ff8192 25%, #ff99a7 25%,
                 #ff99a7 50%, #ff8192 50%,
@@ -50,6 +51,10 @@
         .mandarin,
         .cantonese{
             width: 100%;
+        }
+
+        .catalan {
+            width: 31%;
         }
     }
 }

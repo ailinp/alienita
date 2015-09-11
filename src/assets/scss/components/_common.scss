@@ -14,7 +14,7 @@
         .mainSection {
             padding: gutter(3) gutter(1.3);
 
-            p {
+            .homeMainClaim {
                 color: $c-main;
                 font-family: $t-ralewaybold;
                 font-size: units(28px);
@@ -45,7 +45,7 @@
                 }
             }
 
-            span {
+            .homeMainSpan {
                 display: block;
                 font-size: units(22px);
                 font-size: 6vmin;

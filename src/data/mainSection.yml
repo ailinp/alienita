@@ -1,7 +1,7 @@
 mainSection:
     home:
         en: "This Eileen Punk is lazy. She hasn't figured out how to deal with her home page yet.</p>
-            <span>( Did I just say she's hard working?<br>...Oops :P ... )</span>
+            <span class=\"homeMainSpan\">( Did I just say she's hard working?<br>...Oops :P ... )</span>
             <p class=\"homeMainClaim\">BUT! This page is RESPONSIVE."
 
         es: "¡Bienvenido!<br>¡Qué suerte que hablamos la misma lengua!<br>Te recomiendo que vayas a la página de los comics.<br>De momento, es la única página que se escribe en castellano.<br>Pero bueno, como ya hablo spanglish perfectamente, traducirlo a castellano es solo cuestión de tiempo :D"

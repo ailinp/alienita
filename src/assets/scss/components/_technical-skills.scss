@@ -1,0 +1,317 @@
+.TechnicalSkills-container {
+    @media #{$small-up} {
+        padding-right: gutter();
+    }
+    @media #{$large-up} {
+        padding-right: gutter(3);
+    }
+}
+
+.TechnicalSkills-item {
+    display: inline-block;
+    margin: 0 gutter(.5) gutter(2);
+    width: 42%;
+
+    @media #{$small-up} {
+        margin: 0 gutter(.5) gutter(2);
+        width: 28%;
+    }
+
+    @media #{$xmedium-up} {
+        margin: 0 gutter(.5) gutter(2);
+        width: 28%;
+    }
+
+    @media #{$medium-up} {
+        margin: 0 gutter(1.5) gutter(2);
+        width: 23%;
+    }
+
+    @media #{$large-up} {
+        margin: 0 gutter(.2) gutter(2);
+        width: 15%;
+    }
+
+    &:hover {
+        cursor:pointer;
+    }
+}
+
+.TechnicalSkills-container ul {
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+
+    li {
+        margin-bottom:2px;
+        padding:5px;
+        background:#ccc;
+        position:relative;
+        -webkit-transition:all 2s ease;
+        -moz-transition:all 2s ease;
+        transition:all 2s ease;
+
+        &:last-child {
+            height:100px;
+            background:$c-mainLight;
+            text-align:center;
+            -webkit-transition:all 2s ease;
+            -moz-transition:all 2s ease;
+            transition:all 2s ease;
+        }
+    }
+}
+
+.TechnicalSkills-item ul li:last-child {
+    color: $c-white;
+    padding-top: gutter(.5);
+    position:relative;
+}
+
+.TechnicalSkills-item:nth-child(1) ul li:nth-child(10),
+.TechnicalSkills-item:nth-child(1) ul li:nth-child(4),
+.TechnicalSkills-item:nth-child(1) ul li:nth-child(5),
+.TechnicalSkills-item:nth-child(1) ul li:nth-child(6),
+.TechnicalSkills-item:nth-child(1) ul li:nth-child(9),
+.TechnicalSkills-item:nth-child(1) ul li:nth-child(8),
+.TechnicalSkills-item:nth-child(1) ul li:nth-child(7),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(10),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(9),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(8),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(7),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(6),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(5),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(4),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(3),
+.TechnicalSkills-item:nth-child(2) ul li:nth-child(2),
+.TechnicalSkills-item:nth-child(3) ul li:nth-child(10),
+.TechnicalSkills-item:nth-child(3) ul li:nth-child(9),
+.TechnicalSkills-item:nth-child(3) ul li:nth-child(8),
+.TechnicalSkills-item:nth-child(3) ul li:nth-child(7),
+.TechnicalSkills-item:nth-child(3) ul li:nth-child(6),
+.TechnicalSkills-item:nth-child(3) ul li:nth-child(5),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(10),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(9),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(8),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(7),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(6),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(5),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(4),
+.TechnicalSkills-item:nth-child(4) ul li:nth-child(3),
+.TechnicalSkills-item:nth-child(5) ul li:nth-child(10),
+.TechnicalSkills-item:nth-child(5) ul li:nth-child(9),
+.TechnicalSkills-item:nth-child(5) ul li:nth-child(8),
+.TechnicalSkills-item:nth-child(6) ul li:nth-child(10),
+.TechnicalSkills-item:nth-child(6) ul li:nth-child(9) {
+    background:$c-mainLight;
+}
+
+.TechnicalSkills-item li:last-child:after {
+    position:absolute;
+    display:block;
+    left:22px;
+    bottom:-0px;
+    color:$c-mainLight;
+    z-index:-1;
+    font-size:14px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+/* 浮現的字體位置 */
+.TechnicalSkills-item:nth-child(1) li:nth-child(11):after{content:"Crazy about it!";right: 24px;}
+.TechnicalSkills-item:nth-child(2) li:nth-child(11):after{content:"Obsessed with it!";right: 16px;}
+.TechnicalSkills-item:nth-child(3) li:nth-child(11):after{content:"Nice to meet it!";right: 18px}
+.TechnicalSkills-item:nth-child(4) li:nth-child(11):after{content:"In love with it!";right:22px;}
+.TechnicalSkills-item:nth-child(5) li:nth-child(11):after{content:"Curious about it!";right:18px;}
+.TechnicalSkills-item:nth-child(6) li:nth-child(11):after{content:"Playing with it!";right:21px;}
+.TechnicalSkills-item:hover li:last-child:after {
+    bottom:15px;
+    z-index:1;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(11) {
+    background: $c-main;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(10) {
+    background: $c-main;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(9) {
+    background: $c-main;
+    -webkit-transition:all 1.5s ease;
+    -moz-transition:all 1.5s ease;
+    transition:all 1.5s ease;
+}
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(8) {
+    background: $c-main;
+    -webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+    transition:all 2s ease;
+}
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(7) {
+    background: $c-main;
+    -webkit-transition:all 2.5s ease;
+    -moz-transition:all 2.5s ease;
+    transition:all 2.5s ease;
+}
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(6) {
+    background: $c-main;
+    -webkit-transition:all 3s ease;
+    -moz-transition:all 3s ease;
+    transition:all 3s ease;
+}
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(5) {
+    background: $c-main;
+    -webkit-transition:all 3.5s ease;
+    -moz-transition:all 3.5s ease;
+    transition:all 3.5s ease;
+}
+.TechnicalSkills-item:nth-child(1):hover li:nth-child(4) {
+    background: $c-main;
+    -webkit-transition:all 4s ease;
+    -moz-transition:all 4s ease;
+    transition:all 4s ease;
+}
+
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(11) {
+    background: $c-main;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(10) {background: $c-main;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;transition:all 0.5s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(9) {background: $c-main;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(8) {background: $c-main;-webkit-transition:all 1.5s ease;-moz-transition:all 1.5s ease;transition:all 1.5s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(7) {background: $c-main;-webkit-transition:all 2s ease;-moz-transition:all 2s ease;transition:all 2s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(6) {background: $c-main;-webkit-transition:all 2.5s ease;-moz-transition:all 2.5s ease;transition:all 2.5s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(5) {background: $c-main;-webkit-transition:all 3s ease;-moz-transition:all 3s ease;transition:all 3s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(4) {background: $c-main;-webkit-transition:all 3.5s ease;-moz-transition:all 3.5s ease;transition:all 3.5s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(3) {background: $c-main;-webkit-transition:all 4s ease;-moz-transition:all 4.5s ease;transition:all 4.5s ease;}
+.TechnicalSkills-item:nth-child(2):hover li:nth-child(2) {background: $c-main;-webkit-transition:all 5s ease;-moz-transition:all 5s ease;transition:all 5s ease;}
+
+.TechnicalSkills-item:nth-child(3):hover li:nth-child(11) {
+    background: $c-main;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.TechnicalSkills-item:nth-child(3):hover li:nth-child(10) {background: $c-main;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;transition:all 0.5s ease;}
+.TechnicalSkills-item:nth-child(3):hover li:nth-child(9) {background: $c-main;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
+.TechnicalSkills-item:nth-child(3):hover li:nth-child(8) {background: $c-main;-webkit-transition:all 1.5s ease;-moz-transition:all 1.5s ease;transition:all 1.5s ease;}
+.TechnicalSkills-item:nth-child(3):hover li:nth-child(7) {background: $c-main;-webkit-transition:all 2s ease;-moz-transition:all 2s ease;transition:all 2s ease;}
+.TechnicalSkills-item:nth-child(3):hover li:nth-child(6) {background: $c-main;-webkit-transition:all 2.5s ease;-moz-transition:all 2.5s ease;transition:all 2.5s ease;}
+.TechnicalSkills-item:nth-child(3):hover li:nth-child(5) {background: $c-main;-webkit-transition:all 3s ease;-moz-transition:all 3s ease;transition:all 3s ease;}
+
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(11) {
+    background: $c-main;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(10) {
+    background: $c-main;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(9) {
+    background: $c-main;
+    -webkit-transition:all 1.5s ease;
+    -moz-transition:all 1.5s ease;
+    transition:all 1.5s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(8) {
+    background: $c-main;
+    -webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+    transition:all 2s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(7) {
+    background: $c-main;
+    -webkit-transition:all 2.5s ease;
+    -moz-transition:all 2.5s ease;
+    transition:all 2.5s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(6) {
+    background: $c-main;
+    -webkit-transition:all 3s ease;
+    -moz-transition:all 3s ease;
+    transition:all 3s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(5) {
+    background: $c-main;
+    -webkit-transition:all 3.5s ease;
+    -moz-transition:all 3.5s ease;
+    transition:all 3.5s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(4) {
+    background: $c-main;
+    -webkit-transition:all 4s ease;
+    -moz-transition:all 4s ease;
+    transition:all 4s ease;
+}
+.TechnicalSkills-item:nth-child(4):hover li:nth-child(3) {
+    background: $c-main;
+    -webkit-transition:all 4.5s ease;
+    -moz-transition:all 4.5s ease;
+    transition:all 4.5s ease;
+}
+
+.TechnicalSkills-item:nth-child(5):hover li:nth-child(11) {
+    background: $c-main;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.TechnicalSkills-item:nth-child(5):hover li:nth-child(10) {
+    background: $c-main;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.TechnicalSkills-item:nth-child(5):hover li:nth-child(9) {
+    background: $c-main;
+    -webkit-transition:all 1.5s ease;
+    -moz-transition:all 1.5s ease;
+    transition:all 1.5s ease;
+}
+.TechnicalSkills-item:nth-child(5):hover li:nth-child(8) {
+    background: $c-main;
+    -webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+    transition:all 2s ease;
+}
+
+.TechnicalSkills-item:nth-child(6):hover li:nth-child(11) {
+    background: $c-main;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.TechnicalSkills-item:nth-child(6):hover li:nth-child(10) {
+    background: $c-main;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.TechnicalSkills-item:nth-child(6):hover li:nth-child(9) {
+    background: $c-main;
+    -webkit-transition:all 1.5s ease;
+    -moz-transition:all 1.5s ease;
+    transition:all 1.5s ease;
+}
+
+.TechnicalSkills-cliam {
+    font-family: $t-poiret;
+}

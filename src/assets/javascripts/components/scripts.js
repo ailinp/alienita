@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var topbarHeight = $('.Header').height()+20;
+    var topbarHeight = $('.Header').height()+22;
 
     $(".toCategories").click(function() {
         $('html, body').animate({
