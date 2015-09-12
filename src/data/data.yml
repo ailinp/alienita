@@ -551,12 +551,27 @@ mainSection:
     Painting:
         -
             backgroundImage: "painting-01"
-            title: "Shire"
+            title: "Shire 02"
             subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
+            fullImage: "http://placekitten.com/g/400/500"
+            captionData:
+                - "Date"
+                - "August 08, 2015"
+                - "Category"
+                - "Illustration"
+            description: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
+
         -
             backgroundImage: "painting-01"
-            title: "Shire"
-            subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
+            title: "Shire 03"
+            subtitle: "They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be."
+            fullImage: "http://placekitten.com/g/400/500"
+            captionData:
+                - "Date"
+                - "April 26, 2015"
+                - "Category"
+                - "Illustration"
+            description: "They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be."
 page:
     name: "EileenPunk"
     slug: "eileenpunk"
