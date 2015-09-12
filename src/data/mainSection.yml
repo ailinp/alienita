@@ -1,25 +1,205 @@
 mainSection:
     Painting:
         -
-            backgroundImage: "painting-01"
+            backgroundImage: "painting-17"
             title: "Shire 02"
             subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
-            fullImage: "http://placekitten.com/g/400/500"
+            fullImage: "painting/painting-17.jpg"
             captionData:
                 - "Date"
                 - "August 08, 2015"
                 - "Category"
                 - "Illustration"
-            description: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
+            description: "Shire: \"Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye.\""
 
         -
-            backgroundImage: "painting-01"
+            backgroundImage: "painting-16"
             title: "Shire 03"
             subtitle: "They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be."
-            fullImage: "http://placekitten.com/g/400/500"
+            fullImage: "painting/painting-16.jpg"
             captionData:
                 - "Date"
                 - "April 26, 2015"
                 - "Category"
                 - "Illustration"
-            description: "They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be."
+            description: "Shire: \"They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be.\""
+
+        -
+            backgroundImage: "painting-15"
+            title: "Shire 01"
+            subtitle: "Kneeling down in front of her grave. I held a thorny rose in my hand, it drew my blood as the thorns pierced through the skin..."
+            fullImage: "painting/painting-15.jpg"
+            captionData:
+                - "Date"
+                - "April 03, 2015"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"Kneeling down in front of her grave. I held a thorny rose in my hand, it drew my blood as the thorns pierced through the skin of my clenched little fist. I drew her a big red rose with my blood, like the one I did on her thigh with the blade she gave me. She loved it. She said she was proud of her little girl.\""
+
+        -
+            backgroundImage: "painting-14"
+            title: "Fascination"
+            subtitle: "I Will Never Commit Suicide. I just enjoy cutting myself. I just have a big fascination with blood. That's all..."
+            fullImage: "painting/painting-14.jpg"
+            captionData:
+                - "Date"
+                - "October 12, 2014"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"I Will Never Commit Suicide. I just enjoy cutting myself. I just have a big fascination with blood. That's all...\""
+
+        -
+            backgroundImage: "painting-13"
+            title: "Her Death"
+            subtitle: "I already died once, the day you left me. this would be my second time, and the last time."
+            fullImage: "painting/painting-13.jpg"
+            captionData:
+                - "Date"
+                - "January 7, 2014"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"I already died once, the day you left me. this would be my second time, and the last time.\""
+
+        -
+            backgroundImage: "painting-12"
+            title: "At the Very Beginning"
+            subtitle: "From the very beginning of the story... What shaped who you were, shapes who I am."
+            fullImage: "painting/painting-12.jpg"
+            captionData:
+                - "Date"
+                - "December 25, 2013"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"From the very beginning of the story... What shaped who you were, shapes who I am.\""
+
+        -
+            backgroundImage: "painting-11"
+            title: "Make-up"
+            subtitle: "I woke up, found my face fucked up. My makeup totally went wrong. Looked like i'd cried like shit the night before, which i would never admit."
+            fullImage: "painting/painting-11.jpg"
+            captionData:
+                - "Date"
+                - "September 11, 2013"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"I woke up, found my face fucked up. My makeup totally went wrong. Looked like i'd cried like shit the night before, which i would never admit.\""
+
+        -
+            backgroundImage: "painting-10"
+            title: "What Have Changed"
+            subtitle: "I was still young. My hair was still the color of honey. My arms were still clean and neat. I was still smoking cigarette..."
+            fullImage: "painting/painting-10.jpg"
+            captionData:
+                - "Date"
+                - "July 19, 2013"
+                - "Category"
+                - "Illustration"
+            description: "XZB: \"I was still young. My hair was still the color of honey. My arms were still clean and neat. I was still smoking cigarette. My bed was still the color of my favourite dark green. I was still waiting for her.\""
+
+        -
+            backgroundImage: "painting-09"
+            title: "You Belong with Me"
+            subtitle: "Don't prove me anything. I don't care if I could trust you. I'm sorry it's too late. I'm sorry I alraedy love you irredeemably."
+            fullImage: "painting/painting-09.jpg"
+            captionData:
+                - "Date"
+                - "June 23, 2013"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"Don't prove me anything. I don't care if I could trust you. I'm sorry it's too late. I'm sorry I alraedy love you irredeemably.\""
+
+        -
+            backgroundImage: "painting-08"
+            title: "From Heaven"
+            subtitle: "To my precious friend from heaven. How are you doing up there? Are you still holding your guitar, singing The Bear and the Bee?"
+            fullImage: "painting/painting-08.jpg"
+            captionData:
+                - "Date"
+                - "December 5, 2012"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"To my precious friend from heaven. How are you doing up there? Are you still holding your guitar, singing The Bear and the Bee?\""
+
+        -
+            backgroundImage: "painting-07"
+            title: "Seventeen"
+            subtitle: "We all have only once 17. Those who ruined my 17, I've ruined the rest of their lives."
+            fullImage: "painting/painting-07.jpg"
+            captionData:
+                - "Date"
+                - "October 2, 2012"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"We all have only once 17. Those who ruined my 17, I've ruined the rest of their lives.\""
+
+        -
+            backgroundImage: "painting-06"
+            title: "Memory of Your Face"
+            subtitle: "10 years. I've lost the part of memory that used to be full of your faces. Even though I once looked so hard into your eyes, tried so hard to feel every inch of your skin."
+            fullImage: "painting/painting-06.jpg"
+            captionData:
+                - "Date"
+                - "July 18, 2012"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"10 years. I've lost the part of memory that used to be full of your faces. Even though I once looked so hard into your eyes, tried so hard to feel every inch of your skin.\""
+
+        -
+            backgroundImage: "painting-05"
+            title: "I love you"
+            subtitle: "I love you. I was born to love you, to protect you. Some day soon, I will be a grown-up. I will be strong enough to heal your wound."
+            fullImage: "painting/painting-05.jpg"
+            captionData:
+                - "Date"
+                - "June 7, 2012"
+                - "Category"
+                - "Illustration"
+            description: "Saya: \"I love you. I was born to love you, to protect you. Some day soon, I will be a grown-up. I will be strong enough to heal your wound.\""
+
+        -
+            backgroundImage: "painting-04"
+            title: "No Fear"
+            subtitle: "Pain is one thing, the fear of it is another thing."
+            fullImage: "painting/painting-04.jpg"
+            captionData:
+                - "Date"
+                - "May 9, 2012"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"Pain is one thing, the fear of it is another thing.\""
+
+        -
+            backgroundImage: "painting-03"
+            title: "Pull out"
+            subtitle: "I believe loving someone is like an arrow thrusted into your body. If you try to remove it out of you, it just won't stop bleeding, and will hurt like hell."
+            fullImage: "painting/painting-03.jpg"
+            captionData:
+                - "Date"
+                - "March 21, 2012"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"I believe loving someone is like an arrow thrusted into your body. If you try to remove it out of you, it just won't stop bleeding, and will hurt like hell.\""
+
+        -
+            backgroundImage: "painting-02"
+            title: "Pink"
+            subtitle: "I want to be free, as free as when the wind blows, my hair flies."
+            fullImage: "painting/painting-02.jpg"
+            captionData:
+                - "Date"
+                - "January 14, 2012"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"I want to be free, as free as when the wind blows, my hair flies.\""
+
+        -
+            backgroundImage: "painting-01"
+            title: "Bloody Black"
+            subtitle: "They said that black roses only grow in the dark."
+            fullImage: "painting/painting-01.jpg"
+            captionData:
+                - "Date"
+                - "October 11, 2011"
+                - "Category"
+                - "Illustration"
+            description: "Shire: \"They said that black roses only grow in the dark.\""

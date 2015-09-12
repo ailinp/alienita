@@ -1,15 +1,14 @@
 .Painting {
     .overlay {
         background: $c-white;
+        display: none;
         height: 100%;
-        opacity: 0;
         position: fixed;
             left: 0;
             top: 0;
         -webkit-transition: opacity .4s ease, visibility .4s ease;
            -moz-transition: opacity .4s ease, visibility .4s ease;
                 transition: opacity .4s ease, visibility .4s ease;
-        visibility: hidden;
         width: 100%;
         z-index: 5;
     }
@@ -53,20 +52,45 @@
             .caption-content {
                 background: $c-mainLighter;
                 color: $c-main;
-                padding: gutter() gutter(2);
+                padding: gutter(2) gutter();
                 width: 100%;
 
+                @media #{$xmedium-up} {
+                    padding: gutter(2);
+                }
+
                 & > ul {
+                    border-bottom: solid 1px $c-mainLight;
+                    border-right: 0;
                     margin: 0;
-                    padding: 0 gutter(2) 0 0;
 
                     @media #{$xmedium-up} {
                         border-right: solid 1px $c-mainLight;
+                        border-bottom: 0;
+                        padding: 0 gutter(2) 0 0;
+                    }
+
+                    & >li:nth-child(odd) {
+                        background: rgba($c-white, .5);
+                        color: $c-neutroDark;
+                        font-family: $t-poiret;
+                        font-size: units(20px);
+                        font-weight: 800;
+                        margin: 0 0 gutter(.2) gutter(-0.5);
+                        padding: gutter(.2) gutter(.5);
+                    }
+
+                    & >li:nth-child(even) {
+                        margin-bottom: gutter();
                     }
                 }
 
                 & > div {
-                    padding: 0 0 0 gutter(2);
+                    padding: gutter(2) 0 0;
+
+                    @media #{$xmedium-up} {
+                        padding: 0 0 0 gutter(2);
+                    }
                 }
             }
         }

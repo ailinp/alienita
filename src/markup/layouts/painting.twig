@@ -10,7 +10,7 @@
     <div class="u-wrapper row collapse">
         <div class="{{ page.commonStuff.class.mainSection|raw }}">
         {% for content in mainSection.Painting %}
-            <a class="previewBlock js-preview {{ content.backgroundImage }}" onClick="showOverlay()">
+            <a id="js-{{ content.backgroundImage }}" class="previewBlock js-preview {{ content.backgroundImage }}">
                 <div class="info-container">
                     <div class="info-content">
                         <span class="info-title">{{ content.title|raw }}</span>
@@ -18,14 +18,14 @@
                     </div>
                 </div>
             </a>
-            <div class="overlay">
+            <div class="overlay js-{{ content.backgroundImage }}">
                 <div class="overlay-content" action="#">
                     <div class="caption-title">
-                        <span class="overlay-close">X</span>
+                        <span class="overlay-close" onclick="$(this).overlayClose();">X</span>
                         {{ content.title|raw }}
                     </div>
                     <div class="caption-container">
-                        <img src="{{ content.fullImage }}" alt="{{ content.title|raw }}">
+                        <img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}/{{ content.fullImage }}" alt="{{ content.title|raw }}">
                         <div class="caption-content row collapse">
                             <ul class="columns small-24 medium-8 large-6">
                             {% for list in content.captionData %}
@@ -45,5 +45,4 @@
         {% endembed %}
     </div>
 </section>
-
 {% endblock %}
