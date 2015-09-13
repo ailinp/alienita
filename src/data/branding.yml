@@ -1,0 +1,52 @@
+Branding:
+    -
+        backgroundImage: "branding-03"
+        title: "Missin' - Foundation"
+        subtitle: "You are the missin' piece of my beauty."
+        fullImage:
+            - "branding/branding-03-1.jpg"
+            - "branding/branding-03-2.jpg"
+            - "branding/branding-03-3.jpg"
+            - "branding/branding-03-4.jpg"
+        captionData:
+            - "Date"
+            - "April 24, 2014"
+            - "Category"
+            - "Branding"
+        description: "This is a minimalist packaging design project, which is a foundation product. These images are 3D max renderings."
+
+    -
+        backgroundImage: "branding-02"
+        title: "Puppet"
+        subtitle: "Aren't we all puppets?"
+        fullImage:
+            - "branding/branding-02-1.jpg"
+            - "branding/branding-02-2.jpg"
+            - "branding/branding-02-3.jpg"
+            - "branding/branding-02-4.jpg"
+            - "branding/branding-02-5.jpg"
+            - "branding/branding-02-6.jpg"
+        captionData:
+            - "Date"
+            - "December 11, 2013"
+            - "Category"
+            - "Branding"
+        description: "This is a fashion brand called Puppet, which is also created by Eileen. She didn't really design the cloth, but the puppet pattern and the little tag."
+
+    -
+        backgroundImage: "branding-01"
+        title: "Funeral Invitation"
+        subtitle: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost..."
+        fullImage:
+            - "branding/branding-01-1.jpg"
+            - "branding/branding-01-2.jpg"
+            - "branding/branding-01-3.jpg"
+            - "branding/branding-01-4.jpg"
+            - "branding/branding-01-5.jpg"
+            - "branding/branding-01-6.jpg"
+        captionData:
+            - "Date"
+            - "November 12, 2013"
+            - "Category"
+            - "Branding"
+        description: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost. Without my heart, I feel no pain when I get hurt; I feel no fear when I face the reality. You want to see my broken heart? You want to know how it died? Please feel free to open the coffin. I've ripped it out and burry it for you. Is that what you want?"

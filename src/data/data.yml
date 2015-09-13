@@ -286,6 +286,263 @@ aside:
             -
                 class: "catalan"
                 title: "Catalan"
+Branding:
+    -
+        backgroundImage: "branding-03"
+        title: "Missin' - Foundation"
+        subtitle: "You are the missin' piece of my beauty."
+        fullImage:
+            - "branding/branding-03-1.jpg"
+            - "branding/branding-03-2.jpg"
+            - "branding/branding-03-3.jpg"
+            - "branding/branding-03-4.jpg"
+        captionData:
+            - "Date"
+            - "April 24, 2014"
+            - "Category"
+            - "Branding"
+        description: "This is a minimalist packaging design project, which is a foundation product. These images are 3D max renderings."
+
+    -
+        backgroundImage: "branding-02"
+        title: "Puppet"
+        subtitle: "Aren't we all puppets?"
+        fullImage:
+            - "branding/branding-02-1.jpg"
+            - "branding/branding-02-2.jpg"
+            - "branding/branding-02-3.jpg"
+            - "branding/branding-02-4.jpg"
+            - "branding/branding-02-5.jpg"
+            - "branding/branding-02-6.jpg"
+        captionData:
+            - "Date"
+            - "December 11, 2013"
+            - "Category"
+            - "Branding"
+        description: "This is a fashion brand called Puppet, which is also created by Eileen. She didn't really design the cloth, but the puppet pattern and the little tag."
+
+    -
+        backgroundImage: "branding-01"
+        title: "Funeral Invitation"
+        subtitle: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost..."
+        fullImage:
+            - "branding/branding-01-1.jpg"
+            - "branding/branding-01-2.jpg"
+            - "branding/branding-01-3.jpg"
+            - "branding/branding-01-4.jpg"
+            - "branding/branding-01-5.jpg"
+            - "branding/branding-01-6.jpg"
+        captionData:
+            - "Date"
+            - "November 12, 2013"
+            - "Category"
+            - "Branding"
+        description: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost. Without my heart, I feel no pain when I get hurt; I feel no fear when I face the reality. You want to see my broken heart? You want to know how it died? Please feel free to open the coffin. I've ripped it out and burry it for you. Is that what you want?"
+Comics:
+    -
+        backgroundImage: "comics-13"
+        title: "Why is Iván Pissed?"
+        fullImage: "comics/comics-13.jpg"
+        captionData:
+            - "Date"
+            - "June 20, 2015"
+            - "Category"
+            - "Comics"
+        description: "Question: Why is Iván pissed?"
+
+    -
+        backgroundImage: "comics-12"
+        title: "No Me Toques los Cojones"
+        fullImage: "comics/comics-12.jpg"
+        captionData:
+            - "Date"
+            - "January 21, 2015"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-11"
+        title: "El Doble Bocadillo de Nada"
+        fullImage: "comics/comics-11.jpg"
+        captionData:
+            - "Date"
+            - "December 16, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-10"
+        title: "¡Esta Copiando!"
+        fullImage: "comics/comics-10.jpg"
+        captionData:
+            - "Date"
+            - "December 07, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-09"
+        title: "¿Qué Juego es Este?"
+        fullImage: "comics/comics-09.jpg"
+        captionData:
+            - "Date"
+            - "October 25, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-08"
+        title: "There's No Announcement"
+        fullImage: "comics/comics-08.jpg"
+        captionData:
+            - "Date"
+            - "February 12, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-07"
+        title: "Can You See Your Nose?"
+        fullImage: "comics/comics-07.jpg"
+        captionData:
+            - "Date"
+            - "February 10, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-06"
+        title: "Let Me Take a Picture for You"
+        fullImage: "comics/comics-06.jpg"
+        captionData:
+            - "Date"
+            - "February 10, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-05"
+        title: "Are You Made of Bread?"
+        fullImage: "comics/comics-05.jpg"
+        captionData:
+            - "Date"
+            - "February 8, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-04"
+        title: "Where Are We From?"
+        fullImage: "comics/comics-04.jpg"
+        captionData:
+            - "Date"
+            - "May 12, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-03"
+        title: "Have You Seen My Bra?"
+        fullImage: "comics/comics-03.jpg"
+        captionData:
+            - "Date"
+            - "May 5, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-02"
+        title: "Common Questions"
+        fullImage: "comics/comics-02.jpg"
+        captionData:
+            - "Date"
+            - "February 27, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-01"
+        title: "Un Día Horrible"
+        fullImage: "comics/comics-01.jpg"
+        captionData:
+            - "Date"
+            - "February 5, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+Editorial:
+    -
+        backgroundImage: "editorial-04"
+        title: "Back Stage - issue 03"
+        subtitle: "Let me tell you now.<br>You made me so fucking high.<br>Please tell me it's not real."
+        fullImage:
+            - "editorial/editorial-04-1.jpg"
+            - "editorial/editorial-04-2.jpg"
+            - "editorial/editorial-04-3.jpg"
+            - "editorial/editorial-04-4.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "Let me tell you now.<br>You made me so fucking high.<br>Please tell me it's not real."
+
+    -
+        backgroundImage: "editorial-03"
+        title: "Back Stage - issue 02"
+        subtitle: "I don't know what self-harm is.<br>They said it's too painful and too bloody.<br>But I think it's so damn cool."
+        fullImage:
+            - "editorial/editorial-03-1.jpg"
+            - "editorial/editorial-03-2.jpg"
+            - "editorial/editorial-03-3.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "I don't know what self-harm is.<br>They said it's too painful and too bloody.<br>But I think it's so damn cool."
+
+    -
+        backgroundImage: "editorial-02"
+        title: "Back Stage - issue 01"
+        subtitle: "Can't you see me?<br>Don't open your eyes if you can't hear me. Don't open your ears if you can't feel me.<br>Smell me. Eat me, baby."
+        fullImage:
+            - "editorial/editorial-02-1.jpg"
+            - "editorial/editorial-02-2.jpg"
+            - "editorial/editorial-02-3.jpg"
+            - "editorial/editorial-02-4.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "Can't you see me?<br>Don't open your eyes if you can't hear me.<br>Don't open your ears if you can't feel me.<br>Smell me. Eat me, baby."
+
+    -
+        backgroundImage: "editorial-01"
+        title: "Back Stage - Catalogue"
+        subtitle: "Ten years of works for every minute on stage.<br>Work hard. Don't ever quit."
+        fullImage:
+            - "editorial/editorial-01-1.jpg"
+            - "editorial/editorial-01-2.jpg"
+            - "editorial/editorial-01-3.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "Ten years of works for every minute on stage.<br>Work hard. Don't ever quit."
 footer:
     title:
         en: "If your English sucks, here're more options for you. Choose wisely!"
@@ -547,211 +804,6 @@ home:
         tr: "A very good friend of mine keeps telling me that she wants to go to Turkey. All I am thinking is eating kebab, dancing with a big fat turkey in an oven. I don’t think the turkish people eat turkey. That’s why I said I would dance with one."
 
         hu: "I went to Hungary last christmas, and I will never forget that trip heading east of Europe. I lost my beloved grandpa the night I arrived to Budapest. I remember the sky was so clear. I said why don’t you snow? It must had heard me. It brought me a heavy snow the next morning. It was the first snow in 2014. I was wearing all that white snow, canceled the rest of my trip, got on the plane, flew straight back to my family.<br>I don’t speak Hungarian. This page is for my grandpa in heaven. I hope he can rest in peace. Grandpa, if you can hear me, your little brat misses you so much."
-mainSection:
-    Painting:
-        -
-            backgroundImage: "painting-17"
-            title: "Shire 02"
-            subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
-            fullImage: "painting/painting-17.jpg"
-            captionData:
-                - "Date"
-                - "August 08, 2015"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye.\""
-
-        -
-            backgroundImage: "painting-16"
-            title: "Shire 03"
-            subtitle: "They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be."
-            fullImage: "painting/painting-16.jpg"
-            captionData:
-                - "Date"
-                - "April 26, 2015"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be.\""
-
-        -
-            backgroundImage: "painting-15"
-            title: "Shire 01"
-            subtitle: "Kneeling down in front of her grave. I held a thorny rose in my hand, it drew my blood as the thorns pierced through the skin..."
-            fullImage: "painting/painting-15.jpg"
-            captionData:
-                - "Date"
-                - "April 03, 2015"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"Kneeling down in front of her grave. I held a thorny rose in my hand, it drew my blood as the thorns pierced through the skin of my clenched little fist. I drew her a big red rose with my blood, like the one I did on her thigh with the blade she gave me. She loved it. She said she was proud of her little girl.\""
-
-        -
-            backgroundImage: "painting-14"
-            title: "Fascination"
-            subtitle: "I Will Never Commit Suicide. I just enjoy cutting myself. I just have a big fascination with blood. That's all..."
-            fullImage: "painting/painting-14.jpg"
-            captionData:
-                - "Date"
-                - "October 12, 2014"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"I Will Never Commit Suicide. I just enjoy cutting myself. I just have a big fascination with blood. That's all...\""
-
-        -
-            backgroundImage: "painting-13"
-            title: "Her Death"
-            subtitle: "I already died once, the day you left me. this would be my second time, and the last time."
-            fullImage: "painting/painting-13.jpg"
-            captionData:
-                - "Date"
-                - "January 7, 2014"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"I already died once, the day you left me. this would be my second time, and the last time.\""
-
-        -
-            backgroundImage: "painting-12"
-            title: "At the Very Beginning"
-            subtitle: "From the very beginning of the story... What shaped who you were, shapes who I am."
-            fullImage: "painting/painting-12.jpg"
-            captionData:
-                - "Date"
-                - "December 25, 2013"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"From the very beginning of the story... What shaped who you were, shapes who I am.\""
-
-        -
-            backgroundImage: "painting-11"
-            title: "Make-up"
-            subtitle: "I woke up, found my face fucked up. My makeup totally went wrong. Looked like i'd cried like shit the night before, which i would never admit."
-            fullImage: "painting/painting-11.jpg"
-            captionData:
-                - "Date"
-                - "September 11, 2013"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"I woke up, found my face fucked up. My makeup totally went wrong. Looked like i'd cried like shit the night before, which i would never admit.\""
-
-        -
-            backgroundImage: "painting-10"
-            title: "What Have Changed"
-            subtitle: "I was still young. My hair was still the color of honey. My arms were still clean and neat. I was still smoking cigarette..."
-            fullImage: "painting/painting-10.jpg"
-            captionData:
-                - "Date"
-                - "July 19, 2013"
-                - "Category"
-                - "Illustration"
-            description: "XZB: \"I was still young. My hair was still the color of honey. My arms were still clean and neat. I was still smoking cigarette. My bed was still the color of my favourite dark green. I was still waiting for her.\""
-
-        -
-            backgroundImage: "painting-09"
-            title: "You Belong with Me"
-            subtitle: "Don't prove me anything. I don't care if I could trust you. I'm sorry it's too late. I'm sorry I alraedy love you irredeemably."
-            fullImage: "painting/painting-09.jpg"
-            captionData:
-                - "Date"
-                - "June 23, 2013"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"Don't prove me anything. I don't care if I could trust you. I'm sorry it's too late. I'm sorry I alraedy love you irredeemably.\""
-
-        -
-            backgroundImage: "painting-08"
-            title: "From Heaven"
-            subtitle: "To my precious friend from heaven. How are you doing up there? Are you still holding your guitar, singing The Bear and the Bee?"
-            fullImage: "painting/painting-08.jpg"
-            captionData:
-                - "Date"
-                - "December 5, 2012"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"To my precious friend from heaven. How are you doing up there? Are you still holding your guitar, singing The Bear and the Bee?\""
-
-        -
-            backgroundImage: "painting-07"
-            title: "Seventeen"
-            subtitle: "We all have only once 17. Those who ruined my 17, I've ruined the rest of their lives."
-            fullImage: "painting/painting-07.jpg"
-            captionData:
-                - "Date"
-                - "October 2, 2012"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"We all have only once 17. Those who ruined my 17, I've ruined the rest of their lives.\""
-
-        -
-            backgroundImage: "painting-06"
-            title: "Memory of Your Face"
-            subtitle: "10 years. I've lost the part of memory that used to be full of your faces. Even though I once looked so hard into your eyes, tried so hard to feel every inch of your skin."
-            fullImage: "painting/painting-06.jpg"
-            captionData:
-                - "Date"
-                - "July 18, 2012"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"10 years. I've lost the part of memory that used to be full of your faces. Even though I once looked so hard into your eyes, tried so hard to feel every inch of your skin.\""
-
-        -
-            backgroundImage: "painting-05"
-            title: "I love you"
-            subtitle: "I love you. I was born to love you, to protect you. Some day soon, I will be a grown-up. I will be strong enough to heal your wound."
-            fullImage: "painting/painting-05.jpg"
-            captionData:
-                - "Date"
-                - "June 7, 2012"
-                - "Category"
-                - "Illustration"
-            description: "Saya: \"I love you. I was born to love you, to protect you. Some day soon, I will be a grown-up. I will be strong enough to heal your wound.\""
-
-        -
-            backgroundImage: "painting-04"
-            title: "No Fear"
-            subtitle: "Pain is one thing, the fear of it is another thing."
-            fullImage: "painting/painting-04.jpg"
-            captionData:
-                - "Date"
-                - "May 9, 2012"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"Pain is one thing, the fear of it is another thing.\""
-
-        -
-            backgroundImage: "painting-03"
-            title: "Pull out"
-            subtitle: "I believe loving someone is like an arrow thrusted into your body. If you try to remove it out of you, it just won't stop bleeding, and will hurt like hell."
-            fullImage: "painting/painting-03.jpg"
-            captionData:
-                - "Date"
-                - "March 21, 2012"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"I believe loving someone is like an arrow thrusted into your body. If you try to remove it out of you, it just won't stop bleeding, and will hurt like hell.\""
-
-        -
-            backgroundImage: "painting-02"
-            title: "Pink"
-            subtitle: "I want to be free, as free as when the wind blows, my hair flies."
-            fullImage: "painting/painting-02.jpg"
-            captionData:
-                - "Date"
-                - "January 14, 2012"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"I want to be free, as free as when the wind blows, my hair flies.\""
-
-        -
-            backgroundImage: "painting-01"
-            title: "Bloody Black"
-            subtitle: "They said that black roses only grow in the dark."
-            fullImage: "painting/painting-01.jpg"
-            captionData:
-                - "Date"
-                - "October 11, 2011"
-                - "Category"
-                - "Illustration"
-            description: "Shire: \"They said that black roses only grow in the dark.\""
 page:
     name: "EileenPunk"
     slug: "eileenpunk"
@@ -775,6 +827,395 @@ page:
         class:
             mainSection: "mainSection columns small-24 medium-16 large-18"
             aside: "columns small-24 medium-8 large-6"
+Painting:
+    -
+        backgroundImage: "painting-17"
+        title: "Shire 02"
+        subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
+        fullImage: "painting/painting-17.jpg"
+        captionData:
+            - "Date"
+            - "August 08, 2015"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye.\""
+
+    -
+        backgroundImage: "painting-16"
+        title: "Shire 03"
+        subtitle: "They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be."
+        fullImage: "painting/painting-16.jpg"
+        captionData:
+            - "Date"
+            - "April 26, 2015"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"They told me to stay strong. So I do things they wouldn't dare to do, be the one they wouldn't expect me to be.\""
+
+    -
+        backgroundImage: "painting-15"
+        title: "Shire 01"
+        subtitle: "Kneeling down in front of her grave. I held a thorny rose in my hand, it drew my blood as the thorns pierced through the skin..."
+        fullImage: "painting/painting-15.jpg"
+        captionData:
+            - "Date"
+            - "April 03, 2015"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"Kneeling down in front of her grave. I held a thorny rose in my hand, it drew my blood as the thorns pierced through the skin of my clenched little fist. I drew her a big red rose with my blood, like the one I did on her thigh with the blade she gave me. She loved it. She said she was proud of her little girl.\""
+
+    -
+        backgroundImage: "painting-14"
+        title: "Fascination"
+        subtitle: "I Will Never Commit Suicide. I just enjoy cutting myself. I just have a big fascination with blood. That's all..."
+        fullImage: "painting/painting-14.jpg"
+        captionData:
+            - "Date"
+            - "October 12, 2014"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"I Will Never Commit Suicide. I just enjoy cutting myself. I just have a big fascination with blood. That's all...\""
+
+    -
+        backgroundImage: "painting-13"
+        title: "Her Death"
+        subtitle: "I already died once, the day you left me. this would be my second time, and the last time."
+        fullImage: "painting/painting-13.jpg"
+        captionData:
+            - "Date"
+            - "January 7, 2014"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"I already died once, the day you left me. this would be my second time, and the last time.\""
+
+    -
+        backgroundImage: "painting-12"
+        title: "At the Very Beginning"
+        subtitle: "From the very beginning of the story... What shaped who you were, shapes who I am."
+        fullImage: "painting/painting-12.jpg"
+        captionData:
+            - "Date"
+            - "December 25, 2013"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"From the very beginning of the story... What shaped who you were, shapes who I am.\""
+
+    -
+        backgroundImage: "painting-11"
+        title: "Make-up"
+        subtitle: "I woke up, found my face fucked up. My makeup totally went wrong. Looked like i'd cried like shit the night before, which i would never admit."
+        fullImage: "painting/painting-11.jpg"
+        captionData:
+            - "Date"
+            - "September 11, 2013"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"I woke up, found my face fucked up. My makeup totally went wrong. Looked like i'd cried like shit the night before, which i would never admit.\""
+
+    -
+        backgroundImage: "painting-10"
+        title: "What Have Changed"
+        subtitle: "I was still young. My hair was still the color of honey. My arms were still clean and neat. I was still smoking cigarette..."
+        fullImage: "painting/painting-10.jpg"
+        captionData:
+            - "Date"
+            - "July 19, 2013"
+            - "Category"
+            - "Illustration"
+        description: "XZB: \"I was still young. My hair was still the color of honey. My arms were still clean and neat. I was still smoking cigarette. My bed was still the color of my favourite dark green. I was still waiting for her.\""
+
+    -
+        backgroundImage: "painting-09"
+        title: "You Belong with Me"
+        subtitle: "Don't prove me anything. I don't care if I could trust you. I'm sorry it's too late. I'm sorry I alraedy love you irredeemably."
+        fullImage: "painting/painting-09.jpg"
+        captionData:
+            - "Date"
+            - "June 23, 2013"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"Don't prove me anything. I don't care if I could trust you. I'm sorry it's too late. I'm sorry I alraedy love you irredeemably.\""
+
+    -
+        backgroundImage: "painting-08"
+        title: "From Heaven"
+        subtitle: "To my precious friend from heaven. How are you doing up there? Are you still holding your guitar, singing The Bear and the Bee?"
+        fullImage: "painting/painting-08.jpg"
+        captionData:
+            - "Date"
+            - "December 5, 2012"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"To my precious friend from heaven. How are you doing up there? Are you still holding your guitar, singing The Bear and the Bee?\""
+
+    -
+        backgroundImage: "painting-07"
+        title: "Seventeen"
+        subtitle: "We all have only once 17. Those who ruined my 17, I've ruined the rest of their lives."
+        fullImage: "painting/painting-07.jpg"
+        captionData:
+            - "Date"
+            - "October 2, 2012"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"We all have only once 17. Those who ruined my 17, I've ruined the rest of their lives.\""
+
+    -
+        backgroundImage: "painting-06"
+        title: "Memory of Your Face"
+        subtitle: "10 years. I've lost the part of memory that used to be full of your faces. Even though I once looked so hard into your eyes, tried so hard to feel every inch of your skin."
+        fullImage: "painting/painting-06.jpg"
+        captionData:
+            - "Date"
+            - "July 18, 2012"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"10 years. I've lost the part of memory that used to be full of your faces. Even though I once looked so hard into your eyes, tried so hard to feel every inch of your skin.\""
+
+    -
+        backgroundImage: "painting-05"
+        title: "I love you"
+        subtitle: "I love you. I was born to love you, to protect you. Some day soon, I will be a grown-up. I will be strong enough to heal your wound."
+        fullImage: "painting/painting-05.jpg"
+        captionData:
+            - "Date"
+            - "June 7, 2012"
+            - "Category"
+            - "Illustration"
+        description: "Saya: \"I love you. I was born to love you, to protect you. Some day soon, I will be a grown-up. I will be strong enough to heal your wound.\""
+
+    -
+        backgroundImage: "painting-04"
+        title: "No Fear"
+        subtitle: "Pain is one thing, the fear of it is another thing."
+        fullImage: "painting/painting-04.jpg"
+        captionData:
+            - "Date"
+            - "May 9, 2012"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"Pain is one thing, the fear of it is another thing.\""
+
+    -
+        backgroundImage: "painting-03"
+        title: "Pull out"
+        subtitle: "I believe loving someone is like an arrow thrusted into your body. If you try to remove it out of you, it just won't stop bleeding, and will hurt like hell."
+        fullImage: "painting/painting-03.jpg"
+        captionData:
+            - "Date"
+            - "March 21, 2012"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"I believe loving someone is like an arrow thrusted into your body. If you try to remove it out of you, it just won't stop bleeding, and will hurt like hell.\""
+
+    -
+        backgroundImage: "painting-02"
+        title: "Pink"
+        subtitle: "I want to be free, as free as when the wind blows, my hair flies."
+        fullImage: "painting/painting-02.jpg"
+        captionData:
+            - "Date"
+            - "January 14, 2012"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"I want to be free, as free as when the wind blows, my hair flies.\""
+
+    -
+        backgroundImage: "painting-01"
+        title: "Bloody Black"
+        subtitle: "They said that black roses only grow in the dark."
+        fullImage: "painting/painting-01.jpg"
+        captionData:
+            - "Date"
+            - "October 11, 2011"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"They said that black roses only grow in the dark.\""
+Photography:
+    -
+        backgroundImage: "photography-03"
+        title: "The Third Eye"
+        subtitle: "Ready to romper la rutina? There you got your third eye to take a look at this world!"
+        fullImage:
+            - "photography/photography-03-1.jpg"
+            - "photography/photography-03-2.jpg"
+            - "photography/photography-03-3.jpg"
+        captionData:
+            - "Date"
+            - "January 30, 2014"
+            - "Category"
+            - "Photography"
+        description: "Ready to romper la rutina? There you got your third eye to take a look at this world!"
+
+    -
+        backgroundImage: "photography-02"
+        title: "The Other Me"
+        subtitle: "There's always another me. She talks to me; laughs with me; cries with me..."
+        fullImage:
+            - "photography/photography-02-1.jpg"
+            - "photography/photography-02-2.jpg"
+            - "photography/photography-02-3.jpg"
+            - "photography/photography-02-4.jpg"
+            - "photography/photography-02-5.jpg"
+            - "photography/photography-02-6.jpg"
+            - "photography/photography-02-7.jpg"
+            - "photography/photography-02-8.jpg"
+            - "photography/photography-02-9.jpg"
+        captionData:
+            - "Date"
+            - "August 23, 2012"
+            - "Category"
+            - "Photography"
+        description: "There's always another me. She talks to me; laughs with me; cries with me..."
+
+    -
+        backgroundImage: "photography-01"
+        title: "Vampire"
+        subtitle: "We are all going to hell anyway."
+        fullImage:
+            - "photography/photography-01-1.jpg"
+            - "photography/photography-01-2.jpg"
+            - "photography/photography-01-3.jpg"
+            - "photography/photography-01-4.jpg"
+            - "photography/photography-01-5.jpg"
+        captionData:
+            - "Date"
+            - "August 22, 2012"
+            - "Category"
+            - "Photography"
+        description: "We are all going to hell anyway."
+Publication:
+    -
+        backgroundImage: "publication-05"
+        title: "Night Time"
+        subtitle: "Innovative Design for Clubs and Bars"
+        fullImage:
+            - "publication/publication-05-01.jpg"
+            - "publication/publication-05-02.jpg"
+            - "publication/publication-05-03.jpg"
+            - "publication/publication-05-04.jpg"
+            - "publication/publication-05-05.jpg"
+            - "publication/publication-05-06.jpg"
+            - "publication/publication-05-07.jpg"
+            - "publication/publication-05-08.jpg"
+            - "publication/publication-05-09.jpg"
+            - "publication/publication-05-10.jpg"
+        captionData:
+            - "Date"
+            - "September, 2012"
+            - "Language"
+            - "English Spanish Italian French"
+            - "ISBN"
+            - "978-988-16352-5-9"
+            - "Category"
+            - "Publication"
+        description: "Night Time brings together exceptionally creative pieces of interior design by brilliant designers and outstanding design agencies. Covering a wide range of clubs, bars, pubs, and lounge spaces, this work offers a guide to the interiors of some of today's most exciting entertainment venues."
+
+    -
+        backgroundImage: "publication-04"
+        title: "Modern Lux Housing"
+        subtitle: "Home consists of space; space that is intended for shelter, a very primitive, fundamental and basis need for human life..."
+        fullImage:
+            - "publication/publication-04-01.jpg"
+            - "publication/publication-04-02.jpg"
+            - "publication/publication-04-03.jpg"
+            - "publication/publication-04-04.jpg"
+            - "publication/publication-04-05.jpg"
+            - "publication/publication-04-06.jpg"
+            - "publication/publication-04-07.jpg"
+            - "publication/publication-04-08.jpg"
+            - "publication/publication-04-09.jpg"
+            - "publication/publication-04-10.jpg"
+        captionData:
+            - "Date"
+            - "May, 2012"
+            - "Language"
+            - "English"
+            - "ISBN"
+            - "978-988-15704-6-8"
+            - "Category"
+            - "Publication"
+        description: "Home consists of space; space that is intended for shelter, a very primitive, fundamental and basis need for human life, an envelope in which one wants to feel safe, protected and comfortable."
+
+    -
+        backgroundImage: "publication-03"
+        title: "X-Space 2"
+        subtitle: "Designing interiors is the opportunity to craete a world, a total experience and immersion in a proposition, a fantasy..."
+        fullImage:
+            - "publication/publication-03-01.jpg"
+            - "publication/publication-03-02.jpg"
+            - "publication/publication-03-03.jpg"
+            - "publication/publication-03-04.jpg"
+            - "publication/publication-03-05.jpg"
+            - "publication/publication-03-06.jpg"
+            - "publication/publication-03-07.jpg"
+            - "publication/publication-03-08.jpg"
+            - "publication/publication-03-09.jpg"
+            - "publication/publication-03-10.jpg"
+            - "publication/publication-03-11.jpg"
+            - "publication/publication-03-12.jpg"
+        captionData:
+            - "Date"
+            - "November, 2011"
+            - "Language"
+            - "English"
+            - "ISBN"
+            - "978-988-15704-1-3"
+            - "Category"
+            - "Publication"
+        description: "Designing interiors is the opportunity to craete a world, a total experience and immersion in a proposition, a fantasy..."
+
+    -
+        backgroundImage: "publication-02"
+        title: "Curated"
+        subtitle: "A New Experience in Retail Design"
+        fullImage:
+            - "publication/publication-02-01.jpg"
+            - "publication/publication-02-02.jpg"
+            - "publication/publication-02-03.jpg"
+            - "publication/publication-02-04.jpg"
+            - "publication/publication-02-05.jpg"
+            - "publication/publication-02-06.jpg"
+            - "publication/publication-02-07.jpg"
+            - "publication/publication-02-08.jpg"
+            - "publication/publication-02-09.jpg"
+            - "publication/publication-02-10.jpg"
+        captionData:
+            - "Date"
+            - "September, 2011"
+            - "Language"
+            - "English Spanish Italian French"
+            - "ISBN"
+            - "978-988-15703-2-1"
+            - "Category"
+            - "Publication"
+        description: "This book is based on the concept that less is more. It illustrates modern interior design with extremely brief style. Projects covering a wide range of retail shops, most of which are based on an original concept that displays the products in their optimum condition."
+
+    -
+        backgroundImage: "publication-01"
+        title: "Almanac"
+        subtitle: "The Almanac of China Real Estate Advertisment"
+        fullImage:
+            - "publication/publication-01-01.jpg"
+            - "publication/publication-01-02.jpg"
+            - "publication/publication-01-03.jpg"
+            - "publication/publication-01-04.jpg"
+            - "publication/publication-01-05.jpg"
+            - "publication/publication-01-06.jpg"
+            - "publication/publication-01-07.jpg"
+            - "publication/publication-01-08.jpg"
+            - "publication/publication-01-09.jpg"
+            - "publication/publication-01-10.jpg"
+        captionData:
+            - "Date"
+            - "April, 2011"
+            - "Language"
+            - "Traditional Chinese"
+            - "ISBN"
+            - "978-988-19847-8-4"
+            - "Category"
+            - "Publication"
+        description: "This is an almanac. Features advertising works about China's real estate."
 socialMedia:
     content:
         -

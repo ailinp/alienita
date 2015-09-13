@@ -1,0 +1,53 @@
+Photography:
+    -
+        backgroundImage: "photography-03"
+        title: "The Third Eye"
+        subtitle: "Ready to romper la rutina? There you got your third eye to take a look at this world!"
+        fullImage:
+            - "photography/photography-03-1.jpg"
+            - "photography/photography-03-2.jpg"
+            - "photography/photography-03-3.jpg"
+        captionData:
+            - "Date"
+            - "January 30, 2014"
+            - "Category"
+            - "Photography"
+        description: "Ready to romper la rutina? There you got your third eye to take a look at this world!"
+
+    -
+        backgroundImage: "photography-02"
+        title: "The Other Me"
+        subtitle: "There's always another me. She talks to me; laughs with me; cries with me..."
+        fullImage:
+            - "photography/photography-02-1.jpg"
+            - "photography/photography-02-2.jpg"
+            - "photography/photography-02-3.jpg"
+            - "photography/photography-02-4.jpg"
+            - "photography/photography-02-5.jpg"
+            - "photography/photography-02-6.jpg"
+            - "photography/photography-02-7.jpg"
+            - "photography/photography-02-8.jpg"
+            - "photography/photography-02-9.jpg"
+        captionData:
+            - "Date"
+            - "August 23, 2012"
+            - "Category"
+            - "Photography"
+        description: "There's always another me. She talks to me; laughs with me; cries with me..."
+
+    -
+        backgroundImage: "photography-01"
+        title: "Vampire"
+        subtitle: "We are all going to hell anyway."
+        fullImage:
+            - "photography/photography-01-1.jpg"
+            - "photography/photography-01-2.jpg"
+            - "photography/photography-01-3.jpg"
+            - "photography/photography-01-4.jpg"
+            - "photography/photography-01-5.jpg"
+        captionData:
+            - "Date"
+            - "August 22, 2012"
+            - "Category"
+            - "Photography"
+        description: "We are all going to hell anyway."

@@ -1,0 +1,143 @@
+Comics:
+    -
+        backgroundImage: "comics-13"
+        title: "Why is Iván Pissed?"
+        fullImage: "comics/comics-13.jpg"
+        captionData:
+            - "Date"
+            - "June 20, 2015"
+            - "Category"
+            - "Comics"
+        description: "Question: Why is Iván pissed?"
+
+    -
+        backgroundImage: "comics-12"
+        title: "No Me Toques los Cojones"
+        fullImage: "comics/comics-12.jpg"
+        captionData:
+            - "Date"
+            - "January 21, 2015"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-11"
+        title: "El Doble Bocadillo de Nada"
+        fullImage: "comics/comics-11.jpg"
+        captionData:
+            - "Date"
+            - "December 16, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-10"
+        title: "¡Esta Copiando!"
+        fullImage: "comics/comics-10.jpg"
+        captionData:
+            - "Date"
+            - "December 07, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-09"
+        title: "¿Qué Juego es Este?"
+        fullImage: "comics/comics-09.jpg"
+        captionData:
+            - "Date"
+            - "October 25, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-08"
+        title: "There's No Announcement"
+        fullImage: "comics/comics-08.jpg"
+        captionData:
+            - "Date"
+            - "February 12, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-07"
+        title: "Can You See Your Nose?"
+        fullImage: "comics/comics-07.jpg"
+        captionData:
+            - "Date"
+            - "February 10, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-06"
+        title: "Let Me Take a Picture for You"
+        fullImage: "comics/comics-06.jpg"
+        captionData:
+            - "Date"
+            - "February 10, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-05"
+        title: "Are You Made of Bread?"
+        fullImage: "comics/comics-05.jpg"
+        captionData:
+            - "Date"
+            - "February 8, 2014"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-04"
+        title: "Where Are We From?"
+        fullImage: "comics/comics-04.jpg"
+        captionData:
+            - "Date"
+            - "May 12, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-03"
+        title: "Have You Seen My Bra?"
+        fullImage: "comics/comics-03.jpg"
+        captionData:
+            - "Date"
+            - "May 5, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-02"
+        title: "Common Questions"
+        fullImage: "comics/comics-02.jpg"
+        captionData:
+            - "Date"
+            - "February 27, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
+    -
+        backgroundImage: "comics-01"
+        title: "Un Día Horrible"
+        fullImage: "comics/comics-01.jpg"
+        captionData:
+            - "Date"
+            - "February 5, 2013"
+            - "Category"
+            - "Comics"
+        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"

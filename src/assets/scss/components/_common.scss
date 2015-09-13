@@ -164,7 +164,7 @@
                 background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
                 background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* W3C */
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-                border-top: solid 3px $c-main;
+                border-top: solid 2px $c-main;
                 color: $c-main;
                 display: block;
                 font-size: units(14px);
@@ -223,6 +223,15 @@
     }
 }
 
+.Editorial,
+.Publication {
+    .previewBlock {
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+           -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    }
+}
+
 p::selection,
 a::selection,
 h1::selection,
@@ -231,6 +240,7 @@ h3::selection,
 h4::selection,
 h5::selection,
 span::selection,
+li::selection,
 strong::selection,
 b::selection {
     color: $c-selection;

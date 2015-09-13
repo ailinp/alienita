@@ -1,4 +1,9 @@
-.Painting {
+.Painting,
+.Comics,
+.Editorial,
+.Branding,
+.Photography,
+.Publication {
     .overlay {
         background: $c-white;
         display: none;
@@ -28,6 +33,7 @@
 
         .caption-container {
             margin: 0 auto;
+            max-width: units(900px);
             width: 100%;
 
             @media #{$small-up} {
@@ -142,6 +148,42 @@
         @media #{$small-up} {
             font-size: units(30px);
             padding: gutter() 0;
+        }
+    }
+}
+
+.Comics {
+    .overlay-content {
+        .caption-container {
+            img {
+                margin: 0 auto;
+                max-width: units(500px);
+            }
+        }
+    }
+}
+
+.Editorial,
+.Publication {
+    .overlay-content {
+        .caption-container {
+            img {
+                -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+                   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+                        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+                margin-bottom: units(5px);
+            }
+        }
+    }
+}
+
+.Branding,
+.Photography {
+    .overlay-content {
+        .caption-container {
+            img {
+                margin-bottom: units(5px);
+            }
         }
     }
 }

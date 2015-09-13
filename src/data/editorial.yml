@@ -1,0 +1,62 @@
+Editorial:
+    -
+        backgroundImage: "editorial-04"
+        title: "Back Stage - issue 03"
+        subtitle: "Let me tell you now.<br>You made me so fucking high.<br>Please tell me it's not real."
+        fullImage:
+            - "editorial/editorial-04-1.jpg"
+            - "editorial/editorial-04-2.jpg"
+            - "editorial/editorial-04-3.jpg"
+            - "editorial/editorial-04-4.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "Let me tell you now.<br>You made me so fucking high.<br>Please tell me it's not real."
+
+    -
+        backgroundImage: "editorial-03"
+        title: "Back Stage - issue 02"
+        subtitle: "I don't know what self-harm is.<br>They said it's too painful and too bloody.<br>But I think it's so damn cool."
+        fullImage:
+            - "editorial/editorial-03-1.jpg"
+            - "editorial/editorial-03-2.jpg"
+            - "editorial/editorial-03-3.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "I don't know what self-harm is.<br>They said it's too painful and too bloody.<br>But I think it's so damn cool."
+
+    -
+        backgroundImage: "editorial-02"
+        title: "Back Stage - issue 01"
+        subtitle: "Can't you see me?<br>Don't open your eyes if you can't hear me. Don't open your ears if you can't feel me.<br>Smell me. Eat me, baby."
+        fullImage:
+            - "editorial/editorial-02-1.jpg"
+            - "editorial/editorial-02-2.jpg"
+            - "editorial/editorial-02-3.jpg"
+            - "editorial/editorial-02-4.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "Can't you see me?<br>Don't open your eyes if you can't hear me.<br>Don't open your ears if you can't feel me.<br>Smell me. Eat me, baby."
+
+    -
+        backgroundImage: "editorial-01"
+        title: "Back Stage - Catalogue"
+        subtitle: "Ten years of works for every minute on stage.<br>Work hard. Don't ever quit."
+        fullImage:
+            - "editorial/editorial-01-1.jpg"
+            - "editorial/editorial-01-2.jpg"
+            - "editorial/editorial-01-3.jpg"
+        captionData:
+            - "Date"
+            - "May 20, 2014"
+            - "Category"
+            - "Editorial"
+        description: "Ten years of works for every minute on stage.<br>Work hard. Don't ever quit."
