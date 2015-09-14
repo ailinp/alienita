@@ -20,7 +20,7 @@
 
     .overlay-content {
         overflow: auto;
-        padding: 0 0 gutter(22);
+        padding: 0 0 gutter(3);
         position: absolute;
             top: 12%;
             bottom: 0;
@@ -112,19 +112,24 @@
         float: right;
         line-height: 1.2;
         padding: 0 units(10px);
-        position: absolute;
-            top: 51%;
-            transform: translateY(-50%);
-            right: 10px;
+        position: fixed;
+            top: 13%;
+            right: 30px;
+
+        @media #{$xmedium-up} {
+            top: 12%;
+        }
 
         @media #{$medium-up} {
             font-size: units(40px);
             padding: 0 units(12px);
+            top: 11%;
         }
 
         @media #{$large-up} {
             font-size: units(50px);
             padding: 0 units(15px);
+            top: 10.5%;
         }
 
         &:hover {

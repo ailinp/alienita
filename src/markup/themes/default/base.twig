@@ -22,7 +22,7 @@
         <title>{{ page_meta_title|default(page_og_title)|default(page_title)|default(globals_meta_title)|default(globals_title) }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="http://www.eileenpunk.com/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}favicon.ico" />
         <link rel="canonical" href="{{ page[locale].canonical|default('http://www.eileenpunk.com') }}" />
 
         <meta name="description" content="{{ page_meta_description|default(page_og_description)|default(globals_meta_description) }}" />
