@@ -22,7 +22,7 @@
         overflow: auto;
         padding: 0 0 gutter(3);
         position: absolute;
-            top: 12%;
+            top: 15%;
             bottom: 0;
         width: 100%;
         z-index: 6;
@@ -113,11 +113,11 @@
         line-height: 1.2;
         padding: 0 units(10px);
         position: fixed;
-            top: 13%;
+            top: 16%;
             right: 30px;
 
-        @media #{$xmedium-up} {
-            top: 12%;
+        @media #{$small-up} {
+            top: 12.5%;
         }
 
         @media #{$medium-up} {
