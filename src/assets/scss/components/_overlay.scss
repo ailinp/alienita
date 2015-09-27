@@ -22,13 +22,13 @@
         overflow: auto;
         padding: 0 0 gutter(3);
         position: absolute;
-            top: 15%;
+            top: units(75px);
             bottom: 0;
         width: 100%;
         z-index: 6;
 
         @media #{$small-up} {
-            top: 9%;
+            top: units(58px);
         }
 
         .caption-container {
@@ -113,23 +113,23 @@
         line-height: 1.2;
         padding: 0 units(10px);
         position: fixed;
-            top: 16%;
-            right: 30px;
+            top: units(80px);
+            right: units(30px);
 
         @media #{$small-up} {
-            top: 12.5%;
+            top: units(77px);
         }
 
         @media #{$medium-up} {
             font-size: units(40px);
             padding: 0 units(12px);
-            top: 11%;
+            top: units(73px);
         }
 
         @media #{$large-up} {
             font-size: units(50px);
             padding: 0 units(15px);
-            top: 10.5%;
+            top: units(66px);
         }
 
         &:hover {
