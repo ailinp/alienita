@@ -1,5 +1,16 @@
 Comics:
     -
+        backgroundImage: "comics-14"
+        title: "My Boss Needs a whole Box"
+        fullImage: "comics/comics-14.jpg"
+        captionData:
+            - "Date"
+            - "February 20, 2016"
+            - "Category"
+            - "Comics"
+        description: "Sometimes your boss needs more than a whole box."
+
+    -
         backgroundImage: "comics-13"
         title: "Why is Iván Pissed?"
         fullImage: "comics/comics-13.jpg"

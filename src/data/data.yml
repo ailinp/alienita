@@ -340,6 +340,17 @@ Branding:
         description: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost. Without my heart, I feel no pain when I get hurt; I feel no fear when I face the reality. You want to see my broken heart? You want to know how it died? Please feel free to open the coffin. I've ripped it out and burry it for you. Is that what you want?"
 Comics:
     -
+        backgroundImage: "comics-14"
+        title: "My Boss Needs a whole Box"
+        fullImage: "comics/comics-14.jpg"
+        captionData:
+            - "Date"
+            - "February 20, 2016"
+            - "Category"
+            - "Comics"
+        description: "Sometimes your boss needs more than a whole box."
+
+    -
         backgroundImage: "comics-13"
         title: "Why is Iván Pissed?"
         fullImage: "comics/comics-13.jpg"
@@ -481,6 +492,7 @@ Comics:
             - "Category"
             - "Comics"
         description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+
 Editorial:
     -
         backgroundImage: "editorial-04"
@@ -829,6 +841,18 @@ page:
             aside: "columns small-24 medium-8 large-6"
 Painting:
     -
+        backgroundImage: "painting-18"
+        title: "Bathe a Little Blood"
+        subtitle: "I am not drowning. I am not killing myself. Don't worry, I just need to bathe in a little blood."
+        fullImage: "painting/painting-18.jpg"
+        captionData:
+            - "Date"
+            - "January 04, 2016"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"I am not drowning. I am not killing myself. Don't worry, I just need to bathe a little blood.\""
+
+    -
         backgroundImage: "painting-17"
         title: "Shire 02"
         subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."
@@ -1031,6 +1055,7 @@ Painting:
             - "Category"
             - "Illustration"
         description: "Shire: \"They said that black roses only grow in the dark.\""
+
 Photography:
     -
         backgroundImage: "photography-03"

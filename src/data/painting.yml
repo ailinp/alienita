@@ -1,5 +1,17 @@
 Painting:
     -
+        backgroundImage: "painting-18"
+        title: "Bathe a Little Blood"
+        subtitle: "I am not drowning. I am not killing myself. Don't worry, I just need to bathe in a little blood."
+        fullImage: "painting/painting-18.jpg"
+        captionData:
+            - "Date"
+            - "January 04, 2016"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"I am not drowning. I am not killing myself. Don't worry, I just need to bathe a little blood.\""
+
+    -
         backgroundImage: "painting-17"
         title: "Shire 02"
         subtitle: "Be brave. I don't have to conquer the fear in my heart. I just need to kill it in my eyes. Then I'll make them look me in the eye."

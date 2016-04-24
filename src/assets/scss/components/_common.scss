@@ -82,10 +82,7 @@
 
         .mainSection {
             padding: 0 0 gutter();
-
-            @media #{$xmedium-up} {
-                padding: 0 gutter() gutter() 0;
-            }
+            @media #{$xmedium-up} { padding: 0 gutter() gutter() 0; }
         }
     }
 
@@ -96,28 +93,22 @@
         margin-bottom: gutter();
         width: 100%;
 
-        @media #{$small-up} {
-            height: units(250px);
-        }
-
-        @media #{$xmedium-up} {
-            height: units(300px);
-        }
-
+        @media #{$small-up} { height: units(250px); }
+        @media #{$xmedium-up} { height: units(300px); }
         @media #{$medium-up} {
             height: units(350px);
             margin-bottom: gutter(2);
         }
-
-        @media #{$large-up} {
-            height: units(400px);
-        }
+        @media #{$large-up} { height: units(400px); }
 
         .info-container {
             height: 100%;
             overflow: hidden;
             position: relative;
             width: 100%;
+            -webkit-transition: all 0.3s ease-in-out;
+               -moz-transition: all 0.3s ease-in-out;
+                 -o-transition: all 0.3s ease-in-out;
         }
 
         .info-content {
@@ -126,14 +117,11 @@
                 right: 0;
                 top: 65%;
             text-align: center;
-
-            @media #{$small-up} {
-                top: 68%;
-            }
-
-            @media #{$xmedium-up} {
-                top: 74%;
-            }
+            -webkit-transition: all 0.3s ease-in-out;
+               -moz-transition: all 0.3s ease-in-out;
+                 -o-transition: all 0.3s ease-in-out;
+            @media #{$small-up} { top: 68%; }
+            @media #{$xmedium-up} { top: 74%; }
 
             .info-title {
                 color: $c-white;
@@ -142,18 +130,9 @@
                 font-weight: 800;
                 line-height: 3;
                 text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
-
-                @media #{$small-up} {
-                    font-size: units(30px);
-                }
-
-                @media #{$medium-up} {
-                    font-size: units(35px);
-                }
-
-                @media #{$large-up} {
-                    font-size: units(40px);
-                }
+                @media #{$small-up} { font-size: units(30px); }
+                @media #{$medium-up} { font-size: units(35px); }
+                @media #{$large-up} { font-size: units(40px); }
             }
 
             .info-sudtitle {
@@ -179,45 +158,19 @@
                     width: 80%;
                 }
 
-                @media #{$medium-up} {
-                    font-size: units(18px);
-                }
+                @media #{$medium-up} { font-size: units(18px); }
             }
         }
 
         &:hover {
-            .info-container {
-                background: rgba($c-black, .6);
-                -webkit-transition: all 0.3s ease-in;
-                   -moz-transition: all 0.3s ease-in;
-                     -o-transition: all 0.3s ease-in;
-            }
-
+            .info-container { background: rgba($c-black, .6); }
             .info-content {
                 top: 15%;
-                -webkit-transition: all 0.3s ease-in;
-                   -moz-transition: all 0.3s ease-in;
-                     -o-transition: all 0.3s ease-in;
-
-                @media #{$small-up} {
-                    top: 20%;
-                }
-
-                @media #{$xmedium-up} {
-                    top: 30%;
-                }
-
-                @media #{$medium-up} {
-                    top: 35%;
-                }
-
-                @media #{$large-up} {
-                    top: 40%;
-                }
-
-                .info-title {
-                    color: $c-mainLight;
-                }
+                @media #{$small-up} { top: 20%; }
+                @media #{$xmedium-up} { top: 30%; }
+                @media #{$medium-up} { top: 35%; }
+                @media #{$large-up} { top: 40%; }
+                .info-title { color: $c-mainLight; }
             }
         }
     }
@@ -242,6 +195,4 @@ h5::selection,
 span::selection,
 li::selection,
 strong::selection,
-b::selection {
-    color: $c-selection;
-}
+b::selection { color: $c-selection; }

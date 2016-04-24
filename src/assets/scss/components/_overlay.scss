@@ -27,9 +27,7 @@
         width: 100%;
         z-index: 6;
 
-        @media #{$small-up} {
-            top: units(58px);
-        }
+        @media #{$small-up} { top: units(58px); }
 
         .caption-container {
             margin: 0 auto;
@@ -40,14 +38,8 @@
                 margin: gutter() auto 0;
                 width: 80%;
             }
-
-            @media #{$medium-up} {
-                width: 75%;
-            }
-
-            @media #{$large-up} {
-                width: 70%;
-            }
+            @media #{$medium-up} { width: 75%; }
+            @media #{$large-up} { width: 70%; }
 
             img {
                 display: block;
@@ -86,17 +78,12 @@
                         padding: gutter(.2) gutter(.5);
                     }
 
-                    & >li:nth-child(even) {
-                        margin-bottom: gutter();
-                    }
+                    & >li:nth-child(even) { margin-bottom: gutter(); }
                 }
 
                 & > div {
                     padding: gutter(2) 0 0;
-
-                    @media #{$xmedium-up} {
-                        padding: 0 0 0 gutter(2);
-                    }
+                    @media #{$xmedium-up} { padding: 0 0 0 gutter(2); }
                 }
             }
         }
@@ -115,6 +102,9 @@
         position: fixed;
             top: units(80px);
             right: units(30px);
+        -webkit-transition: all 0.3s ease-in;
+           -moz-transition: all 0.3s ease-in;
+             -o-transition: all 0.3s ease-in;
 
         @media #{$small-up} {
             top: units(77px);
@@ -133,10 +123,8 @@
         }
 
         &:hover {
+            background: rgba($c-main, .7);
             color: $c-white;
-            -webkit-transition: all 0.3s ease-in;
-               -moz-transition: all 0.3s ease-in;
-                 -o-transition: all 0.3s ease-in;
         }
     }
 
@@ -186,9 +174,7 @@
 .Photography {
     .overlay-content {
         .caption-container {
-            img {
-                margin-bottom: units(5px);
-            }
+            img { margin-bottom: units(5px); }
         }
     }
 }
