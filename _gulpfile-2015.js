@@ -7,6 +7,7 @@ var browserSync  = require('browser-sync'),
     changed      = require('gulp-changed'),
     concat       = require('gulp-concat'),
     csso         = require('gulp-csso'),
+    email        = require('gulp-email'),
     imagemin     = require('gulp-imagemin'),
     minify       = require('gulp-minify-css'),
     pixrem       = require('gulp-pixrem'),
@@ -75,6 +76,7 @@ var path = {
             fonts: 'src/assets/fonts',
             image: 'src/assets/images',
             javascript: 'src/assets/javascripts',
+            email: 'src/emails/landings.html'
         },
         dest: {
             base: 'dist',
@@ -93,6 +95,33 @@ var path = {
         port: 3000
     };
     */
+
+
+// EMAIL OPTIONS ===============================================================
+function getEmailOptions() {
+    var opts = {
+        user: 'api:key-47e4e335648ee62db0e5e50eef0aac70',
+        url: 'https://api.mailgun.net/v3/sandbox52b5edc2621944d0b12f79a5c104df18.mailgun.org/messages',
+        form: {
+            from: 'revolution <no-reply@runroom.com>',
+            to: 'eileenpunk <eileenpunk.web@gmail.com>',
+            cc: '',
+            subject: '[eileenpunk] release '+ pageName,
+            attachment: '@'+ path.dest.release +'/'+ pageName +'.zip'
+        },
+        form_string: {
+            html: '<p>website release</p>'
+        }
+    };
+
+    if (emailList.to !== undefined && emailList.to !== '') {
+        opts.form.to = emailList.to;
+    }
+    if (emailList.cc !== undefined && emailList.cc !== '') {
+        opts.form.cc = emailList.cc;
+    }
+    return opts;
+}
 
 
 // CSS =========================================================================
@@ -156,6 +185,7 @@ gulp.task('markup', ['concat:json'], function () {
     var json_data   = fs.readFileSync(path.src.data +'/data.json', 'utf-8');
     json_data       = JSON.parse(json_data.toString());
     pageName        = json_data.page.name;
+    emailList       = json_data.page.email;
 
     return gulp.src([
             path.src.base +'/web/**/*.twig',
@@ -168,8 +198,18 @@ gulp.task('markup', ['concat:json'], function () {
                 {
                     name: 'getUrlPrefix',
                     func: function (page) {
-                        var url = '/';
-                        if ( isPublish ) url = '/'+ page.publishUrl +'/';
+                        var url = '';
+
+                        if (isRelease) {
+                            url = '/'+ page.releaseUrl +'/';
+
+                        } else if (isPublish) {
+                            url = '/'+ page.publishUrl +'/';
+
+                        } else {
+                            url = '/';
+                        }
+
                         return url;
                     }
                 }
@@ -215,22 +255,39 @@ gulp.task('copy:javascripts', function () {
 
 
 // SVG SPRITE ==================================================================
-gulp.task('svg-sprite', ['grunt-grunticon'], function() {
+gulp.task('svg-sprite-min', function() {
+    gulp.src( path.src.image +'/svg-icons/*.svg' )
+        .pipe(imagemin())
+        .pipe(gulp.dest( path.tmp + '/svg-icons' ))
+});
+
+gulp.task('svg-sprite-create', [
+    'grunt-grunticon'
+]);
+
+gulp.task('svg-sprite-css', function() {
     gulp.src(path.tmp + '/*.css')
         .pipe(csso())
-        .pipe(rename({ suffix:'.min' }))
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(gulp.dest(path.dest.scss))
+});
+
+gulp.task('svg-sprite', function(callback) {
+    runSequence(
+        'svg-sprite-min',
+        'svg-sprite-create',
+        'svg-sprite-css',
+    callback);
 });
 
 
 // IMAGES ======================================================================
 gulp.task('imagemin', function() {
 
-    return gulp.src([
-        path.src.image +'/**/*',
-        !path.srcImages + '/svg-icons/**/*',
-        !path.src.image +'/_*'
-        ])
+    return gulp.src(path.src.image +'/**/*')
+       // .pipe(changed(path.dest.image))
         .pipe(imagemin())
         .pipe(gulp.dest(path.dest.image));
 });
@@ -253,6 +310,12 @@ gulp.task('release:zip', function () {
     return gulp.src(path.dest.base + '/**/*')
         .pipe(zip(pageName + '.zip'))
         .pipe(gulp.dest(path.dest.release));
+});
+
+gulp.task('email', function () {
+    var opts = getEmailOptions();
+    return gulp.src([path.src.email])
+        .pipe(email(opts));
 });
 
 
@@ -331,6 +394,7 @@ gulp.task('release', function(callback) {
         'clean:release',
         'build',
         'release:zip',
+        'email',
         callback
     );
 });

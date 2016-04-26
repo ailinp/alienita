@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                     dest: '<%= path.tmp %>'
                 }],
                 options: {
-                    cssprefix       : '.svg-',
+                    // cssprefix       : '.svg-',
                     customselectors : {
                         '*' : [
                             '.svgbefore-$1:before',
