@@ -20,7 +20,7 @@ footer:
         th: "ถ้าคุณไม่พูดภาษาไทยโปรดเลือกภาษาอื่น!"
         il: "אם ידיעתך בשפה העברית לא מספיק טובה, תעברי לשפה אחרת."
         fi: "Jos suomen kielesi on surkeaa, valitse jokin muu missä olet hyvä!"
-        tr: "Eğer Türk bilgin yoksa, başka bir dil seçiniz!"
+        pl: "Jeśli Twój Polski jest do niczego, zmień język na inny poniżej!"
         hu: "If your Hungarian sucks, there are other options for you!"
 
     language:
@@ -105,8 +105,8 @@ footer:
             title: "Suomi"
             class: ""
         -
-            link: "tr"
-            title: "Türkçe"
+            link: "pl"
+            title: "Polski"
             class: ""
         -
             link: "hu"

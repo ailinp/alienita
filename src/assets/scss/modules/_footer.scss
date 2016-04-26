@@ -73,6 +73,17 @@
             li {
                 display: inline-block;
                 margin: units(2px) units(1px);
+                &:nth-child(12),
+                &:nth-child(13),
+                &:nth-child(14),
+                &:nth-child(15),
+                &:nth-child(16),
+                &:nth-child(17),
+                &:nth-child(18),
+                &:nth-child(19),
+                &:nth-child(20),
+                &:nth-child(21),
+                &:nth-child(22) { margin: units(2px) units(2.5px); }
 
                 a {
                     background: rgba($c-main, .5);

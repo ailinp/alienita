@@ -577,7 +577,7 @@ footer:
         th: "ถ้าคุณไม่พูดภาษาไทยโปรดเลือกภาษาอื่น!"
         il: "אם ידיעתך בשפה העברית לא מספיק טובה, תעברי לשפה אחרת."
         fi: "Jos suomen kielesi on surkeaa, valitse jokin muu missä olet hyvä!"
-        tr: "Eğer Türk bilgin yoksa, başka bir dil seçiniz!"
+        pl: "Jeśli Twój Polski jest do niczego, zmień język na inny poniżej!"
         hu: "If your Hungarian sucks, there are other options for you!"
 
     language:
@@ -662,8 +662,8 @@ footer:
             title: "Suomi"
             class: ""
         -
-            link: "tr"
-            title: "Türkçe"
+            link: "pl"
+            title: "Polski"
             class: ""
         -
             link: "hu"
@@ -674,6 +674,7 @@ footer:
         en: "* Those languages are listed because of a reason. Either Eileen does speak a little bit of it, or she has been to that language speaking place, or some of her dearest friends are from there."
 
     copyRight: "© COPYRIGHT EILEEN PUNK 2015"
+
 globals:
     eileenpunk: "EileenPunk"
     release: false
@@ -813,9 +814,10 @@ home:
 
         fi: "Näitkö sen suomalaisen tytön sarjakuvissani? Opiskelimme aikoinaan espanjaa samassa kielikoulussa. Ja kyllä, hän sanoi, että suomalaiset vauvat tulevat maidon toimittajilta. Kuinka onnekkaita he ovatkaan! Minun äitini sanoi, että minut noukittiin roskiksesta."
 
-        tr: "A very good friend of mine keeps telling me that she wants to go to Turkey. All I am thinking is eating kebab, dancing with a big fat turkey in an oven. I don’t think the turkish people eat turkey. That’s why I said I would dance with one."
+        pl: "W 2015 wybrałam się w podróż przez kilka krajów wschodnioeuropejskich i Polska wywarła na mnie wielkie wrażenie. Wizyty w obozie koncentracyjnym w Auschwitz i w kopalni soli Wieliczka (zwłaszcza trasa górnicza!) były najciekawszymi doświadczeniami całej podróży."
 
         hu: "I went to Hungary last christmas, and I will never forget that trip heading east of Europe. I lost my beloved grandpa the night I arrived to Budapest. I remember the sky was so clear. I said why don’t you snow? It must had heard me. It brought me a heavy snow the next morning. It was the first snow in 2014. I was wearing all that white snow, canceled the rest of my trip, got on the plane, flew straight back to my family.<br>I don’t speak Hungarian. This page is for my grandpa in heaven. I hope he can rest in peace. Grandpa, if you can hear me, your little brat misses you so much."
+
 page:
     name: "EileenPunk"
     slug: "eileenpunk"
@@ -1264,27 +1266,27 @@ socialMedia:
 topHeading:
     home:
         en: "Don't click if you're not ready for some ugly truth."
-        es: "Oh... You don't really believe that she has translated all these languages, do you?"
-        cn: "Oh... You don't really believe that she has translated all these languages, do you?"
-        fr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        de: "Oh... You don't really believe that she has translated all these languages, do you?"
-        it: "Oh... You don't really believe that she has translated all these languages, do you?"
-        jp: "Oh... You don't really believe that she has translated all these languages, do you?"
-        kr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        pt: "Oh... You don't really believe that she has translated all these languages, do you?"
-        ae: "Oh... You don't really believe that she has translated all these languages, do you?"
-        se: "Oh... You don't really believe that she has translated all these languages, do you?"
-        ca: "Oh... You don't really believe that she has translated all these languages, do you?"
-        hk: "Oh... You don't really believe that she has translated all these languages, do you?"
-        nl: "Oh... You don't really believe that she has translated all these languages, do you?"
-        gr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        cz: "Oh... You don't really believe that she has translated all these languages, do you?"
-        ru: "Oh... You don't really believe that she has translated all these languages, do you?"
-        th: "Oh... You don't really believe that she has translated all these languages, do you?"
-        il: "Oh... You don't really believe that she has translated all these languages, do you?"
-        fi: "Oh... You don't really believe that she has translated all these languages, do you?"
-        tr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        hu: "Oh... You don't really believe that she has translated all these languages, do you?"
+        es: "Oh... You don't really believe that she had all these languages translated, do you?"
+        cn: "Oh... You don't really believe that she had all these languages translated, do you?"
+        fr: "Oh... You don't really believe that she had all these languages translated, do you?"
+        de: "Oh... You don't really believe that she had all these languages translated, do you?"
+        it: "Oh... You don't really believe that she had all these languages translated, do you?"
+        jp: "Oh... You don't really believe that she had all these languages translated, do you?"
+        kr: "Oh... You don't really believe that she had all these languages translated, do you?"
+        pt: "Oh... You don't really believe that she had all these languages translated, do you?"
+        ae: "Oh... You don't really believe that she had all these languages translated, do you?"
+        se: "Oh... You don't really believe that she had all these languages translated, do you?"
+        ca: "Oh... You don't really believe that she had all these languages translated, do you?"
+        hk: "Oh... You don't really believe that she had all these languages translated, do you?"
+        nl: "Oh... You don't really believe that she had all these languages translated, do you?"
+        gr: "Oh... You don't really believe that she had all these languages translated, do you?"
+        cz: "Oh... You don't really believe that she had all these languages translated, do you?"
+        ru: "Oh... You don't really believe that she had all these languages translated, do you?"
+        th: "Oh... You don't really believe that she had all these languages translated, do you?"
+        il: "Oh... You don't really believe that she had all these languages translated, do you?"
+        fi: "Oh... You don't really believe that she had all these languages translated, do you?"
+        pl: "Oh... You don't really believe that she had all these languages translated, do you?"
+        hu: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
@@ -1307,7 +1309,7 @@ topHeading:
         th: "She's not talented, she just works hard."
         il: "She's not talented, she just works hard."
         fi: "She's not talented, she just works hard."
-        tr: "She's not talented, she just works hard."
+        pl: "She's not talented, she just works hard."
         hu: "She's not talented, she just works hard."
 
     painting:
@@ -1331,7 +1333,7 @@ topHeading:
         th: "She's not hard working, she just loves her works."
         il: "She's not hard working, she just loves her works."
         fi: "She's not hard working, she just loves her works."
-        tr: "She's not hard working, she just loves her works."
+        pl: "She's not hard working, she just loves her works."
         hu: "She's not hard working, she just loves her works."
 
     comics:
@@ -1355,7 +1357,7 @@ topHeading:
         th: "She doesn't love her works, she's just loved by them."
         il: "She doesn't love her works, she's just loved by them."
         fi: "She doesn't love her works, she's just loved by them."
-        tr: "She doesn't love her works, she's just loved by them."
+        pl: "She doesn't love her works, she's just loved by them."
         hu: "She doesn't love her works, she's just loved by them."
 
     editorial:
@@ -1379,7 +1381,7 @@ topHeading:
         th: "They don't love her at all, they're just created by her."
         il: "They don't love her at all, they're just created by her."
         fi: "They don't love her at all, they're just created by her."
-        tr: "They don't love her at all, they're just created by her."
+        pl: "They don't love her at all, they're just created by her."
         hu: "They don't love her at all, they're just created by her."
 
     branding:
@@ -1403,7 +1405,7 @@ topHeading:
         th: "She didn't create them, it's them that created her."
         il: "She didn't create them, it's them that created her."
         fi: "She didn't create them, it's them that created her."
-        tr: "She didn't create them, it's them that created her."
+        pl: "She didn't create them, it's them that created her."
         hu: "She didn't create them, it's them that created her."
 
     photography:
@@ -1427,7 +1429,7 @@ topHeading:
         th: "They didn't create her, she create herself."
         il: "They didn't create her, she create herself."
         fi: "They didn't create her, she create herself."
-        tr: "They didn't create her, she create herself."
+        pl: "They didn't create her, she create herself."
         hu: "They didn't create her, she create herself."
 
     publication:
@@ -1451,7 +1453,7 @@ topHeading:
         th: "Yes! I create myself!"
         il: "Yes! I create myself!"
         fi: "Yes! I create myself!"
-        tr: "Yes! I create myself!"
+        pl: "Yes! I create myself!"
         hu: "Yes! I create myself!"
 
     links:
@@ -1655,7 +1657,7 @@ topHeading:
             toPhotography: "en/photography"
             toPublication: "en/publication"
 
-        tr:
+        pl:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"

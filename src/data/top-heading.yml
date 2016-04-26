@@ -1,27 +1,27 @@
 topHeading:
     home:
         en: "Don't click if you're not ready for some ugly truth."
-        es: "Oh... You don't really believe that she has translated all these languages, do you?"
-        cn: "Oh... You don't really believe that she has translated all these languages, do you?"
-        fr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        de: "Oh... You don't really believe that she has translated all these languages, do you?"
-        it: "Oh... You don't really believe that she has translated all these languages, do you?"
-        jp: "Oh... You don't really believe that she has translated all these languages, do you?"
-        kr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        pt: "Oh... You don't really believe that she has translated all these languages, do you?"
-        ae: "Oh... You don't really believe that she has translated all these languages, do you?"
-        se: "Oh... You don't really believe that she has translated all these languages, do you?"
-        ca: "Oh... You don't really believe that she has translated all these languages, do you?"
-        hk: "Oh... You don't really believe that she has translated all these languages, do you?"
-        nl: "Oh... You don't really believe that she has translated all these languages, do you?"
-        gr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        cz: "Oh... You don't really believe that she has translated all these languages, do you?"
-        ru: "Oh... You don't really believe that she has translated all these languages, do you?"
-        th: "Oh... You don't really believe that she has translated all these languages, do you?"
-        il: "Oh... You don't really believe that she has translated all these languages, do you?"
-        fi: "Oh... You don't really believe that she has translated all these languages, do you?"
-        tr: "Oh... You don't really believe that she has translated all these languages, do you?"
-        hu: "Oh... You don't really believe that she has translated all these languages, do you?"
+        es: "Oh... You don't really believe that she had all these languages translated, do you?"
+        cn: "Oh... You don't really believe that she had all these languages translated, do you?"
+        fr: "Oh... You don't really believe that she had all these languages translated, do you?"
+        de: "Oh... You don't really believe that she had all these languages translated, do you?"
+        it: "Oh... You don't really believe that she had all these languages translated, do you?"
+        jp: "Oh... You don't really believe that she had all these languages translated, do you?"
+        kr: "Oh... You don't really believe that she had all these languages translated, do you?"
+        pt: "Oh... You don't really believe that she had all these languages translated, do you?"
+        ae: "Oh... You don't really believe that she had all these languages translated, do you?"
+        se: "Oh... You don't really believe that she had all these languages translated, do you?"
+        ca: "Oh... You don't really believe that she had all these languages translated, do you?"
+        hk: "Oh... You don't really believe that she had all these languages translated, do you?"
+        nl: "Oh... You don't really believe that she had all these languages translated, do you?"
+        gr: "Oh... You don't really believe that she had all these languages translated, do you?"
+        cz: "Oh... You don't really believe that she had all these languages translated, do you?"
+        ru: "Oh... You don't really believe that she had all these languages translated, do you?"
+        th: "Oh... You don't really believe that she had all these languages translated, do you?"
+        il: "Oh... You don't really believe that she had all these languages translated, do you?"
+        fi: "Oh... You don't really believe that she had all these languages translated, do you?"
+        pl: "Oh... You don't really believe that she had all these languages translated, do you?"
+        hu: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
@@ -44,7 +44,7 @@ topHeading:
         th: "She's not talented, she just works hard."
         il: "She's not talented, she just works hard."
         fi: "She's not talented, she just works hard."
-        tr: "She's not talented, she just works hard."
+        pl: "She's not talented, she just works hard."
         hu: "She's not talented, she just works hard."
 
     painting:
@@ -68,7 +68,7 @@ topHeading:
         th: "She's not hard working, she just loves her works."
         il: "She's not hard working, she just loves her works."
         fi: "She's not hard working, she just loves her works."
-        tr: "She's not hard working, she just loves her works."
+        pl: "She's not hard working, she just loves her works."
         hu: "She's not hard working, she just loves her works."
 
     comics:
@@ -92,7 +92,7 @@ topHeading:
         th: "She doesn't love her works, she's just loved by them."
         il: "She doesn't love her works, she's just loved by them."
         fi: "She doesn't love her works, she's just loved by them."
-        tr: "She doesn't love her works, she's just loved by them."
+        pl: "She doesn't love her works, she's just loved by them."
         hu: "She doesn't love her works, she's just loved by them."
 
     editorial:
@@ -116,7 +116,7 @@ topHeading:
         th: "They don't love her at all, they're just created by her."
         il: "They don't love her at all, they're just created by her."
         fi: "They don't love her at all, they're just created by her."
-        tr: "They don't love her at all, they're just created by her."
+        pl: "They don't love her at all, they're just created by her."
         hu: "They don't love her at all, they're just created by her."
 
     branding:
@@ -140,7 +140,7 @@ topHeading:
         th: "She didn't create them, it's them that created her."
         il: "She didn't create them, it's them that created her."
         fi: "She didn't create them, it's them that created her."
-        tr: "She didn't create them, it's them that created her."
+        pl: "She didn't create them, it's them that created her."
         hu: "She didn't create them, it's them that created her."
 
     photography:
@@ -164,7 +164,7 @@ topHeading:
         th: "They didn't create her, she create herself."
         il: "They didn't create her, she create herself."
         fi: "They didn't create her, she create herself."
-        tr: "They didn't create her, she create herself."
+        pl: "They didn't create her, she create herself."
         hu: "They didn't create her, she create herself."
 
     publication:
@@ -188,7 +188,7 @@ topHeading:
         th: "Yes! I create myself!"
         il: "Yes! I create myself!"
         fi: "Yes! I create myself!"
-        tr: "Yes! I create myself!"
+        pl: "Yes! I create myself!"
         hu: "Yes! I create myself!"
 
     links:
@@ -392,7 +392,7 @@ topHeading:
             toPhotography: "en/photography"
             toPublication: "en/publication"
 
-        tr:
+        pl:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"
