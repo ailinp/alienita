@@ -33,6 +33,9 @@
         <meta property="og:url" content="{{ page_og_url|default(globals_meta_url) }}" />
         <meta property="og:description" content="{{ page_og_description|default(page_meta_description)|default(globals_meta_description) }}" />
 
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.stylesheets }}styles.min.css" />
         <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.vendors }}modernizr.js"></script>
         {% block headerJs %}{% endblock %}

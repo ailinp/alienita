@@ -4,21 +4,25 @@
 /* =Font familys
 /* -------------------------------------------------------------------------- */
 
-$t-ralewayheavy: 'ralewayheavy', Arial, Helvetica,sans-serif;
-$t-ralewayextrabold: 'ralewayextrabold', Arial, Helvetica,sans-serif;
-$t-ralewaybold: 'ralewaybold', Arial, Helvetica,sans-serif;
-$t-ralewaysemibold: 'ralewaysemibold', Arial, Helvetica,sans-serif;
-$t-ralewaymedium: 'ralewaymedium', Arial, Helvetica,sans-serif;
-$t-ralewayregular: 'ralewayregular', Arial, Helvetica,sans-serif;
-$t-ralewaylight: 'ralewaylight', Arial, Helvetica,sans-serif;
-$t-ralewayextralight: 'ralewayextralight', Arial, Helvetica,sans-serif;
-$t-ralewaythin: 'ralewaythin', Arial, Helvetica,sans-serif;
-$t-poiret: 'poiret', Arial, Helvetica,sans-serif;
+// $t-ralewayheavy: 'ralewayheavy', Arial, Helvetica,sans-serif;
+// $t-ralewayextrabold: 'ralewayextrabold', Arial, Helvetica,sans-serif;
+// $t-ralewaybold: 'ralewaybold', Arial, Helvetica,sans-serif;
+// $t-ralewaysemibold: 'ralewaysemibold', Arial, Helvetica,sans-serif;
+// $t-ralewaymedium: 'ralewaymedium', Arial, Helvetica,sans-serif;
+// $t-ralewayregular: 'ralewayregular', Arial, Helvetica,sans-serif;
+// $t-ralewaylight: 'ralewaylight', Arial, Helvetica,sans-serif;
+// $t-ralewayextralight: 'ralewayextralight', Arial, Helvetica,sans-serif;
+// $t-ralewaythin: 'ralewaythin', Arial, Helvetica,sans-serif;
+// $t-poiret: 'poiret', Arial, Helvetica,sans-serif;
+
+$t-raleway: 'Raleway', Arial, Helvetica,sans-serif;
+$t-poiret: 'Poiret One', Arial, Helvetica,sans-serif;
 
 html, body {
     color: $c-text;
-    font-family: $t-ralewayregular;
+    font-family: $t-raleway;
     font-size: $global-font-size;
+    font-weight: 400;
     line-height: $global-line-height;
 }
 
@@ -44,8 +48,9 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
 h1,
 .t-h1 {
     color: $c-neutroDarker;
-    font-family: $t-ralewayregular;
+    font-family: $t-raleway;
     font-size: units(33px);
+    font-weight: 400;
     line-height: 120%;
 }
 h2,
@@ -77,5 +82,6 @@ p {
 }
 
 b, strong {
-    font-family: $t-ralewaybold;
+    font-family: $t-raleway;
+    font-weight: 600;
 }

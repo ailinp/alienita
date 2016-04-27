@@ -8,8 +8,9 @@
     .ProfessionalSkills-title {
         color: $c-neutroDark;
         display: block;
+        font-family: $t-raleway;
         font-size: units(16px);
-        font-family: $t-ralewaymedium;
+        font-weight: 500;
         line-height: 1.2;
         margin-bottom: gutter(.5);
 
