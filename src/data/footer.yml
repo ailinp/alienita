@@ -1,6 +1,7 @@
 footer:
     title:
         en: "If your English sucks, here're more options for you. Choose wisely!"
+        uk: "That's all I've got... Please choose another language. Please!!!"
         es: "Si tu español apesta, escoge aquello en lo que eres bueno!"
         cn: "如果你汉语巨烂，就选个别的靠谱的吧！"
         fr: "Si vous ne maîtrisez pas le français, choisissez une autre langue!"
@@ -22,11 +23,16 @@ footer:
         fi: "Jos suomen kielesi on surkeaa, valitse jokin muu missä olet hyvä!"
         pl: "Jeśli Twój Polski jest do niczego, zmień język na inny poniżej!"
         hu: "If your Hungarian sucks, there are other options for you!"
+        dk: "Vælg venligst et andet sprog, hvis dit danske stinker!"
 
     language:
         -
             link: "en"
-            title: "English"
+            title: "English(US)"
+            class: ""
+        -
+            link: "uk"
+            title: "English(UK)"
             class: ""
         -
             link: "es"
@@ -111,6 +117,10 @@ footer:
         -
             link: "hu"
             title: "Magyar"
+            class: ""
+        -
+            link: "dk"
+            title: "Dansk"
             class: ""
 
     description:

@@ -3,7 +3,6 @@
         background: $c-mainLight;
         padding: gutter(2) 0;
         width: 100%;
-
         h1 {
             color: $c-main;
             font-family: $t-poiret;
@@ -13,23 +12,10 @@
             padding: 0 0 gutter(2);
             text-align: center;
         }
-
-        .FooterContent-forMobile {
-            display: block;
-        }
-
-        .FooterContent-forMobileContent {
-            display: none;
-        }
-
-        .is--open {
-            display: block;
-        }
-
-        .languages {
-            display: none;
-        }
-
+        .FooterContent-forMobile { display: block; }
+        .FooterContent-forMobileContent { display: none; }
+        .is--open { display: block; }
+        .languages { display: none; }
         p {
             color: $c-white;
             font-family: $t-poiret;
@@ -43,7 +29,6 @@
 
     .CopyRight {
         padding: gutter(.5) 0;
-
         span {
             color: $c-main;
             display: block;
@@ -55,63 +40,36 @@
 
 @media #{$small-up} {
     .FooterContent {
-        h1 {
-            font-size: units(25px);
-        }
-
+        h1 { font-size: units(25px); }
         .FooterContent-forMobile,
-        .FooterContent-forMobileContent {
-            display: none;
-        }
-
+        .FooterContent-forMobileContent { display: none; }
         .languages {
             display: block;
             margin: 0 auto;
             padding: 0 0 gutter();
             text-align: center;
-
             li {
                 display: inline-block;
                 margin: units(2px) units(1px);
-                &:nth-child(12),
-                &:nth-child(13),
-                &:nth-child(14),
-                &:nth-child(15),
-                &:nth-child(16),
-                &:nth-child(17),
-                &:nth-child(18),
-                &:nth-child(19),
-                &:nth-child(20),
-                &:nth-child(21),
-                &:nth-child(22) { margin: units(2px) units(2.5px); }
-
                 a {
                     background: rgba($c-main, .5);
                     color: $c-mainLight;
                     display: inline-block;
                     font-family: arial;
                     padding: units(8px) units(15px);
-
                     &:hover {
                         background: $c-main;
                         color: $c-white;
                     }
                 }
             }
-
             .active {
-                a {
-                    color: $c-white;
-                }
+                a { color: $c-white; }
             }
-
             .inactive {
-                a {
-                    color: $c-mainLight;
-                }
+                a { color: $c-mainLight; }
             }
         }
-
         p {
             font-size: units(18px);
             line-height: 1.3;
@@ -121,20 +79,13 @@
 
 @media #{$medium-up} {
     .FooterContent {
-        h1 {
-            font-size: units(28px);
-        }
-
+        h1 { font-size: units(28px); }
         .languages {
             li {
                 margin: units(4px) units(2px);
-
-                a {
-                    border-radius: units(5px);
-                }
+                a { border-radius: units(5px); }
             }
         }
-
         p {
             font-size: units(20px);
             line-height: 1.3;
@@ -153,15 +104,9 @@
     background: rgba($c-main, .5);
     cursor: pointer;
     outline: none;
-
-    span {
-        color: $c-mainLight;
-    }
-
+    span { color: $c-mainLight;}
     &:hover {
-        span {
-            color: $c-white;
-        }
+        span { color: $c-white; }
     }
 
     &:after {
@@ -192,11 +137,7 @@
         li {
             background: rgba($c-main, .5);
             border-bottom: 1px solid $c-main;
-
-            &:last-child {
-                border-bottom: 0;
-            }
-
+            &:last-child { border-bottom: 0; }
             a {
                 display: block;
                 text-decoration: none;
@@ -204,21 +145,14 @@
                 padding: units(10px) units(15px);
                 transition: all 0.3s ease-out;
             }
-
-            &:hover a {
-                background: $c-main;
-            }
+            &:hover a { background: $c-main; }
         }
     }
 
     &.is-open {
         background: $c-main;
         opacity: 1;
-
-        span {
-            color: white;
-        }
-
+        span { color: white; }
         &:after {
             border-width: 0 6px 6px 6px;
             border-color: $c-white transparent;

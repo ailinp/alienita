@@ -558,6 +558,7 @@ Editorial:
 footer:
     title:
         en: "If your English sucks, here're more options for you. Choose wisely!"
+        uk: "That's all I've got... Please choose another language. Please!!!"
         es: "Si tu español apesta, escoge aquello en lo que eres bueno!"
         cn: "如果你汉语巨烂，就选个别的靠谱的吧！"
         fr: "Si vous ne maîtrisez pas le français, choisissez une autre langue!"
@@ -579,11 +580,16 @@ footer:
         fi: "Jos suomen kielesi on surkeaa, valitse jokin muu missä olet hyvä!"
         pl: "Jeśli Twój Polski jest do niczego, zmień język na inny poniżej!"
         hu: "If your Hungarian sucks, there are other options for you!"
+        dk: "Vælg venligst et andet sprog, hvis dit danske stinker!"
 
     language:
         -
             link: "en"
-            title: "English"
+            title: "English(US)"
+            class: ""
+        -
+            link: "uk"
+            title: "English(UK)"
             class: ""
         -
             link: "es"
@@ -668,6 +674,10 @@ footer:
         -
             link: "hu"
             title: "Magyar"
+            class: ""
+        -
+            link: "dk"
+            title: "Dansk"
             class: ""
 
     description:
@@ -776,6 +786,8 @@ home:
             <span class=\"homeMainSpan\">( Did I just say she's hard working?<br>...Oops :P ... )</span>
             <p class=\"homeMainClaim\">BUT! This page is RESPONSIVE."
 
+        uk: "What do you expect to see on this page? Colours? I think I only have 3 or 4. Flavours? Wait... Are you licking your screen right now? Does it taste like an aluminium foil to you? Or does my sense of humour just make you laugh your arrrrse off... What? You only have one R? But how do you know how many Rs you have if you don't even pronounce it? And why do you need so many Us? You think it's necessary?"
+
         es: "¡Bienvenido!<br>¡Qué suerte que hablamos la misma lengua!<br>Te recomiendo que vayas a la página de los comics.<br>De momento, es la única página que se escribe en castellano.<br>Pero bueno, como ya hablo spanglish perfectamente, traducirlo a castellano es solo cuestión de tiempo :D"
 
         cn: "等我哪天喝饱睡足了，中文一定是我首先要翻译的语言。对于那些带着好奇心冒充自己会中文而点击进来的人，要不你还是到别的页面逛逛？浏览器自带的翻译都是瞎扯的，别看了！"
@@ -816,7 +828,9 @@ home:
 
         pl: "W 2015 wybrałam się w podróż przez kilka krajów wschodnioeuropejskich i Polska wywarła na mnie wielkie wrażenie. Wizyty w obozie koncentracyjnym w Auschwitz i w kopalni soli Wieliczka (zwłaszcza trasa górnicza!) były najciekawszymi doświadczeniami całej podróży."
 
-        hu: "I went to Hungary last christmas, and I will never forget that trip heading east of Europe. I lost my beloved grandpa the night I arrived to Budapest. I remember the sky was so clear. I said why don’t you snow? It must had heard me. It brought me a heavy snow the next morning. It was the first snow in 2014. I was wearing all that white snow, canceled the rest of my trip, got on the plane, flew straight back to my family.<br>I don’t speak Hungarian. This page is for my grandpa in heaven. I hope he can rest in peace. Grandpa, if you can hear me, your little brat misses you so much."
+        hu: "I lost my beloved grandpa the night I arrived to Budapest. It had its first snowfall of 2014 that night. I was wearing all that white snow, canceled the rest of my trip, got on the plane, flew straight back to my family."
+
+        dk: "Ja jeg tog hen og så den lille havfrue. Altså...danskere er store, så burde deres havfrue...det jeg tænkte...måske skulle jeg bare komme tilbage en anden gang. Lade hende vokse lidt op."
 
 page:
     name: "EileenPunk"
@@ -1266,6 +1280,7 @@ socialMedia:
 topHeading:
     home:
         en: "Don't click if you're not ready for some ugly truth."
+        uk: "Don't click if you're not ready for some ugly truth."
         es: "Oh... You don't really believe that she had all these languages translated, do you?"
         cn: "Oh... You don't really believe that she had all these languages translated, do you?"
         fr: "Oh... You don't really believe that she had all these languages translated, do you?"
@@ -1287,9 +1302,11 @@ topHeading:
         fi: "Oh... You don't really believe that she had all these languages translated, do you?"
         pl: "Oh... You don't really believe that she had all these languages translated, do you?"
         hu: "Oh... You don't really believe that she had all these languages translated, do you?"
+        dk: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
+        uk: "She's not talented, she just works hard."
         es: "She's not talented, she just works hard."
         cn: "She's not talented, she just works hard."
         fr: "She's not talented, she just works hard."
@@ -1311,9 +1328,11 @@ topHeading:
         fi: "She's not talented, she just works hard."
         pl: "She's not talented, she just works hard."
         hu: "She's not talented, she just works hard."
+        dk: "She's not talented, she just works hard."
 
     painting:
         en: "She's not hard working, she just loves her works."
+        uk: "She's not hard working, she just loves her works."
         es: "She's not hard working, she just loves her works."
         cn: "She's not hard working, she just loves her works."
         fr: "She's not hard working, she just loves her works."
@@ -1335,9 +1354,11 @@ topHeading:
         fi: "She's not hard working, she just loves her works."
         pl: "She's not hard working, she just loves her works."
         hu: "She's not hard working, she just loves her works."
+        dk: "She's not hard working, she just loves her works."
 
     comics:
         en: "She doesn't love her works, she's just loved by them."
+        uk: "She doesn't love her works, she's just loved by them."
         es: "She doesn't love her works, she's just loved by them."
         cn: "She doesn't love her works, she's just loved by them."
         fr: "She doesn't love her works, she's just loved by them."
@@ -1359,9 +1380,11 @@ topHeading:
         fi: "She doesn't love her works, she's just loved by them."
         pl: "She doesn't love her works, she's just loved by them."
         hu: "She doesn't love her works, she's just loved by them."
+        dk: "She doesn't love her works, she's just loved by them."
 
     editorial:
         en: "They don't love her at all, they're just created by her."
+        uk: "They don't love her at all, they're just created by her."
         es: "They don't love her at all, they're just created by her."
         cn: "They don't love her at all, they're just created by her."
         fr: "They don't love her at all, they're just created by her."
@@ -1383,9 +1406,11 @@ topHeading:
         fi: "They don't love her at all, they're just created by her."
         pl: "They don't love her at all, they're just created by her."
         hu: "They don't love her at all, they're just created by her."
+        dk: "They don't love her at all, they're just created by her."
 
     branding:
         en: "She didn't create them, it's them that created her."
+        uk: "She didn't create them, it's them that created her."
         es: "She didn't create them, it's them that created her."
         cn: "She didn't create them, it's them that created her."
         fr: "She didn't create them, it's them that created her."
@@ -1407,9 +1432,11 @@ topHeading:
         fi: "She didn't create them, it's them that created her."
         pl: "She didn't create them, it's them that created her."
         hu: "She didn't create them, it's them that created her."
+        dk: "She didn't create them, it's them that created her."
 
     photography:
         en: "They didn't create her, she create herself."
+        uk: "They didn't create her, she create herself."
         es: "They didn't create her, she create herself."
         cn: "They didn't create her, she create herself."
         fr: "They didn't create her, she create herself."
@@ -1431,9 +1458,11 @@ topHeading:
         fi: "They didn't create her, she create herself."
         pl: "They didn't create her, she create herself."
         hu: "They didn't create her, she create herself."
+        dk: "They didn't create her, she create herself."
 
     publication:
         en: "Yes! I create myself!"
+        uk: "Yes! I create myself!"
         es: "Yes! I create myself!"
         cn: "Yes! I create myself!"
         fr: "Yes! I create myself!"
@@ -1455,9 +1484,20 @@ topHeading:
         fi: "Yes! I create myself!"
         pl: "Yes! I create myself!"
         hu: "Yes! I create myself!"
+        dk: "Yes! I create myself!"
 
     links:
         en:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        uk:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"
@@ -1668,6 +1708,16 @@ topHeading:
             toPublication: "en/publication"
 
         hu:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        dk:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"

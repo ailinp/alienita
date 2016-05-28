@@ -1,6 +1,7 @@
 topHeading:
     home:
         en: "Don't click if you're not ready for some ugly truth."
+        uk: "Don't click if you're not ready for some ugly truth."
         es: "Oh... You don't really believe that she had all these languages translated, do you?"
         cn: "Oh... You don't really believe that she had all these languages translated, do you?"
         fr: "Oh... You don't really believe that she had all these languages translated, do you?"
@@ -22,9 +23,11 @@ topHeading:
         fi: "Oh... You don't really believe that she had all these languages translated, do you?"
         pl: "Oh... You don't really believe that she had all these languages translated, do you?"
         hu: "Oh... You don't really believe that she had all these languages translated, do you?"
+        dk: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
+        uk: "She's not talented, she just works hard."
         es: "She's not talented, she just works hard."
         cn: "She's not talented, she just works hard."
         fr: "She's not talented, she just works hard."
@@ -46,9 +49,11 @@ topHeading:
         fi: "She's not talented, she just works hard."
         pl: "She's not talented, she just works hard."
         hu: "She's not talented, she just works hard."
+        dk: "She's not talented, she just works hard."
 
     painting:
         en: "She's not hard working, she just loves her works."
+        uk: "She's not hard working, she just loves her works."
         es: "She's not hard working, she just loves her works."
         cn: "She's not hard working, she just loves her works."
         fr: "She's not hard working, she just loves her works."
@@ -70,9 +75,11 @@ topHeading:
         fi: "She's not hard working, she just loves her works."
         pl: "She's not hard working, she just loves her works."
         hu: "She's not hard working, she just loves her works."
+        dk: "She's not hard working, she just loves her works."
 
     comics:
         en: "She doesn't love her works, she's just loved by them."
+        uk: "She doesn't love her works, she's just loved by them."
         es: "She doesn't love her works, she's just loved by them."
         cn: "She doesn't love her works, she's just loved by them."
         fr: "She doesn't love her works, she's just loved by them."
@@ -94,9 +101,11 @@ topHeading:
         fi: "She doesn't love her works, she's just loved by them."
         pl: "She doesn't love her works, she's just loved by them."
         hu: "She doesn't love her works, she's just loved by them."
+        dk: "She doesn't love her works, she's just loved by them."
 
     editorial:
         en: "They don't love her at all, they're just created by her."
+        uk: "They don't love her at all, they're just created by her."
         es: "They don't love her at all, they're just created by her."
         cn: "They don't love her at all, they're just created by her."
         fr: "They don't love her at all, they're just created by her."
@@ -118,9 +127,11 @@ topHeading:
         fi: "They don't love her at all, they're just created by her."
         pl: "They don't love her at all, they're just created by her."
         hu: "They don't love her at all, they're just created by her."
+        dk: "They don't love her at all, they're just created by her."
 
     branding:
         en: "She didn't create them, it's them that created her."
+        uk: "She didn't create them, it's them that created her."
         es: "She didn't create them, it's them that created her."
         cn: "She didn't create them, it's them that created her."
         fr: "She didn't create them, it's them that created her."
@@ -142,9 +153,11 @@ topHeading:
         fi: "She didn't create them, it's them that created her."
         pl: "She didn't create them, it's them that created her."
         hu: "She didn't create them, it's them that created her."
+        dk: "She didn't create them, it's them that created her."
 
     photography:
         en: "They didn't create her, she create herself."
+        uk: "They didn't create her, she create herself."
         es: "They didn't create her, she create herself."
         cn: "They didn't create her, she create herself."
         fr: "They didn't create her, she create herself."
@@ -166,9 +179,11 @@ topHeading:
         fi: "They didn't create her, she create herself."
         pl: "They didn't create her, she create herself."
         hu: "They didn't create her, she create herself."
+        dk: "They didn't create her, she create herself."
 
     publication:
         en: "Yes! I create myself!"
+        uk: "Yes! I create myself!"
         es: "Yes! I create myself!"
         cn: "Yes! I create myself!"
         fr: "Yes! I create myself!"
@@ -190,9 +205,20 @@ topHeading:
         fi: "Yes! I create myself!"
         pl: "Yes! I create myself!"
         hu: "Yes! I create myself!"
+        dk: "Yes! I create myself!"
 
     links:
         en:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        uk:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"
@@ -403,6 +429,16 @@ topHeading:
             toPublication: "en/publication"
 
         hu:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        dk:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"

@@ -37,6 +37,13 @@
                     font-size: units(50px);
                     font-size: 4.5vw;
                 }
+                @media #{$xlarge-up} {
+                    font-size: units(55px);
+                    // font-size: 4vw;
+                }
+                @media #{$xxlarge-up} {
+                    font-size: units(60px);
+                }
             }
 
             .homeMainSpan {
