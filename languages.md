@@ -11,7 +11,7 @@ french            fr    Français
 german            de    Deutsch
 greek             gr    Ελληνικά
 hebrew            il    עברית
-hungarian         hu    Magyar      (n)
+hungarian         hu    Magyar
 italian           it    Italiano
 japanese          jp    日本語
 korean            kr    한국어
