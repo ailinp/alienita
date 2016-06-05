@@ -3,22 +3,132 @@ about:
         title:
             en: "PROFESSIONAL SKILLS"
 
+        menu:
+            -
+                tab: "1"
+                class: "active"
+                title: "Front-end"
+            -
+                tab: "2"
+                class: ""
+                title: "Design"
+            -
+                tab: "3"
+                class: ""
+                title: "Art"
+            -
+                tab: "4"
+                class: ""
+                title: "Publishing"
+            -
+                tab: "5"
+                class: ""
+                title: "Translation"
+
+
         content:
             -
-                title: "Graphic Design"
-                chart: "graphic-design"
+                tab: "1"
+                chart:
+                    -
+                        title: "HTML CSS"
+                        percentage: "percent95"
+                    -
+                        title: "JavaScript (JQuery)"
+                        percentage: "percent80"
+                    -
+                        title: "Twig Yaml Sass"
+                        percentage: "percent90"
+                    -
+                        title: "Gulp Grunt"
+                        percentage: "percent60"
+                    -
+                        title: "Git"
+                        percentage: "percent70"
+                    -
+                        title: "Agile"
+                        percentage: "percent50"
             -
-                title: "Front-end"
-                chart: "front-end"
+                tab: "2"
+                chart:
+                    -
+                        title: "Graphic Design"
+                        percentage: "percent80"
+                    -
+                        title: "UX UI"
+                        percentage: "percent70"
+                    -
+                        title: "Editorial"
+                        percentage: "percent90"
+                    -
+                        title: "Animation"
+                        percentage: "percent50"
+                    -
+                        title: "Advertising"
+                        percentage: "percent70"
+                    -
+                        title: "Branding"
+                        percentage: "percent60"
             -
-                title: "Drawing"
-                chart: "drawing"
+                tab: "3"
+                chart:
+                    -
+                        title: "Illustration"
+                        percentage: "percent100"
+                    -
+                        title: "Comics"
+                        percentage: "percent80"
+                    -
+                        title: "Photography"
+                        percentage: "percent90"
+                    -
+                        title: "Oil painting"
+                        percentage: "percent60"
+                    -
+                        title: "Graffiti"
+                        percentage: "percent60"
+                    -
+                        title: "Calligraphy"
+                        percentage: "percent70"
             -
-                title: "Photography"
-                chart: "photography"
+                tab: "4"
+                chart:
+                    -
+                        title: "Executive copywriting"
+                        percentage: "percent100"
+                    -
+                        title: "Journalism (Media)"
+                        percentage: "percent80"
+                    -
+                        title: "Production (Media)"
+                        percentage: "percent60"
+                    -
+                        title: "Copy-editing"
+                        percentage: "percent90"
+                    -
+                        title: "Proofreading"
+                        percentage: "percent70"
+                    -
+                        title: "Sourcing"
+                        percentage: "percent80"
             -
-                title: "Editorial"
-                chart: "editorial"
+                tab: "5"
+                chart:
+                    -
+                        title: "Document Translating"
+                        percentage: "percent100"
+                    -
+                        title: "Consecutive Interpreting"
+                        percentage: "percent60"
+                    -
+                        title: "Simultaneous Interpreting"
+                        percentage: "percent50"
+                    -
+                        title: "Whispered Interpreting"
+                        percentage: "percent60"
+                    -
+                        title: "Trilingual Interpreting"
+                        percentage: "percent80"
 
     PersonalSkills:
         title:
@@ -143,6 +253,7 @@ about:
             - "<span>(Maybe she once was, but not anymore.)</span>"
             - "She named herself <b>Punk</b> because the pronunciation of her family name sounds very punky.<br>And yes, <b>Eileen</b> is her very first original given name.<br>Feel free to call her, but please pronounce it correctly in English."
             - "<span>(For those Spanish fellows, se pronuncia: <b>Ailin</b>, no <b>Eilin</b>, Gracias!)</span>"
+
 aside:
     introduction:
         forHome:
@@ -150,7 +261,7 @@ aside:
                 en: "Who the hell is she?"
 
             description:
-                en: "Good question! But I can't just let you have the answer so easily on the home page, can I? Go find out yourself :P"
+                en: "Good question! But I can't just let you have the answer so easily on the home page, can I? Go click something and find out yourself :P"
 
         forAbout:
             title:
@@ -701,16 +812,17 @@ globals:
     en:
         meta:
             title:  "EileenPunk"
-            description: "This Eileen Punk never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
+            description: "This Eileen Punk never is just one thing. Web developer, illustrator, publication executive editor, writer, artist, graphic designer, interpreter, language teacher, photographer-model, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
             url: "www.eileenpunk.com"
             image: "http://www.eileenpunk.com/assets/images/og.jpg"
 
     es:
         meta:
             title:  "EileenPunk"
-            description: "This Eileen Punk never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
+            description: "This Eileen Punk never is just one thing. Web developer, illustrator, publication executive editor, writer, artist, graphic designer, interpreter, language teacher, photographer-model, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
             url: "www.eileenpunk.com"
             image: "http://www.eileenpunk.com/assets/images/og.jpg"
+
 header:
     logo:
         link: "http://www.eileenpunk.com"

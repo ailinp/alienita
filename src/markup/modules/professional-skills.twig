@@ -1,13 +1,22 @@
 <div class="ProfessionalSkills row">
     <h2>{{ about.ProfessionalSkills.title.en }}</h2>
     <div class="ProfessionalSkills-container">
+        <ul class="ProfessionalSkills-menu js-tabMenu">
+            {% for menu in about.ProfessionalSkills.menu %}
+            <li class="ProfessionalSkills-menuItem {% if class is defined %}{{ menu.class }}{% endif %}"><a href="#tab-{{ menu.tab }}">{{ menu.title|raw }}</a></li>
+            {% endfor %}
+        </ul>
         {% for content in about.ProfessionalSkills.content %}
-        <div class="ProfessionalSkills-content row">
-            <span class="ProfessionalSkills-title columns small-24 small-centered medium-8 medium-uncentered large-6">{{ content.title|raw }}</span>
-            <div class="ProfessionalSkills-chart columns small-24 small-centered medium-16 medium-uncentered large-18">
-                <span class="bar {{ content.chart }}"></span>
-            </div>
-        </div>
+        <ul id="tab-{{ content.tab }}" class="ProfessionalSkills-content js-tabContent">
+            {% for chart in content.chart %}
+            <li class="ProfessionalSkills-contentItem">
+                <span class="ProfessionalSkills-title">{{ chart.title|raw }}</span>
+                <div class="ProfessionalSkills-chart">
+                    <span class="ProfessionalSkills-chartItem {{ chart.percentage }}"></span>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
         {% endfor %}
     </div>
 </div>

@@ -3,22 +3,132 @@ about:
         title:
             en: "PROFESSIONAL SKILLS"
 
+        menu:
+            -
+                tab: "1"
+                class: "active"
+                title: "Front-end"
+            -
+                tab: "2"
+                class: ""
+                title: "Design"
+            -
+                tab: "3"
+                class: ""
+                title: "Art"
+            -
+                tab: "4"
+                class: ""
+                title: "Publishing"
+            -
+                tab: "5"
+                class: ""
+                title: "Translation"
+
+
         content:
             -
-                title: "Graphic Design"
-                chart: "graphic-design"
+                tab: "1"
+                chart:
+                    -
+                        title: "HTML CSS"
+                        percentage: "percent95"
+                    -
+                        title: "JavaScript (JQuery)"
+                        percentage: "percent80"
+                    -
+                        title: "Twig Yaml Sass"
+                        percentage: "percent90"
+                    -
+                        title: "Gulp Grunt"
+                        percentage: "percent60"
+                    -
+                        title: "Git"
+                        percentage: "percent70"
+                    -
+                        title: "Agile"
+                        percentage: "percent50"
             -
-                title: "Front-end"
-                chart: "front-end"
+                tab: "2"
+                chart:
+                    -
+                        title: "Graphic Design"
+                        percentage: "percent80"
+                    -
+                        title: "UX UI"
+                        percentage: "percent70"
+                    -
+                        title: "Editorial"
+                        percentage: "percent90"
+                    -
+                        title: "Animation"
+                        percentage: "percent50"
+                    -
+                        title: "Advertising"
+                        percentage: "percent70"
+                    -
+                        title: "Branding"
+                        percentage: "percent60"
             -
-                title: "Drawing"
-                chart: "drawing"
+                tab: "3"
+                chart:
+                    -
+                        title: "Illustration"
+                        percentage: "percent100"
+                    -
+                        title: "Comics"
+                        percentage: "percent80"
+                    -
+                        title: "Photography"
+                        percentage: "percent90"
+                    -
+                        title: "Oil painting"
+                        percentage: "percent60"
+                    -
+                        title: "Graffiti"
+                        percentage: "percent60"
+                    -
+                        title: "Calligraphy"
+                        percentage: "percent70"
             -
-                title: "Photography"
-                chart: "photography"
+                tab: "4"
+                chart:
+                    -
+                        title: "Executive copywriting"
+                        percentage: "percent100"
+                    -
+                        title: "Journalism (Media)"
+                        percentage: "percent80"
+                    -
+                        title: "Production (Media)"
+                        percentage: "percent60"
+                    -
+                        title: "Copy-editing"
+                        percentage: "percent90"
+                    -
+                        title: "Proofreading"
+                        percentage: "percent70"
+                    -
+                        title: "Sourcing"
+                        percentage: "percent80"
             -
-                title: "Editorial"
-                chart: "editorial"
+                tab: "5"
+                chart:
+                    -
+                        title: "Document Translating"
+                        percentage: "percent100"
+                    -
+                        title: "Consecutive Interpreting"
+                        percentage: "percent60"
+                    -
+                        title: "Simultaneous Interpreting"
+                        percentage: "percent50"
+                    -
+                        title: "Whispered Interpreting"
+                        percentage: "percent60"
+                    -
+                        title: "Trilingual Interpreting"
+                        percentage: "percent80"
 
     PersonalSkills:
         title:

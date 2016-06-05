@@ -1,10 +1,28 @@
-.ProfessionalSkills-content {
-    padding-right: gutter(2);
-
-    @media #{$medium-up} {
-        padding-right: gutter(3.5);
+.ProfessionalSkills {
+    .ProfessionalSkills-container {
+        min-height: units(360px);
+        @media #{$medium-up} {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: stretch;
+            justify-content: flex-start;
+        }
     }
-
+    .ProfessionalSkills-menu {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        @media #{$medium-up} {
+            width: 30%;
+            .ProfessionalSkills-menuItem { width: 100%; }
+        }
+    }
+    .ProfessionalSkills-content {
+        display: none;
+        @media #{$medium-up} { width: 70%; }
+    }
+    #tab-1 { display: block; }
     .ProfessionalSkills-title {
         color: $c-neutroDark;
         display: block;
@@ -17,10 +35,6 @@
         @media #{$xmedium-up} {
             display: inline-block;
             margin-bottom: 0;
-        }
-
-        @media #{$medium-up} {
-            padding-left: gutter(2);
         }
     }
 
@@ -35,13 +49,21 @@
         background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
         border-radius: units(10px);
         box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
-        height: units(20px);
+        height: units(12px);
         -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
         -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+        position: relative;
 
-        .bar {
-            height: units(16px);
-            margin: units(1px) units(-2px);
+        .ProfessionalSkills-chartItem {
+            background-color: $c-main;
+            background-image: -webkit-gradient(linear, left top, left bottom, from($c-mainLighter), to($c-main));
+            background-image: -webkit-linear-gradient(top, $c-mainLighter, $c-main);
+            background-image: -moz-linear-gradient(top, $c-mainLighter, $c-main);
+            background-image: -ms-linear-gradient(top, $c-mainLighter, $c-main);
+            background-image: -o-linear-gradient(top, $c-mainLighter, $c-main);
+            background-image: linear-gradient(top, $c-mainLighter, $c-main);
+            height: units(8px);
+            margin: units(1px) units(-2px) units(1px) units(2px);
             position: absolute;
             border-radius: units(10px);
             -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
@@ -50,57 +72,87 @@
             padding: 0;
         }
 
-        .graphic-design, .front-end, .drawing, .photography, .editorial {
-            background-color: $c-mainLight;
-            background-image: -webkit-gradient(linear, left top, left bottom, from($c-mainLight), to($c-main));
-            background-image: -webkit-linear-gradient(top, $c-mainLight, $c-main);
-            background-image: -moz-linear-gradient(top, $c-mainLight, $c-main);
-            background-image: -ms-linear-gradient(top, $c-mainLight, $c-main);
-            background-image: -o-linear-gradient(top, $c-mainLight, $c-main);
-            background-image: linear-gradient(top, $c-mainLight, $c-main);
-            height: 16px;
+        .percent40 {
+            animation: percent40 2s ease-out;
+            -moz-animation: percent40 2s ease-out;
+            -webkit-animation: percent40 2s ease-out;
+            width: 40%;
         }
-
-        .graphic-design {
-            -moz-animation:graphic-design 2s ease-out;
-            -webkit-animation:graphic-design 2s ease-out;
+        .percent50 {
+            animation: percent50 2s ease-out;
+            -moz-animation: percent50 2s ease-out;
+            -webkit-animation: percent50 2s ease-out;
+            width: 50%;
+        }
+        .percent60 {
+            animation: percent60 2s ease-out;
+            -moz-animation: percent60 2s ease-out;
+            -webkit-animation: percent60 2s ease-out;
+            width: 60%;
+        }
+        .percent70 {
+            animation: percent70 2s ease-out;
+            -moz-animation: percent70 2s ease-out;
+            -webkit-animation: percent70 2s ease-out;
             width: 70%;
         }
-
-        .front-end {
-            -moz-animation:front-end 2s ease-out;
-            -webkit-animation:front-end 2s ease-out;
-            width:80%;
+        .percent75 {
+            animation: percent75 2s ease-out;
+            -moz-animation: percent75 2s ease-out;
+            -webkit-animation: percent75 2s ease-out;
+            width: 75%;
         }
-
-        .drawing {
-            -moz-animation:drawing 2s ease-out;
-            -webkit-animation:drawing 2s ease-out;
-            width:99%;
+        .percent80 {
+            animation: percent80 2s ease-out;
+            -moz-animation: percent80 2s ease-out;
+            -webkit-animation: percent80 2s ease-out;
+            width: 80%;
         }
-
-        .photography {
-            -moz-animation:photography 2s ease-out;
-            -webkit-animation:photography 2s ease-out;
-            width:60%;
+        .percent85 {
+            animation: percent85 2s ease-out;
+            -moz-animation: percent85 2s ease-out;
+            -webkit-animation: percent85 2s ease-out;
+            width: 85%;
         }
-
-        .editorial {
-            -moz-animation:editorial 2s ease-out;
-            -webkit-animation:editorial 2s ease-out;
-            width:90%;
+        .percent90 {
+            animation: percent90 2s ease-out;
+            -moz-animation: percent90 2s ease-out;
+            -webkit-animation: percent90 2s ease-out;
+            width: 90%;
+        }
+        .percent95 {
+            animation: percent95 2s ease-out;
+            -moz-animation: percent95 2s ease-out;
+            -webkit-animation: percent95 2s ease-out;
+            width: 95%;
+        }
+        .percent100 {
+            animation: percent100 2s ease-out;
+            -moz-animation: percent100 2s ease-out;
+            -webkit-animation: percent100 2s ease-out;
+            width: calc(100% - 4px);
         }
     }
 }
 
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:70%;}  }
-@-moz-keyframes front-end { 0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes drawing { 0%  { width:0px;} 100%{ width:99%;}  }
-@-moz-keyframes photography { 0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes editorial { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes percent40 {0%  { width:0px;} 100%{ width:40%;}  }
+@-moz-keyframes percent50 { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes percent60 { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes percent70 { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes percent75 { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes percent80 { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes percent85 { 0%  { width:0px;} 100%{ width:85%;}  }
+@-moz-keyframes percent90 { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes percent95 { 0%  { width:0px;} 100%{ width:95%;}  }
+@-moz-keyframes percent100 { 0%  { width:0px;} 100%{ width:calc(100% - 4px);}  }
 
-@-webkit-keyframes graphic-design { 0%  { width:0px;} 100%{ width:70%;}  }
-@-webkit-keyframes front-end { 0%  { width:0px;} 100%{ width:80%;}  }
-@-webkit-keyframes drawing { 0%  { width:0px;} 100%{ width:99%;}  }
-@-webkit-keyframes photography { 0%  { width:0px;} 100%{ width:60%;}  }
-@-webkit-keyframes editorial { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes percent40 {0%  { width:0px;} 100%{ width:40%;}  }
+@-webkit-keyframes percent50 { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes percent60 { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes percent70 { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes percent75 { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes percent80 { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes percent85 { 0%  { width:0px;} 100%{ width:85%;}  }
+@-webkit-keyframes percent90 { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes percent95 { 0%  { width:0px;} 100%{ width:95%;}  }
+@-webkit-keyframes percent100 { 0%  { width:0px;} 100%{ width:calc(100% - 4px);}  }
