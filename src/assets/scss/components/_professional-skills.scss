@@ -13,6 +13,22 @@
         flex-wrap: wrap;
         flex-direction: row;
         text-align: center;
+        position: relative;
+        .ProfessionalSkills-menuItem a {
+            background-color: $c-mainLighter;
+            color: $c-main;
+            display: block;
+            padding: units(20px);
+            @media #{$medium-up} {
+                height: 20%;
+                padding: units(22px) 0;
+                position: absolute;
+                left: 0; right: 0;
+            }
+        }
+        .ProfessionalSkills-menuItem a:hover,
+        .ProfessionalSkills-menuItem.active a { background-color: $c-mainLight; }
+        .ProfessionalSkills-menuItem:not(:last-child) a { border-bottom: 1px solid $c-white; }
         @media #{$medium-up} {
             width: 30%;
             .ProfessionalSkills-menuItem { width: 100%; }
@@ -20,6 +36,7 @@
     }
     .ProfessionalSkills-content {
         display: none;
+        padding: units(15px) units(20px);
         @media #{$medium-up} { width: 70%; }
     }
     #tab-1 { display: block; }
@@ -37,9 +54,8 @@
             margin-bottom: 0;
         }
     }
-
+    .ProfessionalSkills-contentItem:not(:last-child) { margin-bottom: units(20px); }
     .ProfessionalSkills-chart {
-        margin-bottom: units(20px);
         background: #e9e5e2;
         background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
         background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);

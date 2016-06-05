@@ -3,7 +3,7 @@
     <div class="ProfessionalSkills-container">
         <ul class="ProfessionalSkills-menu js-tabMenu">
             {% for menu in about.ProfessionalSkills.menu %}
-            <li class="ProfessionalSkills-menuItem {% if class is defined %}{{ menu.class }}{% endif %}"><a href="#tab-{{ menu.tab }}">{{ menu.title|raw }}</a></li>
+            <li class="ProfessionalSkills-menuItem {{ menu.class }}"><a href="#tab-{{ menu.tab }}">{{ menu.title|raw }}</a></li>
             {% endfor %}
         </ul>
         {% for content in about.ProfessionalSkills.content %}
