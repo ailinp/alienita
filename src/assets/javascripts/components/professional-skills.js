@@ -5,6 +5,6 @@ $(document).ready(function() {
         $(this).parent().siblings().removeClass("active");
         var tab = $(this).attr("href");
         $(".js-tabContent").not(tab).css("display", "none");
-        $(tab).slideDown();
+        $(tab).fadeIn();
     });
 });

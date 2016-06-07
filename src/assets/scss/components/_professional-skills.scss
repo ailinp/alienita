@@ -1,6 +1,5 @@
 .ProfessionalSkills {
     .ProfessionalSkills-container {
-        min-height: units(360px);
         @media #{$medium-up} {
             display: flex;
             flex-wrap: nowrap;
@@ -14,6 +13,7 @@
         flex-direction: row;
         text-align: center;
         position: relative;
+        width: 100%;
         .ProfessionalSkills-menuItem a {
             background-color: $c-mainLighter;
             color: $c-main;
@@ -26,12 +26,31 @@
                 left: 0; right: 0;
             }
         }
+        .ProfessionalSkills-menuItem:nth-child(1) { width: 33.334%; }
+        .ProfessionalSkills-menuItem:nth-child(2),
+        .ProfessionalSkills-menuItem:nth-child(3) { width: 33.333%; }
+        .ProfessionalSkills-menuItem:nth-child(4),
+        .ProfessionalSkills-menuItem:nth-child(5) { width: 50%; }
         .ProfessionalSkills-menuItem a:hover,
         .ProfessionalSkills-menuItem.active a { background-color: $c-mainLight; }
-        .ProfessionalSkills-menuItem:not(:last-child) a { border-bottom: 1px solid $c-white; }
+        .ProfessionalSkills-menuItem:nth-child(1),
+        .ProfessionalSkills-menuItem:nth-child(2),
+        .ProfessionalSkills-menuItem:nth-child(4) { border-right: 1px solid $c-white; }
+        .ProfessionalSkills-menuItem:nth-child(1),
+        .ProfessionalSkills-menuItem:nth-child(2),
+        .ProfessionalSkills-menuItem:nth-child(3) { border-bottom: 1px solid $c-white; }
         @media #{$medium-up} {
             width: 30%;
             .ProfessionalSkills-menuItem { width: 100%; }
+            .ProfessionalSkills-menuItem:nth-child(1),
+            .ProfessionalSkills-menuItem:nth-child(2),
+            .ProfessionalSkills-menuItem:nth-child(3),
+            .ProfessionalSkills-menuItem:nth-child(4),
+            .ProfessionalSkills-menuItem:nth-child(5) { width: 100%; }
+            .ProfessionalSkills-menuItem:nth-child(1),
+            .ProfessionalSkills-menuItem:nth-child(2),
+            .ProfessionalSkills-menuItem:nth-child(4) { border-right: 0; }
+            .ProfessionalSkills-menuItem:not(:last-child) a { border-bottom: 1px solid $c-white; }
         }
     }
     .ProfessionalSkills-content {

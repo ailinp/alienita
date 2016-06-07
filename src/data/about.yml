@@ -1,7 +1,7 @@
 about:
     ProfessionalSkills:
         title:
-            en: "PROFESSIONAL SKILLS"
+            en: "WHAT DOES SHE DO?"
 
         menu:
             -
@@ -115,8 +115,11 @@ about:
                 tab: "5"
                 chart:
                     -
-                        title: "Document Translating"
-                        percentage: "percent100"
+                        title: "Literal Translating"
+                        percentage: "percent80"
+                    -
+                        title: "Dynamic (Idiomatic) Translating"
+                        percentage: "percent90"
                     -
                         title: "Consecutive Interpreting"
                         percentage: "percent60"
@@ -132,27 +135,46 @@ about:
 
     PersonalSkills:
         title:
-            en: "PERSONAL SKILLS"
+            en: "WHAT IS SHE LIKE?"
 
         content:
             -
-                title: "Visual Design"
+                title: "Healthy"
                 percentage: "75"
             -
-                title: "Programming"
-                percentage: "85"
+                title: "Educated"
+                percentage: "80"
             -
-                title: "UX"
+                title: "Brave"
                 percentage: "60"
             -
-                title: "Strategy"
+                title: "Beautiful"
+                percentage: "50"
+            -
+                title: "Unworldly"
                 percentage: "70"
             -
-                title: "Creativity"
-                percentage: "97"
+                title: "Perseverant"
+                percentage: "90"
             -
-                title: "Team Work"
+                title: "Independent"
                 percentage: "80"
+            -
+                title: "Tactful"
+                percentage: "60"
+
+            # -
+            #     title: "Creative"
+            #     percentage: "98"
+            # -
+            #     title: "Bi-handed"
+            #     percentage: "100"
+            # -
+            #     title: "Faithful"
+            #     percentage: "60"
+            # -
+            #     title: "Filial Piety"
+            #     percentage: "50"
 
     TechnicalSkills:
         title:
