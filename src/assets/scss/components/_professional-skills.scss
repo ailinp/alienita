@@ -18,7 +18,8 @@
             background-color: $c-mainLighter;
             color: $c-main;
             display: block;
-            padding: units(20px);
+            padding: units(10px);
+            @media #{$small-up} { padding: units(15px) 0; }
             @media #{$medium-up} {
                 height: 20%;
                 padding: units(22px) 0;
@@ -26,20 +27,25 @@
                 left: 0; right: 0;
             }
         }
-        .ProfessionalSkills-menuItem:nth-child(1) { width: 33.334%; }
-        .ProfessionalSkills-menuItem:nth-child(2),
-        .ProfessionalSkills-menuItem:nth-child(3) { width: 33.333%; }
+        .ProfessionalSkills-menuItem:nth-child(1) { width: 43%; }
+        .ProfessionalSkills-menuItem:nth-child(2) { width: 32%; }
+        .ProfessionalSkills-menuItem:nth-child(3) { width: 25%; }
         .ProfessionalSkills-menuItem:nth-child(4),
         .ProfessionalSkills-menuItem:nth-child(5) { width: 50%; }
         .ProfessionalSkills-menuItem a:hover,
         .ProfessionalSkills-menuItem.active a { background-color: $c-mainLight; }
-        .ProfessionalSkills-menuItem:nth-child(1),
-        .ProfessionalSkills-menuItem:nth-child(2),
-        .ProfessionalSkills-menuItem:nth-child(4) { border-right: 1px solid $c-white; }
-        .ProfessionalSkills-menuItem:nth-child(1),
-        .ProfessionalSkills-menuItem:nth-child(2),
-        .ProfessionalSkills-menuItem:nth-child(3) { border-bottom: 1px solid $c-white; }
+        .ProfessionalSkills-menuItem:nth-child(1) a,
+        .ProfessionalSkills-menuItem:nth-child(2) a,
+        .ProfessionalSkills-menuItem:nth-child(4) a { border-right: 1px solid $c-white; }
+        .ProfessionalSkills-menuItem:nth-child(1) a,
+        .ProfessionalSkills-menuItem:nth-child(2) a,
+        .ProfessionalSkills-menuItem:nth-child(3) a { border-bottom: 1px solid $c-white; }
+        @media #{$small-up} {
+            flex-wrap: nowrap;
+            .ProfessionalSkills-menuItem:not(:last-child) a { border-right: 1px solid $c-white; }
+        }
         @media #{$medium-up} {
+            flex-wrap: wrap;
             width: 30%;
             .ProfessionalSkills-menuItem { width: 100%; }
             .ProfessionalSkills-menuItem:nth-child(1),
@@ -47,10 +53,7 @@
             .ProfessionalSkills-menuItem:nth-child(3),
             .ProfessionalSkills-menuItem:nth-child(4),
             .ProfessionalSkills-menuItem:nth-child(5) { width: 100%; }
-            .ProfessionalSkills-menuItem:nth-child(1),
-            .ProfessionalSkills-menuItem:nth-child(2),
-            .ProfessionalSkills-menuItem:nth-child(4) { border-right: 0; }
-            .ProfessionalSkills-menuItem:not(:last-child) a { border-bottom: 1px solid $c-white; }
+            .ProfessionalSkills-menuItem:not(:last-child) a { border-right: 0; border-bottom: 1px solid $c-white; }
         }
     }
     .ProfessionalSkills-content {
