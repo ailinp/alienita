@@ -13,7 +13,7 @@
     margin: 0 auto gutter(2);
     text-align: center;
     @media #{$medium-up} { margin: 0 units(20px) gutter(2); }
-    @media #{$large-up} { margin: 0 units(30px) gutter(2); }
+    @media #{$large-up} { margin: 0 units(50px) gutter(2); }
     @media #{$xlarge-up} { margin: 0 units(50px) gutter(2); }
 }
 
