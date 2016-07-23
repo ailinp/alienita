@@ -1,8 +1,8 @@
-<div class="PersonalSkills row">
-    <h2>{{ about.PersonalSkills.title.en }}</h2>
-    {% for content in about.PersonalSkills.content %}
-        <div class="PersonalSkills-container columns small-12 medium-8 large-6">
+<div class="PersonalSkills">
+    <h2 class="PersonalSkills-title">{{ about.PersonalSkills.title.en }}</h2>
+    <div class="PersonalSkills-container">
+        {% for content in about.PersonalSkills.content %}
             <div class="PersonalSkills-chart" data-percent="{{ content.percentage }}">{{ content.title|raw }}</div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>

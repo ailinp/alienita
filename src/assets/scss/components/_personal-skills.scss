@@ -1,3 +1,9 @@
+.PersonalSkills-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
 .PersonalSkills-chart {
     position: relative;
     color: $c-neutroDark;
@@ -6,10 +12,12 @@
     font-weight: 500;
     margin: 0 auto gutter(2);
     text-align: center;
+    @media #{$medium-up} { margin: 0 units(20px) gutter(2); }
+    @media #{$large-up} { margin: 0 units(30px) gutter(2); }
+    @media #{$xlarge-up} { margin: 0 units(50px) gutter(2); }
 }
 
 .PersonalSkills-chart canvas {
     position: absolute;
-        top: 0;
-        left: 0;
+    top: 0; left: 0;
 }

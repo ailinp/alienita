@@ -3,7 +3,7 @@
 
 // =Font size
 // ------------------------------------------------------
-$global-max-width: 1024px !default;
+$global-max-width: 1440px !default;
 $global-medium-width: 800px !default;
 $global-font-size-px: 16px !default;
 $global-gutter: 15px !default;
@@ -41,23 +41,6 @@ $c-hover: lighten($c-main,10%);
 
 $c-borders: $c-neutro;
 $c-link: $c-main;
-
-$c-facebook: #355199;
-$c-twitter: #00acee;
-$c-instagram: #5d7a9f;
-$c-mail: #5c9bc6; // MAIL BUTTON
-$c-tel: #779960;  // TELEPHONE BUTTON
-
-$c-service1: #d6943d;
-$c-service2: #cf553e;
-$c-service3: #ba365a;
-$c-service4: #833562;
-$c-service5: #50396b;
-$c-service6: #40323c;
-
-$services-num: 1 2 3 4 5 6;
-$services-colors: $c-service1 $c-service2 $c-service3 $c-service4 $c-service5 $c-service6;
-$service-style: zip($services-num, $services-colors);
 
 // Here we define the lower and upper bounds for each media size
 $xsmall-range:  0, 30rem;           /* 0, 480px */
