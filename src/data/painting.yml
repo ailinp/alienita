@@ -1,5 +1,17 @@
 Painting:
     -
+        backgroundImage: "painting-19"
+        title: "The Darkness Inside"
+        subtitle: "If I'm meant to be the one who destroys you, I'll be the one who save you."
+        fullImage: "painting/painting-19.jpg"
+        captionData:
+            - "Date"
+            - "June 18, 2016"
+            - "Category"
+            - "Illustration"
+        description: "S. SF.: \"If I'm meant to be the one who destroys you, I'll be the one who save you.\""
+
+    -
         backgroundImage: "painting-18"
         title: "Bathe a Little Blood"
         subtitle: "I am not drowning. I am not killing myself. Don't worry, I just need to bathe in a little blood."

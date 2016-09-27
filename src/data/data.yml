@@ -702,7 +702,7 @@ footer:
         kr: "만약 당신의 한국어가 형평없다면 당신이 잘할 수 있는것을 선택하세요!"
         pt: "Se o teu português é mau escolhe a língua em que és bom."
         ae: "إذا كنت لا يتكلمون العربية، الرجاء اختيار لغة أخرى"
-        se: "Om du inte talar svenska, vänligen välj ett annat språk!"
+        se: "Om din svenska är dålig välja ett annat språk!"
         ca: "Si el teu català fa pudor, escull aquell en el que ets bo!"
         hk: "白話屎到痹呀嘛，揀過第二樣啱睇㗎啦喂！"
         nl: "Als jouw Nederlands belabberd is, kies een andere taal!"
@@ -715,6 +715,10 @@ footer:
         pl: "Jeśli Twój Polski jest do niczego, zmień język na inny poniżej!"
         hu: "Ha nem megy a magyar, nyugodtan próbálkozz másik nyelvvel."
         dk: "Vælg venligst et andet sprog, hvis dit danske stinker!"
+        is: "Ef islenskan þin er slæm þa getum við talað a öðru tungumali!"
+        hr: ""
+        in: ""
+        no: ""
 
     language:
         -
@@ -812,6 +816,26 @@ footer:
         -
             link: "dk"
             title: "Dansk"
+            class: ""
+
+        -
+            link: "is"
+            title: "Íslenska"
+            class: ""
+
+        -
+            link: "hr"
+            title: "Hrvatski"
+            class: ""
+
+        -
+            link: "in"
+            title: "हिंदी"
+            class: ""
+
+        -
+            link: "no"
+            title: "Norska"
             class: ""
 
     description:
@@ -941,7 +965,7 @@ home:
 
         ae: "The reason why I put Arabic on my list is kind of special.<br>I don't speak any Arabic and I don't know anyone who speaks it.<br>However, as you know, I'm a left handed. I'm a perfect Arabic learner! If you prefer to read like this,<br>.this like write can I"
 
-        se: "I heard some great things about Sweden from one of my old colleagues long before I came to Europe. Relax, all positive things. And I heard the people there are so nice!"
+        se: "Svenskarna hänga regnbågsflaggan tillsammans med den nationella flaggan på varje hörn av varje gata. heterosexuella verkar inte ha samma plats i detta land!"
 
         ca: "Que extrany que visc a Barcelona però no parlo quasi res de català.<br>Dic \"quasi\" perquè hi ha una frase en català \"Molt bé, adeu!\"<br>que dic tots els dies quan surto de casa, pujo amb l'ascensor i veig algun dels meus veïns!"
 
@@ -967,6 +991,14 @@ home:
 
         dk: "Ja jeg tog hen og så den lille havfrue. Altså...danskere er store, så burde deres havfrue...det jeg tænkte...måske skulle jeg bare komme tilbage en anden gang. Lade hende vokse lidt op."
 
+        is: "Ást mín á Íslandi er ólysanleg!<br>Island er fallegasta land sem eg hef komið til! Mér finnst það vera fallegasta land i evrópu!<br>Það er svo einstakt!"
+
+        hr: ""
+
+        in: ""
+
+        no: ""
+
 page:
     name: "EileenPunk"
     slug: "eileenpunk"
@@ -991,6 +1023,18 @@ page:
             mainSection: "mainSection columns small-24 medium-16 large-18"
             aside: "columns small-24 medium-8 large-6"
 Painting:
+    -
+        backgroundImage: "painting-19"
+        title: "The Darkness Inside"
+        subtitle: "If I'm meant to be the one who destroys you, I'll be the one who save you."
+        fullImage: "painting/painting-19.jpg"
+        captionData:
+            - "Date"
+            - "June 18, 2016"
+            - "Category"
+            - "Illustration"
+        description: "S. SF.: \"If I'm meant to be the one who destroys you, I'll be the one who save you.\""
+
     -
         backgroundImage: "painting-18"
         title: "Bathe a Little Blood"
@@ -1438,6 +1482,10 @@ topHeading:
         pl: "Oh... You don't really believe that she had all these languages translated, do you?"
         hu: "Oh... You don't really believe that she had all these languages translated, do you?"
         dk: "Oh... You don't really believe that she had all these languages translated, do you?"
+        is: "Oh... You don't really believe that she had all these languages translated, do you?"
+        hr: "Oh... You don't really believe that she had all these languages translated, do you?"
+        in: "Oh... You don't really believe that she had all these languages translated, do you?"
+        no: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
@@ -1464,6 +1512,10 @@ topHeading:
         pl: "She's not talented, she just works hard."
         hu: "She's not talented, she just works hard."
         dk: "She's not talented, she just works hard."
+        is: "She's not talented, she just works hard."
+        hr: "She's not talented, she just works hard."
+        in: "She's not talented, she just works hard."
+        no: "She's not talented, she just works hard."
 
     painting:
         en: "She's not hard working, she just loves her works."
@@ -1490,6 +1542,10 @@ topHeading:
         pl: "She's not hard working, she just loves her works."
         hu: "She's not hard working, she just loves her works."
         dk: "She's not hard working, she just loves her works."
+        is: "She's not hard working, she just loves her works."
+        hr: "She's not hard working, she just loves her works."
+        in: "She's not hard working, she just loves her works."
+        no: "She's not hard working, she just loves her works."
 
     comics:
         en: "She doesn't love her works, she's just loved by them."
@@ -1516,6 +1572,10 @@ topHeading:
         pl: "She doesn't love her works, she's just loved by them."
         hu: "She doesn't love her works, she's just loved by them."
         dk: "She doesn't love her works, she's just loved by them."
+        is: "She doesn't love her works, she's just loved by them."
+        hr: "She doesn't love her works, she's just loved by them."
+        in: "She doesn't love her works, she's just loved by them."
+        no: "She doesn't love her works, she's just loved by them."
 
     editorial:
         en: "They don't love her at all, they're just created by her."
@@ -1542,6 +1602,10 @@ topHeading:
         pl: "They don't love her at all, they're just created by her."
         hu: "They don't love her at all, they're just created by her."
         dk: "They don't love her at all, they're just created by her."
+        is: "They don't love her at all, they're just created by her."
+        hr: "They don't love her at all, they're just created by her."
+        in: "They don't love her at all, they're just created by her."
+        no: "They don't love her at all, they're just created by her."
 
     branding:
         en: "She didn't create them, it's them that created her."
@@ -1568,6 +1632,10 @@ topHeading:
         pl: "She didn't create them, it's them that created her."
         hu: "She didn't create them, it's them that created her."
         dk: "She didn't create them, it's them that created her."
+        is: "She didn't create them, it's them that created her."
+        hr: "She didn't create them, it's them that created her."
+        in: "She didn't create them, it's them that created her."
+        no: "She didn't create them, it's them that created her."
 
     photography:
         en: "They didn't create her, she create herself."
@@ -1594,6 +1662,10 @@ topHeading:
         pl: "They didn't create her, she create herself."
         hu: "They didn't create her, she create herself."
         dk: "They didn't create her, she create herself."
+        is: "They didn't create her, she create herself."
+        hr: "They didn't create her, she create herself."
+        in: "They didn't create her, she create herself."
+        no: "They didn't create her, she create herself."
 
     publication:
         en: "Yes! I create myself!"
@@ -1620,6 +1692,10 @@ topHeading:
         pl: "Yes! I create myself!"
         hu: "Yes! I create myself!"
         dk: "Yes! I create myself!"
+        is: "Yes! I create myself!"
+        hr: "Yes! I create myself!"
+        in: "Yes! I create myself!"
+        no: "Yes! I create myself!"
 
     links:
         en:
@@ -1853,6 +1929,46 @@ topHeading:
             toPublication: "en/publication"
 
         dk:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        is:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        hr:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        in:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        no:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"

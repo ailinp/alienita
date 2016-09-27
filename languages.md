@@ -1,4 +1,5 @@
-english           en    English
+english           en    English(US)
+english           uk    English(UK)
 arabic            ae    العربية     (n)
 cantonese         hk    廣東話
 catalan           ca    Català
@@ -21,10 +22,42 @@ russian           ru    Русский
 spanish           es    Español
 swedish           se    Svenska     (n)
 thai              th    ไทย         (n)
+Icelandic         is    Íslenska    (n)
+Croatian          hr    Hrvatski    (n)
+Hindi             in    हिंदी         (n)
+Norwegian         no    Norsk       (n)
 
 
-top-heading.yml
-home.yml
-footer.yml
-index.twig
-footer.twig
+
+web/*.twig
+data/top-heading.yml
+data/home.yml
+data/footer.yml
+markup/themes/default/includes/footer.twig
+
+
+
+{% set isClass = 'inactive' %}
+{% set hrClass = 'inactive' %}
+{% set inClass = 'inactive' %}
+{% set noClass = 'inactive' %}
+
+, 'is': 'is', 'hr': 'hr', 'in': 'in', 'no': 'no'
+
+
+
+
+Croatian:
+I went to Croatia for my birthday adventure 2016. There, I donated 2 objects to the museum of broken relationships. There, I said goodbye to the past.
+
+Hrvatski
+
+
+
+Hindi:
+I used to do pattern drawing on my leg with Indian tattoo ink. What I did was just having fun, but what they do in India is an indescribable art!
+
+
+
+Norwegian:
+As a Pescatarian, Norway is the perfect country for me to spend the rest of my life in. I can die here surrounded by all kinds of seafoods and caviar!

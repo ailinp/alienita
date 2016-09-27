@@ -11,7 +11,7 @@ footer:
         kr: "만약 당신의 한국어가 형평없다면 당신이 잘할 수 있는것을 선택하세요!"
         pt: "Se o teu português é mau escolhe a língua em que és bom."
         ae: "إذا كنت لا يتكلمون العربية، الرجاء اختيار لغة أخرى"
-        se: "Om du inte talar svenska, vänligen välj ett annat språk!"
+        se: "Om din svenska är dålig välja ett annat språk!"
         ca: "Si el teu català fa pudor, escull aquell en el que ets bo!"
         hk: "白話屎到痹呀嘛，揀過第二樣啱睇㗎啦喂！"
         nl: "Als jouw Nederlands belabberd is, kies een andere taal!"
@@ -24,6 +24,10 @@ footer:
         pl: "Jeśli Twój Polski jest do niczego, zmień język na inny poniżej!"
         hu: "Ha nem megy a magyar, nyugodtan próbálkozz másik nyelvvel."
         dk: "Vælg venligst et andet sprog, hvis dit danske stinker!"
+        is: "Ef islenskan þin er slæm þa getum við talað a öðru tungumali!"
+        hr: ""
+        in: ""
+        no: ""
 
     language:
         -
@@ -121,6 +125,26 @@ footer:
         -
             link: "dk"
             title: "Dansk"
+            class: ""
+
+        -
+            link: "is"
+            title: "Íslenska"
+            class: ""
+
+        -
+            link: "hr"
+            title: "Hrvatski"
+            class: ""
+
+        -
+            link: "in"
+            title: "हिंदी"
+            class: ""
+
+        -
+            link: "no"
+            title: "Norska"
             class: ""
 
     description:

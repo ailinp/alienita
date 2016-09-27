@@ -1,6 +1,7 @@
 .Home,
 .About {
-    width: 100%;
+    // width: 100%;
+    width: calc(100% - 20px);
 
     & > .u-wrapper {
         padding: gutter(.4) 0 0!important;
@@ -78,7 +79,8 @@
 .Branding,
 .Photography,
 .Publication {
-    width: 100%;
+    // width: 100%;
+    width: calc(100% - 20px);
 
     & > .u-wrapper {
         padding: gutter(.4) 0 0!important;
