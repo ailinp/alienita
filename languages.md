@@ -46,14 +46,6 @@ markup/themes/default/includes/footer.twig
 
 
 
-
-Croatian:
-I went to Croatia for my birthday adventure 2016. There, I donated 2 objects to the museum of broken relationships. There, I said goodbye to the past.
-
-Hrvatski
-
-
-
 Hindi:
 I used to do pattern drawing on my leg with Indian tattoo ink. What I did was just having fun, but what they do in India is an indescribable art!
 
