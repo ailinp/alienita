@@ -186,6 +186,20 @@
     }
 }
 
+.Comics {
+    .previewBlock {
+        position: relative;
+        &:before {
+            background-color: rgba($c-black, .4);
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
 p::selection,
 a::selection,
 h1::selection,

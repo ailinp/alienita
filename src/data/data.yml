@@ -482,62 +482,62 @@ Comics:
             - "February 20, 2016"
             - "Category"
             - "Comics"
-        description: "Sometimes your boss needs more than a whole box."
+        description: ""
 
     -
         backgroundImage: "comics-13"
-        title: "Why is Iván Pissed?"
+        title: "Iván is Pissed"
         fullImage: "comics/comics-13.jpg"
         captionData:
             - "Date"
             - "June 20, 2015"
             - "Category"
             - "Comics"
-        description: "Question: Why is Iván pissed?"
+        description: ""
 
     -
         backgroundImage: "comics-12"
-        title: "No Me Toques los Cojones"
+        title: "The F Word"
         fullImage: "comics/comics-12.jpg"
         captionData:
             - "Date"
             - "January 21, 2015"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-11"
-        title: "El Doble Bocadillo de Nada"
+        title: "A Double Sandwich with Nothing"
         fullImage: "comics/comics-11.jpg"
         captionData:
             - "Date"
             - "December 16, 2014"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-10"
-        title: "¡Esta Copiando!"
+        title: "Iván is copying"
         fullImage: "comics/comics-10.jpg"
         captionData:
             - "Date"
             - "December 07, 2014"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-09"
-        title: "¿Qué Juego es Este?"
+        title: "Standing on the Map"
         fullImage: "comics/comics-09.jpg"
         captionData:
             - "Date"
             - "October 25, 2014"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-08"
@@ -548,29 +548,29 @@ Comics:
             - "February 12, 2014"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-07"
-        title: "Can You See Your Nose?"
+        title: "Does your nose bother you?"
         fullImage: "comics/comics-07.jpg"
         captionData:
             - "Date"
             - "February 10, 2014"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-06"
-        title: "Let Me Take a Picture for You"
+        title: "Smile?"
         fullImage: "comics/comics-06.jpg"
         captionData:
             - "Date"
             - "February 10, 2014"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-05"
@@ -581,7 +581,7 @@ Comics:
             - "February 8, 2014"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-04"
@@ -592,18 +592,18 @@ Comics:
             - "May 12, 2013"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-03"
-        title: "Have You Seen My Bra?"
+        title: "Baby Bra"
         fullImage: "comics/comics-03.jpg"
         captionData:
             - "Date"
             - "May 5, 2013"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-02"
@@ -614,7 +614,7 @@ Comics:
             - "February 27, 2013"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
     -
         backgroundImage: "comics-01"
@@ -625,7 +625,7 @@ Comics:
             - "February 5, 2013"
             - "Category"
             - "Comics"
-        description: "This story hasn't been translated yet. I'm afraid you have to read Chinese, see if you can get something :P"
+        description: ""
 
 Editorial:
     -
