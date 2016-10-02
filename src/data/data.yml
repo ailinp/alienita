@@ -474,6 +474,16 @@ Branding:
         description: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost. Without my heart, I feel no pain when I get hurt; I feel no fear when I face the reality. You want to see my broken heart? You want to know how it died? Please feel free to open the coffin. I've ripped it out and burry it for you. Is that what you want?"
 Comics:
     -
+        backgroundImage: "comics-15"
+        title: "My US Keyboard"
+        fullImage: "comics/comics-15.jpg"
+        captionData:
+            - "Date"
+            - "October 02, 2016"
+            - "Category"
+            - "Comics"
+        description: ""
+    -
         backgroundImage: "comics-14"
         title: "My Boss Needs a whole Box"
         fullImage: "comics/comics-14.jpg"

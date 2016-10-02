@@ -1,5 +1,15 @@
 Comics:
     -
+        backgroundImage: "comics-15"
+        title: "My US Keyboard"
+        fullImage: "comics/comics-15.jpg"
+        captionData:
+            - "Date"
+            - "October 02, 2016"
+            - "Category"
+            - "Comics"
+        description: ""
+    -
         backgroundImage: "comics-14"
         title: "My Boss Needs a whole Box"
         fullImage: "comics/comics-14.jpg"
