@@ -20,11 +20,11 @@ Polish            Pl    Polski
 portuguese        pt    Português
 russian           ru    Русский
 spanish           es    Español
-swedish           se    Svenska     (n)
+swedish           se    Svenska
 thai              th    ไทย         (n)
-Icelandic         is    Íslenska    (n)
-Croatian          hr    Hrvatski    (n)
-Hindi             in    हिंदी         (n)
+Icelandic         is    Íslenska
+Croatian          hr    Hrvatski
+Hindi             in    हिंदी
 Norwegian         no    Norsk       (n)
 
 
