@@ -1,5 +1,22 @@
 Photography:
     -
+        backgroundImage: "photography-04"
+        title: "Cupboards"
+        subtitle: "Sometimes an artist can also be a piece of art.<br>Photographer: Axel James Rockfish."
+        fullImage:
+            - "photography/photography-04-1.jpg"
+            - "photography/photography-04-2.jpg"
+            - "photography/photography-04-3.jpg"
+            - "photography/photography-04-4.jpg"
+            - "photography/photography-04-5.jpg"
+        captionData:
+            - "Date"
+            - "November 12, 2016"
+            - "Category"
+            - "Photography"
+        description: "Sometimes an artist can also be a piece of art.<br>Photographer: Axel James Rockfish."
+
+    -
         backgroundImage: "photography-03"
         title: "The Third Eye"
         subtitle: "Ready to romper la rutina? There you got your third eye to take a look at this world!"
