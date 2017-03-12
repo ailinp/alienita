@@ -1,5 +1,46 @@
 Photography:
     -
+        backgroundImage: "photography-06"
+        title: "Psychic"
+        subtitle: "Heal the past, unseal the future."
+        fullImage:
+            - "photography/photography-06-1.jpg"
+            - "photography/photography-06-2.jpg"
+            - "photography/photography-06-3.jpg"
+            - "photography/photography-06-4.jpg"
+            - "photography/photography-06-5.jpg"
+            - "photography/photography-06-6.jpg"
+            - "photography/photography-06-7.jpg"
+            - "photography/photography-06-8.jpg"
+        captionData:
+            - "Date"
+            - "January 3, 2017"
+            - "Category"
+            - "Photography"
+        description: "Heal the past, unseal the future. I'm here to help you get to know yourself better than ever."
+
+    -
+        backgroundImage: "photography-05"
+        title: "Lemuria"
+        subtitle: "Lemuria, the lost land."
+        fullImage:
+            - "photography/photography-05-1.jpg"
+            - "photography/photography-05-2.jpg"
+            - "photography/photography-05-3.jpg"
+            - "photography/photography-05-4.jpg"
+            - "photography/photography-05-5.jpg"
+            - "photography/photography-05-6.jpg"
+            - "photography/photography-05-7.jpg"
+            - "photography/photography-05-8.jpg"
+            - "photography/photography-05-9.jpg"
+        captionData:
+            - "Date"
+            - "January 3, 2017"
+            - "Category"
+            - "Photography"
+        description: "Lemuria, the lost land."
+
+    -
         backgroundImage: "photography-04"
         title: "Cupboards"
         subtitle: "Sometimes an artist can also be a piece of art.<br>Photographer: Axel James Rockfish."
