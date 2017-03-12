@@ -7,7 +7,7 @@ about:
             -
                 tab: "1"
                 class: "active"
-                title: "Front-end"
+                title: "Web dev"
             -
                 tab: "2"
                 class: ""
@@ -23,7 +23,8 @@ about:
             -
                 tab: "5"
                 class: ""
-                title: "Translation"
+                title: "Metaphysics"
+                # title: "Translation"
 
 
         content:
@@ -34,19 +35,19 @@ about:
                         title: "HTML CSS"
                         percentage: "percent95"
                     -
-                        title: "JavaScript (JQuery)"
+                        title: "JQuery"
                         percentage: "percent80"
                     -
-                        title: "Twig Yaml Sass"
-                        percentage: "percent90"
-                    -
-                        title: "Gulp Grunt"
+                        title: "JavaScript"
                         percentage: "percent60"
+                    -
+                        title: "Gulp"
+                        percentage: "percent80"
                     -
                         title: "Git"
                         percentage: "percent70"
                     -
-                        title: "Agile"
+                        title: "Google Analytics"
                         percentage: "percent50"
             -
                 tab: "2"
@@ -115,23 +116,44 @@ about:
                 tab: "5"
                 chart:
                     -
-                        title: "Literal Translating"
-                        percentage: "percent80"
+                        title: "Astrology"
+                        percentage: "percent70"
                     -
-                        title: "Dynamic (Idiomatic) Translating"
+                        title: "BaZi (Chinese Astrology)"
+                        percentage: "percent95"
+                    -
+                        title: "Human Design"
                         percentage: "percent90"
                     -
-                        title: "Consecutive Interpreting"
-                        percentage: "percent60"
+                        title: "Tarot"
+                        percentage: "percent90"
                     -
-                        title: "Simultaneous Interpreting"
-                        percentage: "percent50"
+                        title: "I-Ching"
+                        percentage: "percent70"
                     -
-                        title: "Whispered Interpreting"
-                        percentage: "percent60"
-                    -
-                        title: "Trilingual Interpreting"
+                        title: "Feng Shui"
                         percentage: "percent80"
+            # -
+            #     tab: "5"
+            #     chart:
+            #         -
+            #             title: "Literal Translating"
+            #             percentage: "percent80"
+            #         -
+            #             title: "Dynamic (Idiomatic) Translating"
+            #             percentage: "percent90"
+            #         -
+            #             title: "Consecutive Interpreting"
+            #             percentage: "percent60"
+            #         -
+            #             title: "Simultaneous Interpreting"
+            #             percentage: "percent50"
+            #         -
+            #             title: "Whispered Interpreting"
+            #             percentage: "percent60"
+            #         -
+            #             title: "Trilingual Interpreting"
+            #             percentage: "percent80"
 
     PersonalSkills:
         title:
@@ -193,7 +215,7 @@ about:
                     - ""
                     - ""
                     - ""
-                    - "Sublime"
+                    - "Atom"
 
             -
                 list:
@@ -290,7 +312,7 @@ aside:
                 en: "So, about this Eileen Punk..."
 
             description:
-                en: "She’s not yet an artist, not too graphic designer, but she surely is a very <b>web developer</b>, born <b>illustrator</b>, devoted <b>writer</b>, photographer-model hybrid, also a used-to-be <b>publication executive editor</b> and language interpreter.<br> She’s a typical <b>perfectionist</b> with a positive attitude.<br><br>Plus! She's funny :P"
+                en: "She’s not yet an artist, not too graphic designer, but she surely is a very <b>web developer</b> and <b>metaphysician</b>, born <b>illustrator</b>, devoted <b>writer</b>, photographer-model hybrid, also a used-to-be <b>publication executive editor</b> and language interpreter.<br> She’s a typical <b>perfectionist</b> with a positive attitude.<br><br>Plus! She's funny :P"
 
         forPainting:
             title:
