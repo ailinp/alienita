@@ -496,6 +496,16 @@ Branding:
         description: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost. Without my heart, I feel no pain when I get hurt; I feel no fear when I face the reality. You want to see my broken heart? You want to know how it died? Please feel free to open the coffin. I've ripped it out and burry it for you. Is that what you want?"
 Comics:
     -
+        backgroundImage: "comics-17"
+        title: "Our New Project"
+        fullImage: "comics/comics-17.jpg"
+        captionData:
+            - "Date"
+            - "March 19, 2017"
+            - "Category"
+            - "Comics"
+        description: ""
+    -
         backgroundImage: "comics-16"
         title: "A Simple Survey"
         fullImage: "comics/comics-16.jpg"
