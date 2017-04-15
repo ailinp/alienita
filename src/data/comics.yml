@@ -1,5 +1,25 @@
 Comics:
     -
+        backgroundImage: "comics-17"
+        title: "Our New Project"
+        fullImage: "comics/comics-17.jpg"
+        captionData:
+            - "Date"
+            - "March 19, 2017"
+            - "Category"
+            - "Comics"
+        description: ""
+    -
+        backgroundImage: "comics-16"
+        title: "A Simple Survey"
+        fullImage: "comics/comics-16.jpg"
+        captionData:
+            - "Date"
+            - "March 18, 2017"
+            - "Category"
+            - "Comics"
+        description: ""
+    -
         backgroundImage: "comics-15"
         title: "My US Keyboard"
         fullImage: "comics/comics-15.jpg"
