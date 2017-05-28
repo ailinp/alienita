@@ -40,29 +40,14 @@
             }
 
             .homeMainSpan {
+                color: $c-neutro;
                 display: block;
-                font-size: units(22px);
-                font-size: 6vmin;
+                font-size: units(20px);
+                font-weight: 200;
                 padding: gutter(2) 0;
 
-                @media #{$small-up} {
-                    font-size: units(24px);
-                    font-size: 5vmin;
-                }
-
-                @media #{$xmedium-up} {
-                    font-size: units(22px);
-                    font-size: 2.8vw;
-                }
-
-                @media #{$medium-up} {
-                    font-size: units(28px);
-                    font-size: 2.8vw;
-                }
-
                 @media #{$large-up} {
-                    font-size: units(35px);
-                    font-size: 2.8vw;
+                    font-size: units(28px);
                 }
             }
         }
