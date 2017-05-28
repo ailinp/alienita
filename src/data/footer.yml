@@ -28,6 +28,7 @@ footer:
         hr: "Ako je tvoj hrvatski loš, izaberi drugi jezik!"
         in: "अगर आपकी हिंदी कमज़ोर है , तो अलग भाशा चुनिए।"
         no: ""
+        eu: "Zure euskera oso txarra bada, aukeratu beste hizkuntza bat!"
 
     language:
         -
@@ -145,6 +146,11 @@ footer:
         -
             link: "no"
             title: "Norska"
+            class: ""
+
+        -
+            link: "eu"
+            title: "Euskera"
             class: ""
 
     description:

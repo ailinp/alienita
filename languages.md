@@ -26,6 +26,7 @@ Icelandic         is    Íslenska
 Croatian          hr    Hrvatski
 Hindi             in    हिंदी
 Norwegian         no    Norsk       (n)
+Euskera           eu    Euskera
 
 
 
@@ -44,10 +45,6 @@ markup/themes/default/includes/footer.twig
 
 , 'is': 'is', 'hr': 'hr', 'in': 'in', 'no': 'no'
 
-
-
-Hindi:
-I used to do pattern drawing on my leg with Indian tattoo ink. What I did was just having fun, but what they do in India is an indescribable art!
 
 
 

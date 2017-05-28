@@ -386,9 +386,9 @@ aside:
             en: "You can reach her by..."
 
         content:
-            en: "eileenpunk.web@gmail.com"
+            en: "eileen@eileenpunk.com"
 
-        mailTo: "mailto:eileenpunk.web@gmail.com?subject=I want to tell you that..."
+        mailTo: "mailto:eileen@eileenpunk.com?subject=I want to tell you that..."
 
     socialMedia:
         title:
@@ -771,6 +771,7 @@ footer:
         hr: "Ako je tvoj hrvatski loš, izaberi drugi jezik!"
         in: "अगर आपकी हिंदी कमज़ोर है , तो अलग भाशा चुनिए।"
         no: ""
+        eu: "Zure euskera oso txarra bada, aukeratu beste hizkuntza bat!"
 
     language:
         -
@@ -888,6 +889,11 @@ footer:
         -
             link: "no"
             title: "Norska"
+            class: ""
+
+        -
+            link: "eu"
+            title: "Euskera"
             class: ""
 
     description:
@@ -1050,6 +1056,8 @@ home:
         in: "मैं खेल खेल में हिंदुस्तानी स्याही से अपने पैरों से अलग अलग आकार बनाया करती थी, मगर इस कला के असली फनकार तो हिंदुस्तान में है।"
 
         no: ""
+
+        eu: "Bartzelonako enpresa batean 2 urte lanean igaro ostean gure bezero handienetako bat Eroski izan zen, Euskadiko supermerkatu garrantzitsuena. Naiz eta euskeraz hitz egiten ez jakin arren, egunero euskerarekin lan egiten nuen. Hori bai, salbuespen batekin: ehunekoen ikurra zenbakien aurretik jartzea ez zitzaidan inoiz ahazten."
 
 page:
     name: "EileenPunk"
@@ -1304,6 +1312,23 @@ Painting:
         description: "Shire: \"They said that black roses only grow in the dark.\""
 
 Photography:
+    -
+        backgroundImage: "photography-07"
+        title: "Midstream"
+        subtitle: "He whom I love, must be somewhere along this stream. Up and down the stream I go to him. Oh, he is there in midstream."
+        fullImage:
+            - "photography/photography-07-1.jpg"
+            - "photography/photography-07-2.jpg"
+            - "photography/photography-07-3.jpg"
+            - "photography/photography-07-4.jpg"
+            - "photography/photography-07-5.jpg"
+            - "photography/photography-07-6.jpg"
+        captionData:
+            - "Date"
+            - "May 10, 2017"
+            - "Category"
+            - "Photography"
+        description: "The reeds and rushes are deeply green, and the white dew is turned into hoarfrost.<br>The man of whom I think, is somewhere about the water.<br>I go up the stream in quest of him, but the way is difficult and long.<br>I go down the stream in quest of him. And lo! He is right in the midst of the water.<br>-- Shih Ching · Reeds"
     -
         backgroundImage: "photography-06"
         title: "Psychic"
@@ -1597,6 +1622,7 @@ topHeading:
         hr: "Oh... You don't really believe that she had all these languages translated, do you?"
         in: "Oh... You don't really believe that she had all these languages translated, do you?"
         no: "Oh... You don't really believe that she had all these languages translated, do you?"
+        eu: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
@@ -1627,6 +1653,7 @@ topHeading:
         hr: "She's not talented, she just works hard."
         in: "She's not talented, she just works hard."
         no: "She's not talented, she just works hard."
+        eu: "She's not talented, she just works hard."
 
     painting:
         en: "She's not hard working, she just loves her works."
@@ -1657,6 +1684,7 @@ topHeading:
         hr: "She's not hard working, she just loves her works."
         in: "She's not hard working, she just loves her works."
         no: "She's not hard working, she just loves her works."
+        eu: "She's not hard working, she just loves her works."
 
     comics:
         en: "She doesn't love her works, she's just loved by them."
@@ -1687,6 +1715,7 @@ topHeading:
         hr: "She doesn't love her works, she's just loved by them."
         in: "She doesn't love her works, she's just loved by them."
         no: "She doesn't love her works, she's just loved by them."
+        eu: "She doesn't love her works, she's just loved by them."
 
     editorial:
         en: "They don't love her at all, they're just created by her."
@@ -1717,6 +1746,7 @@ topHeading:
         hr: "They don't love her at all, they're just created by her."
         in: "They don't love her at all, they're just created by her."
         no: "They don't love her at all, they're just created by her."
+        eu: "They don't love her at all, they're just created by her."
 
     branding:
         en: "She didn't create them, it's them that created her."
@@ -1747,6 +1777,7 @@ topHeading:
         hr: "She didn't create them, it's them that created her."
         in: "She didn't create them, it's them that created her."
         no: "She didn't create them, it's them that created her."
+        eu: "She didn't create them, it's them that created her."
 
     photography:
         en: "They didn't create her, she create herself."
@@ -1777,6 +1808,7 @@ topHeading:
         hr: "They didn't create her, she create herself."
         in: "They didn't create her, she create herself."
         no: "They didn't create her, she create herself."
+        eu: "They didn't create her, she create herself."
 
     publication:
         en: "Yes! I create myself!"
@@ -1807,6 +1839,7 @@ topHeading:
         hr: "Yes! I create myself!"
         in: "Yes! I create myself!"
         no: "Yes! I create myself!"
+        eu: "Yes! I create myself!"
 
     links:
         en:
@@ -2080,6 +2113,16 @@ topHeading:
             toPublication: "en/publication"
 
         no:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        eu:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"

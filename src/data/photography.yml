@@ -1,5 +1,22 @@
 Photography:
     -
+        backgroundImage: "photography-07"
+        title: "Midstream"
+        subtitle: "He whom I love, must be somewhere along this stream. Up and down the stream I go to him. Oh, he is there in midstream."
+        fullImage:
+            - "photography/photography-07-1.jpg"
+            - "photography/photography-07-2.jpg"
+            - "photography/photography-07-3.jpg"
+            - "photography/photography-07-4.jpg"
+            - "photography/photography-07-5.jpg"
+            - "photography/photography-07-6.jpg"
+        captionData:
+            - "Date"
+            - "May 10, 2017"
+            - "Category"
+            - "Photography"
+        description: "The reeds and rushes are deeply green, and the white dew is turned into hoarfrost.<br>The man of whom I think, is somewhere about the water.<br>I go up the stream in quest of him, but the way is difficult and long.<br>I go down the stream in quest of him. And lo! He is right in the midst of the water.<br>-- Shih Ching · Reeds"
+    -
         backgroundImage: "photography-06"
         title: "Psychic"
         subtitle: "Heal the past, unseal the future."
