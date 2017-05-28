@@ -916,16 +916,9 @@ globals:
     en:
         meta:
             title:  "EileenPunk"
-            description: "This Eileen Punk never is just one thing. Web developer, illustrator, publication executive editor, writer, artist, graphic designer, interpreter, language teacher, photographer-model, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
+            description: "This Eileen Punk never is just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
             url: "www.eileenpunk.com"
-            image: "http://www.eileenpunk.com/assets/images/og.jpg"
-
-    es:
-        meta:
-            title:  "EileenPunk"
-            description: "This Eileen Punk never is just one thing. Web developer, illustrator, publication executive editor, writer, artist, graphic designer, interpreter, language teacher, photographer-model, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
-            url: "www.eileenpunk.com"
-            image: "http://www.eileenpunk.com/assets/images/og.jpg"
+            # image: "http://www.eileenpunk.com/assets/images/og.jpg"
 
 header:
     logo:
