@@ -115,7 +115,10 @@
                 font-size: units(25px);
                 font-weight: 800;
                 line-height: 3;
-                text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+                text-shadow: 0px 0px 6px rgba($c-black, 1);
+                -webkit-transition: all 0.3s ease-in-out;
+                   -moz-transition: all 0.3s ease-in-out;
+                     -o-transition: all 0.3s ease-in-out;
                 @media #{$small-up} { font-size: units(30px); }
                 @media #{$medium-up} { font-size: units(35px); }
                 @media #{$large-up} { font-size: units(40px); }
@@ -149,14 +152,17 @@
         }
 
         &:hover {
-            .info-container { background: rgba($c-black, .6); }
+            .info-container { background: rgba($c-white, .3); }
             .info-content {
                 top: 15%;
                 @media #{$small-up} { top: 20%; }
                 @media #{$xmedium-up} { top: 30%; }
                 @media #{$medium-up} { top: 35%; }
                 @media #{$large-up} { top: 40%; }
-                .info-title { color: $c-mainLight; }
+                .info-title {
+                    text-shadow: 0px 0px 6px rgba($c-white, .5);
+                    color: $c-main;
+                }
             }
         }
     }

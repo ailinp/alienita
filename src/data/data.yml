@@ -1075,16 +1075,28 @@ page:
             aside: "columns small-24 medium-8 large-6"
 Painting:
     -
+        backgroundImage: "painting-20"
+        title: "Here we met again"
+        subtitle: "I am sorry if I've disappointed you."
+        fullImage: "painting/painting-20.jpg"
+        captionData:
+            - "Date"
+            - "July 09, 2017"
+            - "Category"
+            - "Illustration"
+        description: "J. J.: \"I am sorry if I've disappointed you.\""
+
+    -
         backgroundImage: "painting-19"
         title: "The Darkness Inside"
-        subtitle: "If I'm meant to be the one who destroys you, I'll be the one who save you."
+        subtitle: "If I'm meant to be the one who destroys you, I'll be the one who saves you."
         fullImage: "painting/painting-19.jpg"
         captionData:
             - "Date"
             - "June 18, 2016"
             - "Category"
             - "Illustration"
-        description: "S. SF.: \"If I'm meant to be the one who destroys you, I'll be the one who save you.\""
+        description: "S. SF.: \"If I'm meant to be the one who destroys you, I'll be the one who saves you.\""
 
     -
         backgroundImage: "painting-18"
