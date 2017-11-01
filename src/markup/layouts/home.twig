@@ -10,7 +10,7 @@
     <div class="u-wrapper row">
         <div class="{{ page.commonStuff.class.mainSection|raw }}">
             <p class="homeMainClaim">{{ home.mainSection[locale]|raw }}</p>
-            {% include '../components/typeform.twig' %}
+            {# {% include '../components/typeform.twig' %} #}
         </div>
         {% embed '../components/aside.twig' %}
             {% block title %}{{ aside.introduction.forHome.title.en|raw }}{% endblock %}
