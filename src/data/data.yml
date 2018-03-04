@@ -496,6 +496,16 @@ Branding:
         description: "Thank you for your attendance to the funeral. Please don't feel sorry for my lost. Without my heart, I feel no pain when I get hurt; I feel no fear when I face the reality. You want to see my broken heart? You want to know how it died? Please feel free to open the coffin. I've ripped it out and burry it for you. Is that what you want?"
 Comics:
     -
+        backgroundImage: "comics-18"
+        title: "Movie Night"
+        fullImage: "comics/comics-18.jpg"
+        captionData:
+            - "Date"
+            - "March 03, 2018"
+            - "Category"
+            - "Comics"
+        description: ""
+    -
         backgroundImage: "comics-17"
         title: "Our New Project"
         fullImage: "comics/comics-17.jpg"
@@ -772,6 +782,7 @@ footer:
         in: "अगर आपकी हिंदी कमज़ोर है , तो अलग भाशा चुनिए।"
         no: ""
         eu: "Zure euskera oso txarra bada, aukeratu beste hizkuntza bat!"
+        bg: "Ако не се справяш с българския, избери друг език!"
 
     language:
         -
@@ -894,6 +905,11 @@ footer:
         -
             link: "eu"
             title: "Euskera"
+            class: ""
+
+        -
+            link: "bg"
+            title: "Български"
             class: ""
 
     description:
@@ -1051,6 +1067,8 @@ home:
         no: ""
 
         eu: "Bartzelonako enpresa batean 2 urte lanean igaro ostean gure bezero handienetako bat Eroski izan zen, Euskadiko supermerkatu garrantzitsuena. Naiz eta euskeraz hitz egiten ez jakin arren, egunero euskerarekin lan egiten nuen. Hori bai, salbuespen batekin: ehunekoen ikurra zenbakien aurretik jartzea ez zitzaidan inoiz ahazten."
+
+        bg: "Казват, че София значи мъдрост, така че моето пътуване ме е направило по-мъдра. Храната беше неочаквано добра и успях да открия трите най-важни неща в живота на българите: казина, торти и обувки."
 
 page:
     name: "EileenPunk"
@@ -1628,6 +1646,7 @@ topHeading:
         in: "Oh... You don't really believe that she had all these languages translated, do you?"
         no: "Oh... You don't really believe that she had all these languages translated, do you?"
         eu: "Oh... You don't really believe that she had all these languages translated, do you?"
+        bg: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
@@ -1659,6 +1678,7 @@ topHeading:
         in: "She's not talented, she just works hard."
         no: "She's not talented, she just works hard."
         eu: "She's not talented, she just works hard."
+        bg: "She's not talented, she just works hard."
 
     painting:
         en: "She's not hard working, she just loves her works."
@@ -1690,6 +1710,7 @@ topHeading:
         in: "She's not hard working, she just loves her works."
         no: "She's not hard working, she just loves her works."
         eu: "She's not hard working, she just loves her works."
+        bg: "She's not hard working, she just loves her works."
 
     comics:
         en: "She doesn't love her works, she's just loved by them."
@@ -1721,6 +1742,7 @@ topHeading:
         in: "She doesn't love her works, she's just loved by them."
         no: "She doesn't love her works, she's just loved by them."
         eu: "She doesn't love her works, she's just loved by them."
+        bg: "She doesn't love her works, she's just loved by them."
 
     editorial:
         en: "They don't love her at all, they're just created by her."
@@ -1752,6 +1774,7 @@ topHeading:
         in: "They don't love her at all, they're just created by her."
         no: "They don't love her at all, they're just created by her."
         eu: "They don't love her at all, they're just created by her."
+        bg: "They don't love her at all, they're just created by her."
 
     branding:
         en: "She didn't create them, it's them that created her."
@@ -1783,6 +1806,7 @@ topHeading:
         in: "She didn't create them, it's them that created her."
         no: "She didn't create them, it's them that created her."
         eu: "She didn't create them, it's them that created her."
+        bg: "She didn't create them, it's them that created her."
 
     photography:
         en: "They didn't create her, she create herself."
@@ -1814,6 +1838,7 @@ topHeading:
         in: "They didn't create her, she create herself."
         no: "They didn't create her, she create herself."
         eu: "They didn't create her, she create herself."
+        bg: "They didn't create her, she create herself."
 
     publication:
         en: "Yes! I create myself!"
@@ -1845,6 +1870,7 @@ topHeading:
         in: "Yes! I create myself!"
         no: "Yes! I create myself!"
         eu: "Yes! I create myself!"
+        bg: "Yes! I create myself!"
 
     links:
         en:
@@ -2128,6 +2154,16 @@ topHeading:
             toPublication: "en/publication"
 
         eu:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/editorial"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+            toPublication: "en/publication"
+
+        bg:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"

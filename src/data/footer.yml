@@ -29,6 +29,7 @@ footer:
         in: "अगर आपकी हिंदी कमज़ोर है , तो अलग भाशा चुनिए।"
         no: ""
         eu: "Zure euskera oso txarra bada, aukeratu beste hizkuntza bat!"
+        bg: "Ако не се справяш с българския, избери друг език!"
 
     language:
         -
@@ -151,6 +152,11 @@ footer:
         -
             link: "eu"
             title: "Euskera"
+            class: ""
+
+        -
+            link: "bg"
+            title: "Български"
             class: ""
 
     description:

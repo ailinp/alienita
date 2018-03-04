@@ -1,5 +1,15 @@
 Comics:
     -
+        backgroundImage: "comics-18"
+        title: "Movie Night"
+        fullImage: "comics/comics-18.jpg"
+        captionData:
+            - "Date"
+            - "March 03, 2018"
+            - "Category"
+            - "Comics"
+        description: ""
+    -
         backgroundImage: "comics-17"
         title: "Our New Project"
         fullImage: "comics/comics-17.jpg"

@@ -152,7 +152,7 @@
         }
 
         &:hover {
-            .info-container { background: rgba($c-white, .3); }
+            .info-container { background: rgba($c-black, .3); }
             .info-content {
                 top: 15%;
                 @media #{$small-up} { top: 20%; }
