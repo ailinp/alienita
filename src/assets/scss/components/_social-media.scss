@@ -2,21 +2,24 @@
     height: units(56px);
     padding: 0;
     position: relative;
-    margin: 0 auto;
-    width: 100%;
+    margin: 0 0 0 units(-19px);
+    width: calc(100% + 38px);
 
     .SocialMedia-wrapper {
+        align-items: flex-end;
         background: $c-white;
+        display: flex;
         height: auto;
+        justify-content: space-between;
         line-height: units(13px);
         margin: 0;
-        max-width: units(334px);
+        max-width: 100%;
         padding: 0;
         position: absolute;
             top: 0;
-            left: units(-20px);
+            left: 0;
         text-align: left;
-        width: 118%;
+        width: 100%;
 
         @media #{$xmedium-only} {
             width: 123%;
