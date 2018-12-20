@@ -28,6 +28,7 @@ Hindi             in    हिंदी
 Norwegian         no    Norsk       (n)
 Euskera           eu    Euskera
 Bulgarian         bg    Български
+Maltese           mt    Malti
 
 
 

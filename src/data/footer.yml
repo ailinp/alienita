@@ -30,6 +30,7 @@ footer:
         no: ""
         eu: "Zure euskera oso txarra bada, aukeratu beste hizkuntza bat!"
         bg: "Ако не се справяш с българския, избери друг език!"
+        mt: "jekk ma titkellimx il-Malti, jekk jogħġbok agħżel lingwa oħra!"
 
     language:
         -
@@ -157,6 +158,11 @@ footer:
         -
             link: "bg"
             title: "Български"
+            class: ""
+
+        -
+            link: "mt"
+            title: "Malti"
             class: ""
 
     description:
