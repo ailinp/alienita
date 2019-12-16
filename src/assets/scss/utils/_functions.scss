@@ -20,7 +20,7 @@
 
 @function gridColumnWidth($columns) {
     $columns: ($columns * 100) / $grid-columns;
-    @return (decimalRound($columns, 5)) +%;
+    @return (decimalRound($columns, 5)) +"%";
 }
 @function decimalRound ($number, $digits: 0) {
     $n: 1;
