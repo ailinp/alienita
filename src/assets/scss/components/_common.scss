@@ -74,10 +74,20 @@
 
     .previewBlock {
         color: $c-main;
+        cursor: pointer;
         display: block;
         height: units(200px);
         margin-bottom: gutter();
+        position: relative;
         width: 100%;
+        &:before {
+            background-color: rgba($c-black, .4);
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            height: 100%;
+            width: 100%;
+        }
 
         @media #{$small-up} { height: units(250px); }
         @media #{$xmedium-up} { height: units(300px); }
@@ -91,10 +101,8 @@
             height: 100%;
             overflow: hidden;
             position: relative;
+            transition: all 0.3s ease-in-out;
             width: 100%;
-            -webkit-transition: all 0.3s ease-in-out;
-               -moz-transition: all 0.3s ease-in-out;
-                 -o-transition: all 0.3s ease-in-out;
         }
 
         .info-content {
@@ -103,9 +111,7 @@
                 right: 0;
                 top: 65%;
             text-align: center;
-            -webkit-transition: all 0.3s ease-in-out;
-               -moz-transition: all 0.3s ease-in-out;
-                 -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
             @media #{$small-up} { top: 68%; }
             @media #{$xmedium-up} { top: 74%; }
 
@@ -116,26 +122,19 @@
                 font-weight: 800;
                 line-height: 3;
                 text-shadow: 0px 0px 6px rgba($c-black, 1);
-                -webkit-transition: all 0.3s ease-in-out;
-                   -moz-transition: all 0.3s ease-in-out;
-                     -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
                 @media #{$small-up} { font-size: units(30px); }
                 @media #{$medium-up} { font-size: units(35px); }
                 @media #{$large-up} { font-size: units(40px); }
             }
 
             .info-sudtitle {
-                background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-                background: -o-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-                background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
-                background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* W3C */
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(to bottom,  rgba($c-black,0.9) 0%,rgba($c-black,0) 100%); /* W3C */
                 border-top: solid 2px $c-main;
-                color: $c-main;
+                color: $c-white;
                 display: block;
                 font-size: units(14px);
+                font-weight: 200;
                 line-height: 1.2;
                 margin: 0 auto;
                 padding: gutter(.5) gutter() gutter(2);
@@ -152,41 +151,15 @@
         }
 
         &:hover {
-            .info-container { background: rgba($c-black, .3); }
+            .info-container { background: rgba($c-neutroDark, .9); }
             .info-content {
                 top: 15%;
                 @media #{$small-up} { top: 20%; }
                 @media #{$xmedium-up} { top: 30%; }
                 @media #{$medium-up} { top: 35%; }
                 @media #{$large-up} { top: 40%; }
-                .info-title {
-                    text-shadow: 0px 0px 6px rgba($c-white, .5);
-                    color: $c-main;
-                }
+                .info-title { color: $c-mainLight; }
             }
-        }
-    }
-}
-
-.Editorial,
-.Publication {
-    .previewBlock {
-        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-           -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-    }
-}
-
-.Comics {
-    .previewBlock {
-        position: relative;
-        &:before {
-            background-color: rgba($c-black, .4);
-            content: '';
-            position: absolute;
-            top: 0; left: 0;
-            height: 100%;
-            width: 100%;
         }
     }
 }

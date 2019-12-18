@@ -9,7 +9,7 @@ aside:
 
         forAbout:
             title:
-                en: "So, about this Eileen Punk..."
+                en: "So, about this Ailin Peng..."
 
             description:
                 en: "She’s not yet an artist, not too graphic designer, but she surely is a very <b>web developer</b> and <b>metaphysician</b>, born <b>illustrator</b>, devoted <b>writer</b>, photographer-model hybrid, also a used-to-be <b>publication executive editor</b> and language interpreter.<br> She’s a typical <b>perfectionist</b> with a positive attitude.<br><br>Plus! She's funny :P"
@@ -26,7 +26,7 @@ aside:
                 en: "What's in the story?"
 
             description:
-                en: "These are real stories about Eileen and her <b>overseas</b> experience.<br><br>At the age of 24, she decided to make her life more adventurous. She quit her job, packed her bags, left her hometown, and came all the way to <b>Europe</b>, to explore the other side of the world.<br><br>There, she has met a lot of awesome <b>friends</b>. They are from different countries, different races and religions. They speak different languages and they are at different ages. All the differences, they share one thing in common, they love having <b>fun</b> with each other :P"
+                en: "These are real stories about Ailin and her <b>overseas</b> experience.<br><br>At the age of 24, she decided to make her life more adventurous. She quit her job, packed her bags, left her hometown, and came all the way to <b>Europe</b>, to explore the other side of the world.<br><br>There, she has met a lot of awesome <b>friends</b>. They are from different countries, different races and religions. They speak different languages and they are at different ages. All the differences, they share one thing in common, they love having <b>fun</b> with each other :P"
 
         forEditorial:
             title:
@@ -40,11 +40,11 @@ aside:
                 en: "Not that branding actually"
 
             description:
-                en: "Unlike most of her works, which you can easily tell \"oh, that's so Eileen\", branding is something she's uncertain about. Sometimes she plays <b>3D max</b> to render a minimalist packaging project; sometimes plays with papers. That <b>Funeral Invitation Card</b>, she made it for her baby novel \"Funeral\". She's good at making things by hand. She even makes clothes. Most of her clothes have been transformed at least once.<br><br>Don't ever underestimate a <b>lefty</b> and her hands. Her right hand can do what yours can do, and her left one can do what yours probably can't do."
+                en: "Unlike most of her works, which you can easily tell \"oh, that's so Ailin\", branding is something she's uncertain about. Sometimes she plays <b>3D max</b> to render a minimalist packaging project; sometimes plays with papers. That <b>Funeral Invitation Card</b>, she made it for her baby novel \"Funeral\". She's good at making things by hand. She even makes clothes. Most of her clothes have been transformed at least once.<br><br>Don't ever underestimate a <b>lefty</b> and her hands. Her right hand can do what yours can do, and her left one can do what yours probably can't do."
 
         forPhotography:
             title:
-                en: "This is Eileen and Punk"
+                en: "This is Ailin and Peng"
 
             description:
                 en: "As I said, she's a coder. But if you are looking for a geek girl, then these photos are here to prove you wrong. Or if you still have no idea how <b>crazy</b>, how <b>creative</b> and <b>open-minded</b> she is, these photos are also here to show you.<br><br>She dares to be <b>different!</b>"
@@ -81,18 +81,9 @@ aside:
                     link: "en/publication"
                     title: "Publication"
 
-    contact:
-        title:
-            en: "You can reach her by..."
-
-        content:
-            en: "Eileen's email address"
-
-        mailTo: "mailto:eileenpunk922@gmail.com?subject=I want to tell you that..."
-
     socialMedia:
         title:
-            en: "Or find her on..."
+            en: "You can find her on..."
 
     babySlider:
         title:
@@ -104,19 +95,19 @@ aside:
         content:
             -
                 image: "01"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "02"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "03"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "04"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "05"
-                alt: "when Eileen was little"
+                alt: "when Ailin was little"
 
     languageSkills:
         title:

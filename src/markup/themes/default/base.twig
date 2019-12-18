@@ -17,18 +17,18 @@
         {% set globals_meta_description = globals[locale].meta.description %}
         {% set globals_meta_url         = globals[locale].meta.url %}
         {% set globals_meta_image       = globals[locale].meta.image %}
-        {% set globals_title            = globals.eileenpunk %}
+        {% set globals_title            = globals.ailinpeng %}
 
         <title>{{ page_meta_title|default(page_og_title)|default(page_title)|default(globals_meta_title)|default(globals_title) }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" href="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}favicon.ico" />
-        <link rel="canonical" href="{{ page[locale].canonical|default('http://www.eileenpunk.com') }}" />
+        <link rel="canonical" href="{{ page[locale].canonical|default('http://www.ailinpeng.com') }}" />
 
         <meta name="description" content="{{ page_meta_description|default(page_og_description)|default(globals_meta_description) }}" />
 
-        <meta property="og:title" content="{{ page_og_title|default(page_meta_title)|default(page_title)|default(globals_meta_title)|default(globals_eileenpunk) }}"/>
-        <meta property="og:site_name" content="{{ page_og_siteName|default(globals_eileenpunk) }}"/>
+        <meta property="og:title" content="{{ page_og_title|default(page_meta_title)|default(page_title)|default(globals_meta_title)|default(globals_ailinpeng) }}"/>
+        <meta property="og:site_name" content="{{ page_og_siteName|default(globals_ailinpeng) }}"/>
         <meta property="og:image" content="{{ page_og_image|default(globals_meta_image) }}"/>
         <meta property="og:url" content="{{ page_og_url|default(globals_meta_url) }}" />
         <meta property="og:description" content="{{ page_og_description|default(page_meta_description)|default(globals_meta_description) }}" />

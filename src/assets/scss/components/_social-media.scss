@@ -2,12 +2,12 @@
     height: units(56px);
     padding: 0;
     position: relative;
-    margin: 0 0 0 units(-19px);
-    width: calc(100% + 38px);
+    margin: 0 0 0 units(-20px);
+    width: calc(100% + 40px);
 
     .SocialMedia-wrapper {
         align-items: flex-end;
-        background: $c-white;
+        background: $c-neutroLight;
         display: flex;
         height: auto;
         justify-content: space-between;
@@ -54,11 +54,6 @@
                 color: $c-white;
             }
 
-            i.fa-youtube {
-                background: #CE332D;
-                color: $c-white;
-            }
-
             i.fa-linkedin {
                 background: #0275B6;
                 color: $c-white;
@@ -69,23 +64,13 @@
                 color: $c-white;
             }
 
-            i.fa-dribbble {
-                background: #EA4C89;
-                color: $c-white;
-            }
-
             i.fa-pinterest-square {
                 background: #CB2027;
                 color: $c-white;
             }
 
-            i.fa-stack-overflow {
-                background: #FEA501;
-                color: $c-white;
-            }
-
-            i.fa-tumblr {
-                background: #274152;
+            i.fa-envelope {
+                background: #CB2027;
                 color: $c-white;
             }
 
@@ -94,15 +79,10 @@
                 color: $c-white;
             }
 
-            i.fa-vimeo-square {
-                background: #86C9EF;
-                color: $c-white;
-            }
-
             .icon {
-                background: $c-white;
+                background: $c-neutroLight;
                 border-radius: 50%;
-                color: $c-main;
+                color: $c-white;
                 display: block;
                 font-size: units(25px);
                 height: units(32px);

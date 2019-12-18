@@ -1,32 +1,19 @@
 <header id="header" class="Header">
     <div class="u-wrapper">
-        <div class="Header-logo">
-            <a href="{{ header.logo.link }}" title="EileenPunk"><img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}{{ header.logo.image }}" alt="{{ globals.eileenpunk }}"></a>
-        </div>
-
-        <div class="Header-menu">
-            <nav class="menu-forDesktop">
-                <ul>
-                    <li class="{{ aboutClass }}"><a href="{{ getUrlPrefix(page[locale]) }}en/about">about</a></li>
-                    <li class="{{ paintingClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/painting">painting</a></li>
-                    <li class="{{ comicsClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/comics">comics</a></li>
-                    <li class="{{ editorialClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/editorial">editorial</a></li>
-                    <li class="{{ brandingClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/branding">branding</a></li>
-                    <li class="{{ photographyClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/photography">photography</a></li>
-                    <li class="{{ publicationClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/publication">publication</a></li>
-                    <li class="{{ worksClass }} toCategories forMobile"><a href="#Categories">works</a></li>
-                    <li class="{{ contactClass }} toContact forMobile"><a href="#Contact">contact</a></li>
-                    <li class="{{ languageClass }} toFooter forMobile"><a href="#Footer">language</a></li>
-
-{# -------------------------- YAML IS DEAD ----------------------- #}
-                    {# {% for item in header.en.menu %}
-                    or {% for item in header[locale].menu %}
-                    <li><a {% if item.class %}class="{{ item.class }}"{% endif %} href="{{ getUrlPrefix(page[locale]) }}{{ item.link }}" title="{{ item.title }}">{{ item.title }}</a></li>
-                    {% endfor %} #}
-{# ---------------------- end of YAML IS DEAD -------------------- #}
-
-                </ul>
-            </nav>
-        </div>
+        <a class="Header-logo" href="{{ header.logo.link }}" title="AilinPeng">
+            <img src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}{{ header.logo.image }}" alt="{{ globals.ailinpeng }}">
+        </a>
+        <ul class="Header-menu">
+            <li class="{{ aboutClass }}"><a href="{{ getUrlPrefix(page[locale]) }}en/about">about</a></li>
+            <li class="{{ paintingClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/painting">painting</a></li>
+            <li class="{{ comicsClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/comics">comics</a></li>
+            <li class="{{ editorialClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/editorial">editorial</a></li>
+            <li class="{{ brandingClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/branding">branding</a></li>
+            <li class="{{ photographyClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/photography">photography</a></li>
+            <li class="{{ publicationClass }} forDesktop"><a href="{{ getUrlPrefix(page[locale]) }}en/publication">publication</a></li>
+            <li class="{{ worksClass }} toCategories forMobile"><a href="#Categories">works</a></li>
+            <li class="{{ contactClass }} toContact forMobile"><a href="#Contact">contact</a></li>
+            <li class="{{ languageClass }} toFooter forMobile"><a href="#Footer">language</a></li>
+        </ul>
     </div>
 </header>

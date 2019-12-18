@@ -5,7 +5,7 @@
 .Photography,
 .Publication {
     .overlay {
-        background: $c-white;
+        background: $c-neutroDark;
         display: none;
         height: 100%;
         position: fixed;
@@ -48,8 +48,8 @@
             }
 
             .caption-content {
-                background: $c-mainLighter;
-                color: $c-main;
+                background: $c-neutro;
+                color: $c-white;
                 padding: gutter(2) gutter();
                 width: 100%;
 
@@ -69,8 +69,8 @@
                     }
 
                     & >li:nth-child(odd) {
-                        background: rgba($c-white, .5);
-                        color: $c-neutroDark;
+                        background: rgba($c-white, .2);
+                        color: $c-mainLight;
                         font-family: $t-poiret;
                         font-size: units(20px);
                         font-weight: 800;
@@ -103,9 +103,7 @@
         position: fixed;
             top: units(80px);
             right: units(30px);
-        -webkit-transition: all 0.3s ease-in;
-           -moz-transition: all 0.3s ease-in;
-             -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
 
         @media #{$small-up} {
             top: units(77px);

@@ -1,5 +1,5 @@
 .Top-heading {
-    background: $c-mainLight;
+    background-color: rgba($c-mainLight, .5);
     display: inline-block;
     padding-top: units(75px);
     overflow: hidden;
@@ -10,7 +10,7 @@
     }
 
     & > .u-wrapper {
-        background: $c-main;
+        background: rgba($c-neutro, .8);
 
         a {
             color: $c-mainLight;

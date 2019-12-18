@@ -13,14 +13,6 @@
             {% include '../modules/professional-skills.twig' %}
             {% include '../modules/personal-skills.twig' %}
             {% include '../modules/technical-skills.twig' %}
-            <div class="About-explanation">
-                <h2>{{ about.explanation.title|raw }}</h2>
-                <ul>
-                {% for list in about.explanation.content %}
-                    <li>{{ list|raw }}</li>
-                {% endfor %}
-                </ul>
-            </div>
         </div>
         {% embed '../components/aside.twig' %}
             {% block title %}{{ aside.introduction.forAbout.title.en|raw }}{% endblock %}

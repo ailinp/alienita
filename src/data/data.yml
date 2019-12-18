@@ -32,20 +32,20 @@ about:
                 tab: "1"
                 chart:
                     -
-                        title: "HTML CSS"
+                        title: "HTML | Twig"
                         percentage: "percent95"
                     -
-                        title: "JQuery"
-                        percentage: "percent80"
+                        title: "CSS | SASS"
+                        percentage: "percent95"
                     -
                         title: "JavaScript"
+                        percentage: "percent70"
+                    -
+                        title: "Webpack | Encore | Gulp"
                         percentage: "percent60"
                     -
-                        title: "Gulp"
-                        percentage: "percent80"
-                    -
                         title: "Git"
-                        percentage: "percent70"
+                        percentage: "percent80"
                     -
                         title: "Google Analytics"
                         percentage: "percent50"
@@ -69,7 +69,7 @@ about:
                         percentage: "percent70"
                     -
                         title: "Branding"
-                        percentage: "percent60"
+                        percentage: "percent80"
             -
                 tab: "3"
                 chart:
@@ -96,7 +96,7 @@ about:
                 chart:
                     -
                         title: "Executive copywriting"
-                        percentage: "percent100"
+                        percentage: "percent90"
                     -
                         title: "Journalism (Media)"
                         percentage: "percent80"
@@ -215,7 +215,7 @@ about:
                     - ""
                     - ""
                     - ""
-                    - "Atom"
+                    - "VS Code"
 
             -
                 list:
@@ -288,16 +288,6 @@ about:
                     - "3Dmax"
         claim:
             en: "Hover your mouse over each skill, you'll see how much she loves those technical stuff :P"
-
-    explanation:
-        title: "Now let me explain..."
-
-        content:
-            - "This <b>Eileen Punk</b> is NOT a punk."
-            - "<span>(Maybe she once was, but not anymore.)</span>"
-            - "She named herself <b>Punk</b> because the pronunciation of her family name sounds very punky.<br>And yes, <b>Eileen</b> is her very first original given name.<br>Feel free to call her, but please pronounce it correctly in English."
-            - "<span>(For those Spanish fellows, se pronuncia: <b>Ailin</b>, no <b>Eilin</b>, Gracias!)</span>"
-
 aside:
     introduction:
         forHome:
@@ -309,7 +299,7 @@ aside:
 
         forAbout:
             title:
-                en: "So, about this Eileen Punk..."
+                en: "So, about this Ailin Peng..."
 
             description:
                 en: "She’s not yet an artist, not too graphic designer, but she surely is a very <b>web developer</b> and <b>metaphysician</b>, born <b>illustrator</b>, devoted <b>writer</b>, photographer-model hybrid, also a used-to-be <b>publication executive editor</b> and language interpreter.<br> She’s a typical <b>perfectionist</b> with a positive attitude.<br><br>Plus! She's funny :P"
@@ -326,7 +316,7 @@ aside:
                 en: "What's in the story?"
 
             description:
-                en: "These are real stories about Eileen and her <b>overseas</b> experience.<br><br>At the age of 24, she decided to make her life more adventurous. She quit her job, packed her bags, left her hometown, and came all the way to <b>Europe</b>, to explore the other side of the world.<br><br>There, she has met a lot of awesome <b>friends</b>. They are from different countries, different races and religions. They speak different languages and they are at different ages. All the differences, they share one thing in common, they love having <b>fun</b> with each other :P"
+                en: "These are real stories about Ailin and her <b>overseas</b> experience.<br><br>At the age of 24, she decided to make her life more adventurous. She quit her job, packed her bags, left her hometown, and came all the way to <b>Europe</b>, to explore the other side of the world.<br><br>There, she has met a lot of awesome <b>friends</b>. They are from different countries, different races and religions. They speak different languages and they are at different ages. All the differences, they share one thing in common, they love having <b>fun</b> with each other :P"
 
         forEditorial:
             title:
@@ -340,11 +330,11 @@ aside:
                 en: "Not that branding actually"
 
             description:
-                en: "Unlike most of her works, which you can easily tell \"oh, that's so Eileen\", branding is something she's uncertain about. Sometimes she plays <b>3D max</b> to render a minimalist packaging project; sometimes plays with papers. That <b>Funeral Invitation Card</b>, she made it for her baby novel \"Funeral\". She's good at making things by hand. She even makes clothes. Most of her clothes have been transformed at least once.<br><br>Don't ever underestimate a <b>lefty</b> and her hands. Her right hand can do what yours can do, and her left one can do what yours probably can't do."
+                en: "Unlike most of her works, which you can easily tell \"oh, that's so Ailin\", branding is something she's uncertain about. Sometimes she plays <b>3D max</b> to render a minimalist packaging project; sometimes plays with papers. That <b>Funeral Invitation Card</b>, she made it for her baby novel \"Funeral\". She's good at making things by hand. She even makes clothes. Most of her clothes have been transformed at least once.<br><br>Don't ever underestimate a <b>lefty</b> and her hands. Her right hand can do what yours can do, and her left one can do what yours probably can't do."
 
         forPhotography:
             title:
-                en: "This is Eileen and Punk"
+                en: "This is Ailin and Peng"
 
             description:
                 en: "As I said, she's a coder. But if you are looking for a geek girl, then these photos are here to prove you wrong. Or if you still have no idea how <b>crazy</b>, how <b>creative</b> and <b>open-minded</b> she is, these photos are also here to show you.<br><br>She dares to be <b>different!</b>"
@@ -381,18 +371,9 @@ aside:
                     link: "en/publication"
                     title: "Publication"
 
-    contact:
-        title:
-            en: "You can reach her by..."
-
-        content:
-            en: "Eileen's email address"
-
-        mailTo: "mailto:eileenpunk922@gmail.com?subject=I want to tell you that..."
-
     socialMedia:
         title:
-            en: "Or find her on..."
+            en: "You can find her on..."
 
     babySlider:
         title:
@@ -404,19 +385,19 @@ aside:
         content:
             -
                 image: "01"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "02"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "03"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "04"
-                alt: "Eileen's photo"
+                alt: "Ailin's photo"
             -
                 image: "05"
-                alt: "when Eileen was little"
+                alt: "when Ailin was little"
 
     languageSkills:
         title:
@@ -475,7 +456,7 @@ Branding:
             - "December 11, 2013"
             - "Category"
             - "Branding"
-        description: "This is a fashion brand called Puppet, which is also created by Eileen. She didn't really design the cloth, but the puppet pattern and the little tag."
+        description: "This is a fashion brand called Puppet, which is also created by Ailin. She didn't really design the cloth, but the puppet pattern and the little tag."
 
     -
         backgroundImage: "branding-01"
@@ -919,12 +900,12 @@ footer:
             class: ""
 
     description:
-        en: "* Those languages are listed because of a reason. Either Eileen does speak a little bit of it, or she has been to that language speaking place, or some of her dearest friends are from there."
+        en: "* Those languages are listed because of a reason. Either Ailin does speak a little bit of it, or she has been to that language speaking place, or some of her dearest friends are from there."
 
     copyRight: "© COPYRIGHT EILEEN PUNK 2015"
 
 globals:
-    eileenpunk: "EileenPunk"
+    ailinpeng: "AilinPeng"
     release: false
     publish: false
 
@@ -937,15 +918,15 @@ globals:
 
     en:
         meta:
-            title:  "EileenPunk"
-            description: "This Eileen Punk never is just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
-            url: "www.eileenpunk.com"
-            # image: "http://www.eileenpunk.com/assets/images/og.jpg"
+            title:  "AilinPeng"
+            description: "This Ailin Peng never is just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
+            url: "www.ailinpeng.com"
+            # image: "http://www.ailinpeng.com/assets/images/og.jpg"
 
 header:
     logo:
-        link: "http://www.eileenpunk.com"
-        image: "logo.jpg"
+        link: "http://www.ailinp.com"
+        image: "logo.png"
 
     en:
         menu:
@@ -1014,7 +995,7 @@ header:
                 title: ""
 home:
     mainSection:
-        # en: "This Eileen Punk has been so busy practicing metaphysics recently, really doesn't have the time to code a fancy home page.<br><span class=\"homeMainSpan\">( If you're wondering what will happen or why the things have happened happened in your life. Here she offers you a detailed individual analysis of your natal chart :)</span>"
+        # en: "This Ailin Peng has been so busy practicing metaphysics recently, really doesn't have the time to code a fancy home page.<br><span class=\"homeMainSpan\">( If you're wondering what will happen or why the things have happened happened in your life. Here she offers you a detailed individual analysis of your natal chart :)</span>"
 
         en: "This page has a very high bounce rate. I know, I know...<br><span class=\"homeMainSpan\">Because I don't have fancy images on this page. And you guys don't read. But I mean...</span>Just click those damn links, will you!"
 
@@ -1079,23 +1060,23 @@ home:
         mt: "Mort sa Malta għal 30 sena bħala avventura. Kienet l-ewwel darba li kelli l-opportunità li nghum fin-nofs tal-laguna blu u imiss il-bram tal-bajd moqli. Zort ukoll il-Belt Valletta u l-Imdina.l-istorja tal-kavallieri ta 'Malta sipta sorpriza!"
 
 page:
-    name: "EileenPunk"
-    slug: "eileenpunk"
+    name: "AilinPeng"
+    slug: "ailinpeng"
     theme: "default"
     utm:
-        campaign: "eileenpunk"
+        campaign: "ailinpeng"
         date: "22092015"
 
     es:
-        releaseUrl: "eileenpunk"
-        publishUrl: "eileenpunk"
-        canonical: "http://www.eileenpunk.com"
+        releaseUrl: "ailinpeng"
+        publishUrl: "ailinpeng"
+        canonical: "http://www.ailinpeng.com"
 
         og:
-            title: "EileenPunk"
-            description: "This Eileen Punk never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
-            url: "http://www.eileenpunk.com"
-            image: "http://www.eileenpunk.com/assets/images/og.jpg"
+            title: "AilinPeng"
+            description: "This Ailin Peng never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
+            url: "http://www.ailinpeng.com"
+            image: "http://www.ailinpeng.com/assets/images/og.jpg"
 
     commonStuff:
         class:
@@ -1606,22 +1587,22 @@ Publication:
 socialMedia:
     content:
         -
-            link: "https://www.facebook.com/eileen.punk"
+            link: "mailto:eileenpunk922@gmail.com"
+            icon: "envelope"
+        -
+            link: "https://www.facebook.com/ailin.peng"
             icon: "facebook"
         -
-            link: "https://twitter.com/eileenpunk1"
+            link: "https://twitter.com/ailinpeng1"
             icon: "twitter"
         -
-            link: "https://es.linkedin.com/pub/eileen-punk/4b/32/11"
+            link: "https://es.linkedin.com/pub/ailin-peng/4b/32/11"
             icon: "linkedin"
         -
-            link: "http://instagram.com/eileenpunk/"
+            link: "http://instagram.com/ailinpeng/"
             icon: "instagram"
         -
-            link: "http://eileenpunk.tumblr.com/"
-            icon: "tumblr"
-        -
-            link: "https://www.pinterest.com/eileenpunk922/"
+            link: "https://www.pinterest.com/ailinpeng922/"
             icon: "pinterest-square"
 topHeading:
     home:

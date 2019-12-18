@@ -1,144 +1,72 @@
 .Header {
-    background-color: $c-white;
+    background-color: $c-neutroDarkest;
     position: fixed;
     z-index: 5;
     width: 100%;
 
     .Header-logo {
         display: block;
-        padding: gutter(.5) 0;
-        text-align: center;
-
-        a {
-            display: inline-block;
-        }
-
-         img {
+        padding: 14px 0 8px;
+        width: 100%;
+        img {
             height: auto;
-            width: 80%;
+            margin: 0 auto;
+            width: 100px;
         }
     }
 
-// --------------- HAMBURGER IS DEAD -----------------//
-    // .Header-mobileMenuIcon {
-    //     display: block;
-    //     position: absolute;
-    //     top: 0;
-    //     right: 0;
-    //     padding: 1rem;
-    //     margin: 0.5rem;
-    // }
-
-
     .Header-menu {
-        @include clearfix;
-        display: inline-block;
-        float: right;
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        justify-content: flex-end;
+        margin: 0;
         width: 100%;
-
-        .menu-forDesktop {
-            display: inline-block;
-            float: right;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            width: 100%;
-
-            ul {
-                margin: 0;
-                overflow: hidden;
-
-                li {
-                    display: inline-block;
-                    float: left;
-                    width: 25%;
-
-                    a {
-                        color: $c-mainLight;
-                        font-size: units(14px);
-                        padding: gutter(.5) 0;
-                        display: block;
-                        text-align:center;
-
-                        &:hover {
-                            background: $c-main;
-                            color: white;
-                        }
-                    }
-                }
-
-                .forDesktop {
-                    display: none;
-                }
-
-                .forMobile {
-                    display: block;
-                }
-
-                .active {
-                    a {
-                        color: $c-main;
-                    }
-                }
-
-                .inactive {
-                    a {
-                        color: $c-mainLight;
-                    }
+        li {
+            width: 25%;
+            a {
+                color: $c-mainLight;
+                font-size: units(14px);
+                margin: 0 auto;
+                padding: gutter(.5) 0;
+                display: block;
+                text-align:center;
+                width: 100%;
+                &:hover {
+                    background: $c-main;
+                    color: $c-white;
                 }
             }
         }
-
-// --------------- HAMBURGER IS DEAD -----------------//
-        // display: none;
-
-        // &.is-open {
-        //     display: block;
-        // }
-
-        // .menu-forDesktop {
-        //     display: none;
-        // }
+        .forDesktop { display: none; }
+        .forMobile { display: flex; }
+        .active { a { color: $c-main; } }
+        .inactive { a { color: $c-mainLight; } }
     }
 }
 
 @media #{$small-up} {
     .Header {
-        .Header-logo {
-            padding: 0;
-            text-align: left;
-            position: absolute;
-                position: absolute;
-                left: gutter();
-                top: 50%;
-                transform: translateY(-50%);
+        .u-wrapper {
+            align-items: flex-end;
+            display: flex;
+            justify-content: space-between;
         }
-
-        .Header-menu {
-            @include clearfix;
+        .Header-logo {
             display: inline-block;
-            float: right;
+            padding: 0;
             width: auto;
-
-            .menu-forDesktop {
-                display: inline-block;
-                float: right;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 500;
-                font-size: 14px;
+            img {
+                padding: 0 0 16px;
+                width: 120px;
+            }
+        }
+        .Header-menu {
+            width: calc(100% - 90px);
+            li {
                 width: auto;
-
-                ul {
-                    margin: 0;
-
-                    li {
-                        width: auto;
-
-                        a {
-                            padding: units(25px) gutter(.65) units(12px);
-                        }
-                    }
-                }
+                a { padding: units(25px) gutter(.65) units(12px); }
             }
         }
     }
@@ -147,50 +75,14 @@
 @media #{$medium-up} {
     .Header {
         .Header-menu {
-            .menu-forDesktop {
-                ul {
-                    .forDesktop {
-                        display: block;
-                    }
-
-                    .forMobile {
-                        display: none;
-                    }
-                }
-            }
+            .forDesktop { display: block; }
+            .forMobile { display: none; }
         }
-
-// --------------- HAMBURGER IS DEAD -----------------//
-//         .Header-mobileMenuIcon {
-//             display: none;
-//         }
-
-//         .menu-forMobile {
-//             display: none;
-//         }
     }
 }
 
 @media #{$large-up} {
-    .Header {
-        .Header-logo {
-            img {
-                width: 100%;
-            }
-        }
-
-        .Header-menu {
-            .menu-forDesktop {
-                ul {
-                    li {
-                        a {
-                            padding: units(25px) gutter() units(12px);
-                        }
-                    }
-                }
-            }
-        }
-    }
+    .Header .Header-menu li a { padding: units(25px) gutter() units(12px); }
 }
 
 nav li.active a:hover {

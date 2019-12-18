@@ -1,5 +1,5 @@
 globals:
-    eileenpunk: "EileenPunk"
+    ailinpeng: "AilinPeng"
     release: false
     publish: false
 
@@ -12,7 +12,7 @@ globals:
 
     en:
         meta:
-            title:  "EileenPunk"
-            description: "This Eileen Punk never is just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
-            url: "www.eileenpunk.com"
-            # image: "http://www.eileenpunk.com/assets/images/og.jpg"
+            title:  "AilinPeng"
+            description: "This Ailin Peng never is just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
+            url: "www.ailinpeng.com"
+            # image: "http://www.ailinpeng.com/assets/images/og.jpg"

@@ -31,7 +31,7 @@
         .ProfessionalSkills-menuItem:nth-child(2) { width: 32%; }
         .ProfessionalSkills-menuItem:nth-child(3) { width: 25%; }
         .ProfessionalSkills-menuItem:nth-child(4),
-        .ProfessionalSkills-menuItem:nth-child(5) { width: 50%; }
+        .ProfessionalSkills-menuItem:nth-child(5) { width: calc(50% - 0.5px); }
         .ProfessionalSkills-menuItem a:hover,
         .ProfessionalSkills-menuItem.active a { background-color: $c-mainLight; }
         .ProfessionalSkills-menuItem:nth-child(1) a,
@@ -42,6 +42,9 @@
         .ProfessionalSkills-menuItem:nth-child(3) a { border-bottom: 1px solid $c-white; }
         @media #{$small-up} {
             flex-wrap: nowrap;
+            .ProfessionalSkills-menuItem:nth-child(1) a,
+            .ProfessionalSkills-menuItem:nth-child(2) a,
+            .ProfessionalSkills-menuItem:nth-child(3) a { border-bottom: none; }
             .ProfessionalSkills-menuItem:not(:last-child) a { border-right: 1px solid $c-white; }
         }
         @media #{$medium-up} {
@@ -58,16 +61,18 @@
     }
     .ProfessionalSkills-content {
         display: none;
-        padding: units(15px) units(20px);
-        @media #{$medium-up} { width: 70%; }
+        @media #{$medium-up} {
+            padding: units(15px) units(20px);
+            width: 70%;
+        }
     }
     #tab-1 { display: block; }
     .ProfessionalSkills-title {
-        color: $c-neutroDark;
+        color: $c-white;
         display: block;
         font-family: $t-raleway;
-        font-size: units(16px);
-        font-weight: 500;
+        font-size: units(14px);
+        font-weight: 300;
         line-height: 1.2;
         margin-bottom: gutter(.5);
 
@@ -78,13 +83,7 @@
     }
     .ProfessionalSkills-contentItem:not(:last-child) { margin-bottom: units(20px); }
     .ProfessionalSkills-chart {
-        background: #e9e5e2;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
-        background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
-        background-image: linear-gradient(top, #e1ddd9, #e9e5e2);
+        background: linear-gradient(to bottom, $c-neutro, $c-neutroLighter);
         border-radius: units(10px);
         box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
         height: units(12px);
@@ -93,15 +92,9 @@
         position: relative;
 
         .ProfessionalSkills-chartItem {
-            background-color: $c-main;
-            background-image: -webkit-gradient(linear, left top, left bottom, from($c-mainLighter), to($c-main));
-            background-image: -webkit-linear-gradient(top, $c-mainLighter, $c-main);
-            background-image: -moz-linear-gradient(top, $c-mainLighter, $c-main);
-            background-image: -ms-linear-gradient(top, $c-mainLighter, $c-main);
-            background-image: -o-linear-gradient(top, $c-mainLighter, $c-main);
-            background-image: linear-gradient(top, $c-mainLighter, $c-main);
+            background: linear-gradient(to bottom, $c-mainLighter, $c-main);
             height: units(8px);
-            margin: units(1px) units(-2px) units(1px) units(2px);
+            margin: units(2.5px) units(-2px) units(1px) units(2px);
             position: absolute;
             border-radius: units(10px);
             -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
@@ -173,24 +166,13 @@
     }
 }
 
-@-moz-keyframes percent40 {0%  { width:0px;} 100%{ width:40%;}  }
-@-moz-keyframes percent50 { 0%  { width:0px;} 100%{ width:50%;}  }
-@-moz-keyframes percent60 { 0%  { width:0px;} 100%{ width:60%;}  }
-@-moz-keyframes percent70 { 0%  { width:0px;} 100%{ width:70%;}  }
-@-moz-keyframes percent75 { 0%  { width:0px;} 100%{ width:75%;}  }
-@-moz-keyframes percent80 { 0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes percent85 { 0%  { width:0px;} 100%{ width:85%;}  }
-@-moz-keyframes percent90 { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes percent95 { 0%  { width:0px;} 100%{ width:95%;}  }
-@-moz-keyframes percent100 { 0%  { width:0px;} 100%{ width:calc(100% - 4px);}  }
-
-@-webkit-keyframes percent40 {0%  { width:0px;} 100%{ width:40%;}  }
-@-webkit-keyframes percent50 { 0%  { width:0px;} 100%{ width:50%;}  }
-@-webkit-keyframes percent60 { 0%  { width:0px;} 100%{ width:60%;}  }
-@-webkit-keyframes percent70 { 0%  { width:0px;} 100%{ width:70%;}  }
-@-webkit-keyframes percent75 { 0%  { width:0px;} 100%{ width:75%;}  }
-@-webkit-keyframes percent80 { 0%  { width:0px;} 100%{ width:80%;}  }
-@-webkit-keyframes percent85 { 0%  { width:0px;} 100%{ width:85%;}  }
-@-webkit-keyframes percent90 { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes percent95 { 0%  { width:0px;} 100%{ width:95%;}  }
-@-webkit-keyframes percent100 { 0%  { width:0px;} 100%{ width:calc(100% - 4px);}  }
+@keyframes percent40 {0%  { width:0px;} 100%{ width:40%;}  }
+@keyframes percent50 { 0%  { width:0px;} 100%{ width:50%;}  }
+@keyframes percent60 { 0%  { width:0px;} 100%{ width:60%;}  }
+@keyframes percent70 { 0%  { width:0px;} 100%{ width:70%;}  }
+@keyframes percent75 { 0%  { width:0px;} 100%{ width:75%;}  }
+@keyframes percent80 { 0%  { width:0px;} 100%{ width:80%;}  }
+@keyframes percent85 { 0%  { width:0px;} 100%{ width:85%;}  }
+@keyframes percent90 { 0%  { width:0px;} 100%{ width:90%;}  }
+@keyframes percent95 { 0%  { width:0px;} 100%{ width:95%;}  }
+@keyframes percent100 { 0%  { width:0px;} 100%{ width:calc(100% - 4px);}  }

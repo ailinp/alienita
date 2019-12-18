@@ -32,20 +32,20 @@ about:
                 tab: "1"
                 chart:
                     -
-                        title: "HTML CSS"
+                        title: "HTML | Twig"
                         percentage: "percent95"
                     -
-                        title: "JQuery"
-                        percentage: "percent80"
+                        title: "CSS | SASS"
+                        percentage: "percent95"
                     -
                         title: "JavaScript"
+                        percentage: "percent70"
+                    -
+                        title: "Webpack | Encore | Gulp"
                         percentage: "percent60"
                     -
-                        title: "Gulp"
-                        percentage: "percent80"
-                    -
                         title: "Git"
-                        percentage: "percent70"
+                        percentage: "percent80"
                     -
                         title: "Google Analytics"
                         percentage: "percent50"
@@ -69,7 +69,7 @@ about:
                         percentage: "percent70"
                     -
                         title: "Branding"
-                        percentage: "percent60"
+                        percentage: "percent80"
             -
                 tab: "3"
                 chart:
@@ -96,7 +96,7 @@ about:
                 chart:
                     -
                         title: "Executive copywriting"
-                        percentage: "percent100"
+                        percentage: "percent90"
                     -
                         title: "Journalism (Media)"
                         percentage: "percent80"
@@ -215,7 +215,7 @@ about:
                     - ""
                     - ""
                     - ""
-                    - "Atom"
+                    - "VS Code"
 
             -
                 list:
@@ -288,12 +288,3 @@ about:
                     - "3Dmax"
         claim:
             en: "Hover your mouse over each skill, you'll see how much she loves those technical stuff :P"
-
-    explanation:
-        title: "Now let me explain..."
-
-        content:
-            - "This <b>Eileen Punk</b> is NOT a punk."
-            - "<span>(Maybe she once was, but not anymore.)</span>"
-            - "She named herself <b>Punk</b> because the pronunciation of her family name sounds very punky.<br>And yes, <b>Eileen</b> is her very first original given name.<br>Feel free to call her, but please pronounce it correctly in English."
-            - "<span>(For those Spanish fellows, se pronuncia: <b>Ailin</b>, no <b>Eilin</b>, Gracias!)</span>"

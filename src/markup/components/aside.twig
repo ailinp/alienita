@@ -16,11 +16,7 @@
             {% endfor %}
         </ul>
     </div>
-    <div id="Contact" class="contact">
-        <h2>{{ aside.contact.title.en|raw }}</h2>
-        <p><a href="{{ aside.contact.mailTo|raw }}">{{ aside.contact.content.en|raw }}</a></p>
-    </div>
-    <div class="socialMedia">
+    <div id="Contact" class="socialMedia">
         <h2>{{ aside.socialMedia.title.en|raw }}</h2>
         {% include '../modules/social-media.twig' %}
     </div>

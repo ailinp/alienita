@@ -1,10 +1,10 @@
 {
-  "name": "EileenPunk",
+  "name": "AilinPeng",
   "version": "2.0.0",
-  "description": "EileenPunk website",
+  "description": "AilinPeng website",
   "repository": {
     "type": "git",
-    "url": "git@github.com:EileenPunk/alienita.git"
+    "url": "git@github.com:AilinPeng/alienita.git"
   },
   "dependencies": {
     "gulp": "^3.9.0"

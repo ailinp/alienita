@@ -6,10 +6,10 @@
 }
 .PersonalSkills-chart {
     position: relative;
-    color: $c-neutroDark;
+    color: $c-white;
     font-family: $t-raleway;
-    font-size: units(16px);
-    font-weight: 500;
+    font-size: units(14px);
+    font-weight: 300;
     margin: 0 auto gutter(2);
     text-align: center;
     @media #{$medium-up} { margin: 0 units(20px) gutter(2); }

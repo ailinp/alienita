@@ -1,5 +1,5 @@
 aside {
-    background: $c-mainLighter;
+    background-color: $c-neutroLight;
     padding: gutter(1.3)!important;
     text-align: left;
 
@@ -19,7 +19,7 @@ aside {
 
     h2 {
         border-bottom: solid 3px $c-white;
-        color: $c-main;
+        color: $c-mainLight;
         font-family: $t-poiret;
         font-size: units(18px);
         font-weight: 800;
@@ -28,12 +28,13 @@ aside {
     }
 
     p {
-        color: $c-mainDark;
+        color: $c-white;
         font-size: units(14px);
+        font-weight: 300;
         margin-bottom: gutter();
 
         a {
-            color: $c-mainDark;
+            color: $c-white;
             text-decoration: underline;
 
             &:hover {
