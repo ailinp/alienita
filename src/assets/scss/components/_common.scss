@@ -40,10 +40,10 @@
             }
 
             .homeMainSpan {
-                color: $c-neutro;
+                color: $c-white;
                 display: block;
                 font-size: units(20px);
-                font-weight: 200;
+                font-weight: 100;
                 padding: gutter(2) 0;
 
                 @media #{$large-up} {

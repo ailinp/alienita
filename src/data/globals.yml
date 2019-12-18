@@ -13,6 +13,6 @@ globals:
     en:
         meta:
             title:  "AilinPeng"
-            description: "This Ailin Peng never is just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
-            url: "www.ailinpeng.com"
-            # image: "http://www.ailinpeng.com/assets/images/og.jpg"
+            description: "This Ailin Peng is never just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
+            url: "www.ailinp.com"
+            image: "http://www.ailinp.com/assets/images/og.png"

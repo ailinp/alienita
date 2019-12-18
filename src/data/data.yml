@@ -397,6 +397,18 @@ aside:
                 alt: "Ailin's photo"
             -
                 image: "05"
+                alt: "Ailin's photo"
+            -
+                image: "06"
+                alt: "Ailin's photo"
+            -
+                image: "07"
+                alt: "Ailin's photo"
+            -
+                image: "08"
+                alt: "Ailin's photo"
+            -
+                image: "09"
                 alt: "when Ailin was little"
 
     languageSkills:
@@ -919,9 +931,9 @@ globals:
     en:
         meta:
             title:  "AilinPeng"
-            description: "This Ailin Peng never is just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
-            url: "www.ailinpeng.com"
-            # image: "http://www.ailinpeng.com/assets/images/og.jpg"
+            description: "This Ailin Peng is never just one thing. Metaphysician, web developer, publication executive editor, photographer-model, graphic designer, illustrator, writer, artist, interpreter, language teacher, singer, traveler, and so much more. She's also a typical perfectionist with a positive attitude."
+            url: "www.ailinp.com"
+            image: "http://www.ailinp.com/assets/images/og.png"
 
 header:
     logo:
@@ -995,9 +1007,7 @@ header:
                 title: ""
 home:
     mainSection:
-        # en: "This Ailin Peng has been so busy practicing metaphysics recently, really doesn't have the time to code a fancy home page.<br><span class=\"homeMainSpan\">( If you're wondering what will happen or why the things have happened happened in your life. Here she offers you a detailed individual analysis of your natal chart :)</span>"
-
-        en: "This page has a very high bounce rate. I know, I know...<br><span class=\"homeMainSpan\">Because I don't have fancy images on this page. And you guys don't read. But I mean...</span>Just click those damn links, will you!"
+        en: "If you're looking for Eileen Punk, you're in the right page.<br><span class=\"homeMainSpan\">Ailin Peng is originally called Eileen Punk.<br>And Eileen Punk is originally called Ailin Peng.</span>It's almost too complicated to explain these two names. But I hope you like this new dark theme of my new website."
 
         uk: "What do you expect to see on this page? Colours? I think I only have 3 or 4. Flavours? Wait... Are you licking your screen right now? Does it taste like an aluminium foil to you? Or does my sense of humour just make you laugh your arrrrse off... What? You only have one R? But how do you know how many Rs you have if you don't even pronounce it? And why do you need so many Us? You think it's necessary?"
 

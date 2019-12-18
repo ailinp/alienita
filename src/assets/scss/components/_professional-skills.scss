@@ -36,16 +36,16 @@
         .ProfessionalSkills-menuItem.active a { background-color: $c-mainLight; }
         .ProfessionalSkills-menuItem:nth-child(1) a,
         .ProfessionalSkills-menuItem:nth-child(2) a,
-        .ProfessionalSkills-menuItem:nth-child(4) a { border-right: 1px solid $c-white; }
+        .ProfessionalSkills-menuItem:nth-child(4) a { border-right: 1px solid $c-neutroDark; }
         .ProfessionalSkills-menuItem:nth-child(1) a,
         .ProfessionalSkills-menuItem:nth-child(2) a,
-        .ProfessionalSkills-menuItem:nth-child(3) a { border-bottom: 1px solid $c-white; }
+        .ProfessionalSkills-menuItem:nth-child(3) a { border-bottom: 1px solid $c-neutroDark; }
         @media #{$small-up} {
             flex-wrap: nowrap;
             .ProfessionalSkills-menuItem:nth-child(1) a,
             .ProfessionalSkills-menuItem:nth-child(2) a,
             .ProfessionalSkills-menuItem:nth-child(3) a { border-bottom: none; }
-            .ProfessionalSkills-menuItem:not(:last-child) a { border-right: 1px solid $c-white; }
+            .ProfessionalSkills-menuItem:not(:last-child) a { border-right: 1px solid $c-neutroDark; }
         }
         @media #{$medium-up} {
             flex-wrap: wrap;
@@ -56,7 +56,7 @@
             .ProfessionalSkills-menuItem:nth-child(3),
             .ProfessionalSkills-menuItem:nth-child(4),
             .ProfessionalSkills-menuItem:nth-child(5) { width: 100%; }
-            .ProfessionalSkills-menuItem:not(:last-child) a { border-right: 0; border-bottom: 1px solid $c-white; }
+            .ProfessionalSkills-menuItem:not(:last-child) a { border-right: 0; border-bottom: 1px solid $c-neutroDark; }
         }
     }
     .ProfessionalSkills-content {
