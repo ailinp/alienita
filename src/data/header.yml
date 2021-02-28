@@ -18,12 +18,12 @@ header:
                 title: "comics"
                 class: "forDesktop"
             -
-                link: "en/editorial"
-                title: "editorial"
-                class: "forDesktop"
-            -
                 link: "en/branding"
                 title: "branding"
+                class: "forDesktop"
+            -
+                link: "en/editorial"
+                title: "editorial"
                 class: "forDesktop"
             -
                 link: "en/photography"

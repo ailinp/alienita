@@ -32,23 +32,23 @@ about:
                 tab: "1"
                 chart:
                     -
-                        title: "HTML | Twig"
+                        title: "HTML | Twig | Yaml | JSon"
                         percentage: "percent95"
                     -
-                        title: "CSS | SASS"
+                        title: "CSS | SASS | LESS"
                         percentage: "percent95"
                     -
                         title: "JavaScript"
                         percentage: "percent70"
                     -
-                        title: "Webpack | Encore | Gulp"
+                        title: "Webpack | Encore | Gulp | Grunt"
                         percentage: "percent60"
                     -
-                        title: "Git"
-                        percentage: "percent80"
+                        title: "Git | Github | Gitlab | Bitbucket | Azure"
+                        percentage: "percent70"
                     -
-                        title: "Google Analytics"
-                        percentage: "percent50"
+                        title: "Google Analytics | Tag Manager | GA4"
+                        percentage: "percent80"
             -
                 tab: "2"
                 chart:
@@ -56,8 +56,8 @@ about:
                         title: "Graphic Design"
                         percentage: "percent80"
                     -
-                        title: "UX UI"
-                        percentage: "percent70"
+                        title: "UX / UI"
+                        percentage: "percent90"
                     -
                         title: "Editorial"
                         percentage: "percent90"
@@ -83,8 +83,8 @@ about:
                         title: "Photography"
                         percentage: "percent90"
                     -
-                        title: "Oil painting"
-                        percentage: "percent60"
+                        title: "Oil painting | Water painting"
+                        percentage: "percent70"
                     -
                         title: "Graffiti"
                         percentage: "percent60"
@@ -116,44 +116,23 @@ about:
                 tab: "5"
                 chart:
                     -
-                        title: "Astrology"
-                        percentage: "percent70"
-                    -
-                        title: "BaZi (Chinese Astrology)"
+                        title: "Astrology | Bazi"
                         percentage: "percent95"
                     -
-                        title: "Human Design"
+                        title: "Face Reading | Hand Reading"
                         percentage: "percent90"
                     -
+                        title: "Human Design"
+                        percentage: "percent85"
+                    -
                         title: "Tarot"
-                        percentage: "percent90"
+                        percentage: "percent80"
                     -
                         title: "I-Ching"
                         percentage: "percent70"
                     -
                         title: "Feng Shui"
                         percentage: "percent80"
-            # -
-            #     tab: "5"
-            #     chart:
-            #         -
-            #             title: "Literal Translating"
-            #             percentage: "percent80"
-            #         -
-            #             title: "Dynamic (Idiomatic) Translating"
-            #             percentage: "percent90"
-            #         -
-            #             title: "Consecutive Interpreting"
-            #             percentage: "percent60"
-            #         -
-            #             title: "Simultaneous Interpreting"
-            #             percentage: "percent50"
-            #         -
-            #             title: "Whispered Interpreting"
-            #             percentage: "percent60"
-            #         -
-            #             title: "Trilingual Interpreting"
-            #             percentage: "percent80"
 
     PersonalSkills:
         title:
@@ -176,7 +155,7 @@ about:
                 title: "Unworldly"
                 percentage: "70"
             -
-                title: "Perseverant"
+                title: "Creative"
                 percentage: "90"
             -
                 title: "Independent"
@@ -184,19 +163,6 @@ about:
             -
                 title: "Tactful"
                 percentage: "60"
-
-            # -
-            #     title: "Creative"
-            #     percentage: "98"
-            # -
-            #     title: "Bi-handed"
-            #     percentage: "100"
-            # -
-            #     title: "Faithful"
-            #     percentage: "60"
-            # -
-            #     title: "Filial Piety"
-            #     percentage: "50"
 
     TechnicalSkills:
         title:

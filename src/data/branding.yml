@@ -1,5 +1,63 @@
 Branding:
     -
+        backgroundImage: "branding-07"
+        title: "Digital Marketing Toolkit"
+        subtitle: "Covers and Product Design for Digital Marketing Toolkit"
+        fullImage:
+            - "branding/branding-07-1.jpg"
+            - "branding/branding-07-2.jpg"
+            - "branding/branding-07-3.jpg"
+            - "branding/branding-07-4.jpg"
+        captionData:
+            - "Date"
+            - "December 10, 2020"
+            - "Category"
+            - "Branding"
+        description: "Covers and Product Design for Digital Marketing Toolkit. More info: <a href=\"https://www.ptcodex.com/digitalmarketingtoolkit\" target=\"_blank\">www.ptcodex.com/digitalmarketingtoolkit</a>"
+    -
+        backgroundImage: "branding-06"
+        title: "PT Codex"
+        subtitle: "Logo and Banners for PT Codex"
+        fullImage:
+            - "branding/branding-06-1.jpg"
+            - "branding/branding-06-2.jpg"
+            - "branding/branding-06-3.jpg"
+            - "branding/branding-06-4.jpg"
+            - "branding/branding-06-5.jpg"
+        captionData:
+            - "Date"
+            - "November 30, 2019"
+            - "Category"
+            - "Branding"
+        description: "Logo and Banners for PT Codex. Website: <a href=\"https://www.ptcodex.com/\" target=\"_blank\">www.ptcodex.com</a>"
+    -
+        backgroundImage: "branding-05"
+        title: "Cal Jordi"
+        subtitle: "Cal Jordi Restaurant"
+        fullImage:
+            - "branding/branding-05-1.jpg"
+            - "branding/branding-05-2.jpg"
+            - "branding/branding-05-3.jpg"
+            - "branding/branding-05-4.jpg"
+        captionData:
+            - "Date"
+            - "April 30, 2016"
+            - "Category"
+            - "Branding"
+        description: "Logo and Menu for Cal Jordi Restaurant."
+    -
+        backgroundImage: "branding-04"
+        title: "ANK"
+        subtitle: "ANK Travel Agency"
+        fullImage:
+            - "branding/branding-04-1.jpg"
+        captionData:
+            - "Date"
+            - "October 24, 2014"
+            - "Category"
+            - "Branding"
+        description: "Brochure for ANK Travel Agency."
+    -
         backgroundImage: "branding-03"
         title: "Missin' - Foundation"
         subtitle: "You are the missin' piece of my beauty."

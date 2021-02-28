@@ -1,5 +1,27 @@
 Painting:
     -
+        backgroundImage: "painting-22"
+        title: "Remember when"
+        subtitle: "Remember when the moonlight used to cast on my face."
+        fullImage: "painting/painting-22.jpg"
+        captionData:
+            - "Date"
+            - "March 08, 2020"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"Remember when the moonlight used to cast on my face.\""
+    -
+        backgroundImage: "painting-21"
+        title: "Color of the night"
+        subtitle: "But you hide behind the color of the night."
+        fullImage: "painting/painting-21.jpg"
+        captionData:
+            - "Date"
+            - "January 06, 2018"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"But you hide behind the color of the night.\""
+    -
         backgroundImage: "painting-20"
         title: "Here we met again"
         subtitle: "I am sorry if I've disappointed you."

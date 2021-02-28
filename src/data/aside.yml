@@ -69,11 +69,11 @@ aside:
                     link: "en/comics"
                     title: "Comics"
                 -
-                    link: "en/editorial"
-                    title: "Editorial"
-                -
                     link: "en/branding"
                     title: "Branding"
+                -
+                    link: "en/editorial"
+                    title: "Editorial"
                 -
                     link: "en/photography"
                     title: "Photography"

@@ -32,23 +32,23 @@ about:
                 tab: "1"
                 chart:
                     -
-                        title: "HTML | Twig"
+                        title: "HTML | Twig | Yaml | JSon"
                         percentage: "percent95"
                     -
-                        title: "CSS | SASS"
+                        title: "CSS | SASS | LESS"
                         percentage: "percent95"
                     -
                         title: "JavaScript"
                         percentage: "percent70"
                     -
-                        title: "Webpack | Encore | Gulp"
+                        title: "Webpack | Encore | Gulp | Grunt"
                         percentage: "percent60"
                     -
-                        title: "Git"
-                        percentage: "percent80"
+                        title: "Git | Github | Gitlab | Bitbucket | Azure"
+                        percentage: "percent70"
                     -
-                        title: "Google Analytics"
-                        percentage: "percent50"
+                        title: "Google Analytics | Tag Manager | GA4"
+                        percentage: "percent80"
             -
                 tab: "2"
                 chart:
@@ -56,8 +56,8 @@ about:
                         title: "Graphic Design"
                         percentage: "percent80"
                     -
-                        title: "UX UI"
-                        percentage: "percent70"
+                        title: "UX / UI"
+                        percentage: "percent90"
                     -
                         title: "Editorial"
                         percentage: "percent90"
@@ -83,8 +83,8 @@ about:
                         title: "Photography"
                         percentage: "percent90"
                     -
-                        title: "Oil painting"
-                        percentage: "percent60"
+                        title: "Oil painting | Water painting"
+                        percentage: "percent70"
                     -
                         title: "Graffiti"
                         percentage: "percent60"
@@ -116,44 +116,23 @@ about:
                 tab: "5"
                 chart:
                     -
-                        title: "Astrology"
-                        percentage: "percent70"
-                    -
-                        title: "BaZi (Chinese Astrology)"
+                        title: "Astrology | Bazi"
                         percentage: "percent95"
                     -
-                        title: "Human Design"
+                        title: "Face Reading | Hand Reading"
                         percentage: "percent90"
                     -
+                        title: "Human Design"
+                        percentage: "percent85"
+                    -
                         title: "Tarot"
-                        percentage: "percent90"
+                        percentage: "percent80"
                     -
                         title: "I-Ching"
                         percentage: "percent70"
                     -
                         title: "Feng Shui"
                         percentage: "percent80"
-            # -
-            #     tab: "5"
-            #     chart:
-            #         -
-            #             title: "Literal Translating"
-            #             percentage: "percent80"
-            #         -
-            #             title: "Dynamic (Idiomatic) Translating"
-            #             percentage: "percent90"
-            #         -
-            #             title: "Consecutive Interpreting"
-            #             percentage: "percent60"
-            #         -
-            #             title: "Simultaneous Interpreting"
-            #             percentage: "percent50"
-            #         -
-            #             title: "Whispered Interpreting"
-            #             percentage: "percent60"
-            #         -
-            #             title: "Trilingual Interpreting"
-            #             percentage: "percent80"
 
     PersonalSkills:
         title:
@@ -176,7 +155,7 @@ about:
                 title: "Unworldly"
                 percentage: "70"
             -
-                title: "Perseverant"
+                title: "Creative"
                 percentage: "90"
             -
                 title: "Independent"
@@ -184,19 +163,6 @@ about:
             -
                 title: "Tactful"
                 percentage: "60"
-
-            # -
-            #     title: "Creative"
-            #     percentage: "98"
-            # -
-            #     title: "Bi-handed"
-            #     percentage: "100"
-            # -
-            #     title: "Faithful"
-            #     percentage: "60"
-            # -
-            #     title: "Filial Piety"
-            #     percentage: "50"
 
     TechnicalSkills:
         title:
@@ -359,11 +325,11 @@ aside:
                     link: "en/comics"
                     title: "Comics"
                 -
-                    link: "en/editorial"
-                    title: "Editorial"
-                -
                     link: "en/branding"
                     title: "Branding"
+                -
+                    link: "en/editorial"
+                    title: "Editorial"
                 -
                     link: "en/photography"
                     title: "Photography"
@@ -436,6 +402,64 @@ aside:
                 title: "Catalan"
 
 Branding:
+    -
+        backgroundImage: "branding-07"
+        title: "Digital Marketing Toolkit"
+        subtitle: "Covers and Product Design for Digital Marketing Toolkit"
+        fullImage:
+            - "branding/branding-07-1.jpg"
+            - "branding/branding-07-2.jpg"
+            - "branding/branding-07-3.jpg"
+            - "branding/branding-07-4.jpg"
+        captionData:
+            - "Date"
+            - "December 10, 2020"
+            - "Category"
+            - "Branding"
+        description: "Covers and Product Design for Digital Marketing Toolkit. More info: <a href=\"https://www.ptcodex.com/digitalmarketingtoolkit\" target=\"_blank\">www.ptcodex.com/digitalmarketingtoolkit</a>"
+    -
+        backgroundImage: "branding-06"
+        title: "PT Codex"
+        subtitle: "Logo and Banners for PT Codex"
+        fullImage:
+            - "branding/branding-06-1.jpg"
+            - "branding/branding-06-2.jpg"
+            - "branding/branding-06-3.jpg"
+            - "branding/branding-06-4.jpg"
+            - "branding/branding-06-5.jpg"
+        captionData:
+            - "Date"
+            - "November 30, 2019"
+            - "Category"
+            - "Branding"
+        description: "Logo and Banners for PT Codex. Website: <a href=\"https://www.ptcodex.com/\" target=\"_blank\">www.ptcodex.com</a>"
+    -
+        backgroundImage: "branding-05"
+        title: "Cal Jordi"
+        subtitle: "Cal Jordi Restaurant"
+        fullImage:
+            - "branding/branding-05-1.jpg"
+            - "branding/branding-05-2.jpg"
+            - "branding/branding-05-3.jpg"
+            - "branding/branding-05-4.jpg"
+        captionData:
+            - "Date"
+            - "April 30, 2016"
+            - "Category"
+            - "Branding"
+        description: "Logo and Menu for Cal Jordi Restaurant."
+    -
+        backgroundImage: "branding-04"
+        title: "ANK"
+        subtitle: "ANK Travel Agency"
+        fullImage:
+            - "branding/branding-04-1.jpg"
+        captionData:
+            - "Date"
+            - "October 24, 2014"
+            - "Category"
+            - "Branding"
+        description: "Brochure for ANK Travel Agency."
     -
         backgroundImage: "branding-03"
         title: "Missin' - Foundation"
@@ -520,7 +544,7 @@ Comics:
         description: ""
     -
         backgroundImage: "comics-15"
-        title: "My US Keyboard"
+        title: "US Keyboard VS Spanish Keyboard"
         fullImage: "comics/comics-15.jpg"
         captionData:
             - "Date"
@@ -955,12 +979,12 @@ header:
                 title: "comics"
                 class: "forDesktop"
             -
-                link: "en/editorial"
-                title: "editorial"
-                class: "forDesktop"
-            -
                 link: "en/branding"
                 title: "branding"
+                class: "forDesktop"
+            -
+                link: "en/editorial"
+                title: "editorial"
                 class: "forDesktop"
             -
                 link: "en/photography"
@@ -1007,7 +1031,7 @@ header:
                 title: ""
 home:
     mainSection:
-        en: "If you're looking for Eileen Punk, you're in the right page.<br><span class=\"homeMainSpan\">Ailin Peng is originally called Eileen Punk.<br>And Eileen Punk is originally called Ailin Peng.</span>It's almost too complicated to explain these two names. But I hope you like this new dark theme of my new website."
+        en: "If you're looking for Eileen Punk, you're in the right page.<br><span class=\"homeMainSpan\">Ailin Peng is originally called Eileen Punk.<br>And Eileen Punk is originally called Ailin Peng.</span>It's almost too complicated to explain these two names. But I hope you like this new dark theme of my website."
 
         uk: "What do you expect to see on this page? Colours? I think I only have 3 or 4. Flavours? Wait... Are you licking your screen right now? Does it taste like an aluminium foil to you? Or does my sense of humour just make you laugh your arrrrse off... What? You only have one R? But how do you know how many Rs you have if you don't even pronounce it? And why do you need so many Us? You think it's necessary?"
 
@@ -1080,19 +1104,41 @@ page:
     es:
         releaseUrl: "ailinpeng"
         publishUrl: "ailinpeng"
-        canonical: "http://www.ailinpeng.com"
+        canonical: "http://www.ailinp.com"
 
         og:
             title: "AilinPeng"
             description: "This Ailin Peng never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
-            url: "http://www.ailinpeng.com"
-            image: "http://www.ailinpeng.com/assets/images/og.jpg"
+            url: "http://www.ailinp.com"
+            image: "http://www.ailinp.com/assets/images/og.jpg"
 
     commonStuff:
         class:
             mainSection: "mainSection columns small-24 medium-16 large-18"
             aside: "columns small-24 medium-8 large-6"
 Painting:
+    -
+        backgroundImage: "painting-22"
+        title: "Remember when"
+        subtitle: "Remember when the moonlight used to cast on my face."
+        fullImage: "painting/painting-22.jpg"
+        captionData:
+            - "Date"
+            - "March 08, 2020"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"Remember when the moonlight used to cast on my face.\""
+    -
+        backgroundImage: "painting-21"
+        title: "Color of the night"
+        subtitle: "But you hide behind the color of the night."
+        fullImage: "painting/painting-21.jpg"
+        captionData:
+            - "Date"
+            - "January 06, 2018"
+            - "Category"
+            - "Illustration"
+        description: "Shire: \"But you hide behind the color of the night.\""
     -
         backgroundImage: "painting-20"
         title: "Here we met again"
@@ -1597,7 +1643,7 @@ Publication:
 socialMedia:
     content:
         -
-            link: "mailto:eileenpunk922@gmail.com"
+            link: "mailto:ailinpma@gmail.com"
             icon: "envelope"
         -
             link: "https://www.facebook.com/ailin.peng"
