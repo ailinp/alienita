@@ -1,5 +1,19 @@
 Branding:
     -
+        backgroundImage: "branding-08"
+        title: "Astroways"
+        subtitle: "Logo and Banners for Astroways Astrology Channel"
+        fullImage:
+            - "branding/branding-08-1.jpg"
+            - "branding/branding-08-2.jpg"
+            - "branding/branding-08-3.jpg"
+        captionData:
+            - "Date"
+            - "December 10, 2020"
+            - "Category"
+            - "Branding"
+        description: "Logo and Banners for Astroways Astrology Channel. More info: <a href=\"https://www.youtube.com/c/astroways\" target=\"_blank\">www.youtube.com/c/astroways</a>"
+    -
         backgroundImage: "branding-07"
         title: "Digital Marketing Toolkit"
         subtitle: "Covers and Product Design for Digital Marketing Toolkit"
@@ -33,7 +47,7 @@ Branding:
     -
         backgroundImage: "branding-05"
         title: "Cal Jordi"
-        subtitle: "Cal Jordi Restaurant"
+        subtitle: "Logo and Menu for Cal Jordi Restaurant"
         fullImage:
             - "branding/branding-05-1.jpg"
             - "branding/branding-05-2.jpg"
@@ -48,7 +62,7 @@ Branding:
     -
         backgroundImage: "branding-04"
         title: "ANK"
-        subtitle: "ANK Travel Agency"
+        subtitle: "Brochure for ANK Travel Agency"
         fullImage:
             - "branding/branding-04-1.jpg"
         captionData:
@@ -89,7 +103,7 @@ Branding:
             - "December 11, 2013"
             - "Category"
             - "Branding"
-        description: "This is a fashion brand called Puppet, which is also created by Ailin. She didn't really design the cloth, but the puppet pattern and the little tag."
+        description: "T-shirt and tag design for fashion brand Puppet."
 
     -
         backgroundImage: "branding-01"

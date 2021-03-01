@@ -27,14 +27,7 @@ aside:
 
             description:
                 en: "These are real stories about Ailin and her <b>overseas</b> experience.<br><br>At the age of 24, she decided to make her life more adventurous. She quit her job, packed her bags, left her hometown, and came all the way to <b>Europe</b>, to explore the other side of the world.<br><br>There, she has met a lot of awesome <b>friends</b>. They are from different countries, different races and religions. They speak different languages and they are at different ages. All the differences, they share one thing in common, they love having <b>fun</b> with each other :P"
-
-        forEditorial:
-            title:
-                en: "Here comes her favorite"
-
-            description:
-                en: "Before she indulged herself in coding, editorial was her <b>favorite</b> thing. She still loves it, but just spends less time with it.<br><br>Why did I say she's a not-too-graphic designer? Because she's more an <b>editor</b>. She not only writes stories and edit words, she loves everything relates to <b>books</b>.<br><br>To publish books was her dream as a child. Now since she's edited and published some books and magazines, to publish her own story is a <b>dream</b> that hasn't accomplished. And she will never stop chasing it."
-
+            
         forBranding:
             title:
                 en: "Not that branding actually"
@@ -42,19 +35,19 @@ aside:
             description:
                 en: "Unlike most of her works, which you can easily tell \"oh, that's so Ailin\", branding is something she's uncertain about. Sometimes she plays <b>3D max</b> to render a minimalist packaging project; sometimes plays with papers. That <b>Funeral Invitation Card</b>, she made it for her baby novel \"Funeral\". She's good at making things by hand. She even makes clothes. Most of her clothes have been transformed at least once.<br><br>Don't ever underestimate a <b>lefty</b> and her hands. Her right hand can do what yours can do, and her left one can do what yours probably can't do."
 
+        forEditorial:
+            title:
+                en: "Here comes her babies"
+
+            description:
+                en: "<b>What We Eat in China</b> is the first book she created all by herself and published on <b>Amazon Worldwide</b> in 2020, when she was really into cooking.<br><br>Other books are the ones she has published as an <b>executive editor</b> while she worked for a publishing from 2010 to 2012. There she had the honor to meet and interview with a bunch of world's famous designers. Besides these architecture books, she also worked as a journalist and column writer for a bilingual graphic design magazine. This is where she learned so much about <b>publishing</b>.<br><br>The other magazine call Backstage is a draft one she was working on as a <b>design editor</b> during the first Master’s."
+
         forPhotography:
             title:
                 en: "This is Ailin and Peng"
 
             description:
                 en: "As I said, she's a coder. But if you are looking for a geek girl, then these photos are here to prove you wrong. Or if you still have no idea how <b>crazy</b>, how <b>creative</b> and <b>open-minded</b> she is, these photos are also here to show you.<br><br>She dares to be <b>different!</b>"
-
-        forPublication:
-            title:
-                en: "These are her babies"
-
-            description:
-                en: "These are the books she has published as an <b>executive editor</b> while she worked for a cultural media from 2010 to 2012. There she had the honor to meet and interview with a bunch of world's famous designers. Besides these architecture books, she also worked as a journalist and column writer for a bilingual graphic design magazine. This is where she finally learned about <b>publishing</b>, and finally one step towards her dream."
 
     categories:
         title:
@@ -77,9 +70,6 @@ aside:
                 -
                     link: "en/photography"
                     title: "Photography"
-                -
-                    link: "en/publication"
-                    title: "Publication"
 
     socialMedia:
         title:
