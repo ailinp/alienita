@@ -1,5 +1,21 @@
 Photography:
     -
+        backgroundImage: "photography-08"
+        title: "Yoga"
+        subtitle: "Finding my inner peace"
+        fullImage:
+            - "photography/photography-08-1.jpg"
+            - "photography/photography-08-2.jpg"
+            - "photography/photography-08-3.jpg"
+            - "photography/photography-08-4.jpg"
+            - "photography/photography-08-5.jpg"
+        captionData:
+            - "Date"
+            - "May 11, 2020"
+            - "Category"
+            - "Photography"
+        description: "Finding my inner peace"
+    -
         backgroundImage: "photography-07"
         title: "Midstream"
         subtitle: "He whom I love, must be somewhere along this stream. Up and down the stream I go to him. Oh, he is there in midstream."
