@@ -1,5 +1,28 @@
 Editorial:
     -
+        backgroundImage: "editorial-10"
+        title: "What We Eat in China"
+        subtitle: "40 popular recipes for Chinese food"
+        fullImage:
+            - "editorial/editorial-10-01.jpg"
+            - "editorial/editorial-10-02.jpg"
+            - "editorial/editorial-10-03.jpg"
+            - "editorial/editorial-10-04.jpg"
+            - "editorial/editorial-10-05.jpg"
+            - "editorial/editorial-10-06.jpg"
+            - "editorial/editorial-10-07.jpg"
+        captionData:
+            - "Date"
+            - "September 15, 2020"
+            - "Language"
+            - "English"
+            - "ISBN"
+            - "979-8677194344"
+            - "Category"
+            - "Publication"
+        description: "Here, in her first recipe book, Ailin shares with you 40 mouth-watering recipes of some of her favorite dishes. The book explores popular recipes including some non-Chinese dishes that surprisingly are found in China.<br><br>Now available on <b>Amazon Worldwide</b>! FREE download on kindle unlimited!<br>USA: <a href=\"https://www.amazon.com/dp/B08J58PKMM/\" target=\"_blank\">www.amazon.com/dp/B08J58PKMM/</a><br>UK: <a href=\"https://www.amazon.co.uk/dp/B08J58PKMM/\" target=\"_blank\">www.amazon.co.uk/dp/B08J58PKMM/</a><br>Spain: <a href=\"https://www.amazon.es/dp/B08J58PKMM/\" target=\"_blank\">www.amazon.es/dp/B08J58PKMM/</a><br>Germany: <a href=\"https://www.amazon.de/dp/B08J58PKMM/\" target=\"_blank\">www.amazon.de/dp/B08J58PKMM/</a><br>France: <a href=\"https://www.amazon.fr/dp/B08J58PKMM/\" target=\"_blank\">www.amazon.fr/dp/B08J58PKMM/</a><br><br>For other countries, just go to Amazon and search <b>What We Eat in China</b>."
+
+    -
         backgroundImage: "editorial-09"
         title: "Night Time"
         subtitle: "Innovative Design for Clubs and Bars"
@@ -130,7 +153,7 @@ Editorial:
             - "Category"
             - "Publication"
         description: "This is an almanac. Features advertising works about China's real estate."
-        
+
     -
         backgroundImage: "editorial-04"
         title: "Back Stage - issue 03"

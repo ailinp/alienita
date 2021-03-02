@@ -6,16 +6,9 @@ page:
         campaign: "ailinpeng"
         date: "22092015"
 
-    es:
+    en:
         releaseUrl: "ailinpeng"
         publishUrl: "ailinpeng"
-        canonical: "http://www.ailinp.com"
-
-        og:
-            title: "AilinPeng"
-            description: "This Ailin Peng never is just one thing. She is a not-yet-artist, not-too-graphic designer, and she's on her way to becoming a very web developer. Ella habla muy bien Spanglish. She's also a typical perfectionist with a positive attitude. Plus! She's funny :P"
-            url: "http://www.ailinp.com"
-            image: "http://www.ailinp.com/assets/images/og.jpg"
 
     commonStuff:
         class:

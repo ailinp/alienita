@@ -6,6 +6,7 @@
     {% block claim %}{{ topHeading.comics[locale]|raw }}{% endblock %}
 {% endembed %}
 
+<h1 style="display: none;">Comics</h1>
 <section class="Comics">
     <div class="u-wrapper row">
         <div class="{{ page.commonStuff.class.mainSection|raw }}">
@@ -13,7 +14,7 @@
             <a id="js-{{ content.backgroundImage }}" class="previewBlock js-preview {{ content.backgroundImage }}">
                 <div class="info-container">
                     <div class="info-content">
-                        <span class="info-title">{{ content.title|raw }}</span>
+                        <h2 class="info-title">{{ content.title|raw }}</h2>
                     </div>
                 </div>
             </a>

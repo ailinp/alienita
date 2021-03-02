@@ -6,32 +6,20 @@
         {% set currentYear = 'now'|date('Y') %}
         <meta name="expires" content="{{ 'now'|date('D, d M') }} {{ currentYear +1 }}">
 
-        {% set page_og_title         = page[locale].og.title %}
-        {% set page_og_description   = page[locale].og.description %}
-        {% set page_og_url           = page[locale].og.url %}
-        {% set page_og_image         = page[locale].og.image %}
-        {% set page_og_siteName      = page[locale].og.siteName %}
-        {% set page_title            = page[locale].title %}
-
-        {% set globals_meta_title       = globals[locale].meta.title %}
-        {% set globals_meta_description = globals[locale].meta.description %}
-        {% set globals_meta_url         = globals[locale].meta.url %}
-        {% set globals_meta_image       = globals[locale].meta.image %}
-        {% set globals_title            = globals.ailinpeng %}
-
-        <title>{{ page_meta_title|default(page_og_title)|default(page_title)|default(globals_meta_title)|default(globals_title) }}</title>
+        <title>{{ globals[locale].meta.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" href="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.images }}favicon.ico" />
-        <link rel="canonical" href="{{ page[locale].canonical|default('http://www.ailinp.com') }}" />
+        <link rel="canonical" href="{{ globals[locale].meta.canonical|default('https://www.ailinp.com') }}" />
+        <meta name="description" content="{{ globals[locale].meta.description }}" />
+        <meta name="keywords" content="{{ globals[locale].meta.keywords }}" />
 
-        <meta name="description" content="{{ page_meta_description|default(page_og_description)|default(globals_meta_description) }}" />
-
-        <meta property="og:title" content="{{ page_og_title|default(globals_meta_title) }}"/>
-        <meta property="og:site_name" content="{{ page_og_siteName|default(globals_title) }}"/>
-        <meta property="og:image" content="{{ page_og_image|default(globals_meta_image) }}"/>
-        <meta property="og:url" content="{{ page_og_url|default(globals_meta_url) }}" />
-        <meta property="og:description" content="{{ page_og_description|default(page_meta_description)|default(globals_meta_description) }}" />
+        <meta property="og:title" content="{{ globals[locale].meta.title }}"/>
+        <meta property="og:site_name" content="{{ globals[locale].meta.siteName }}"/>
+        <meta property="og:description" content="{{ globals[locale].meta.description }}" />
+        <meta property="og:type" content="{{ globals[locale].meta.type }}"/>
+        <meta property="og:image" content="{{ globals[locale].meta.image }}"/>
+        <meta property="og:url" content="{{ globals[locale].meta.url }}" />
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
@@ -60,7 +48,6 @@
         <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}libs/waypoints.min.js"></script>
         <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}libs/sss.min.js"></script>
         <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}libs/jquery.easy-pie-chart.js"></script>
-        {# //fallback// <script src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script> #}
         <script src="{{ getUrlPrefix(page[locale]) }}{{ globals.paths.javascripts }}scripts.js"></script>
 
         {% block javascripts %}{% endblock %}
