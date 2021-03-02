@@ -1,3 +1,5 @@
+<!-- 
+
 english           en    English(US)
 english           uk    English(UK)
 arabic            ae    العربية     (n)
@@ -52,3 +54,5 @@ markup/themes/default/includes/footer.twig
 
 Norwegian:
 As a Pescatarian, Norway is the perfect country for me to spend the rest of my life in. I can die here surrounded by all kinds of incredibly delicious seafoods and caviar!
+
+ -->
