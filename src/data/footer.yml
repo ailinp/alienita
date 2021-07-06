@@ -31,6 +31,7 @@ footer:
         eu: "Zure euskera oso txarra bada, aukeratu beste hizkuntza bat!"
         bg: "Ако не се справяш с българския, избери друг език!"
         mt: "jekk ma titkellimx il-Malti, jekk jogħġbok agħżel lingwa oħra!"
+        si: "Če ne govoriš dobro slovenko, prosim izberi drug jezik."
 
     language:
         -
@@ -163,6 +164,11 @@ footer:
         -
             link: "mt"
             title: "Malti"
+            class: ""
+
+        -
+            link: "mt"
+            title: "Slovenščina"
             class: ""
 
     description:

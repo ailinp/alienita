@@ -31,6 +31,7 @@ topHeading:
         eu: "Oh... You don't really believe that she had all these languages translated, do you?"
         bg: "Oh... You don't really believe that she had all these languages translated, do you?"
         mt: "Oh... You don't really believe that she had all these languages translated, do you?"
+        si: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
@@ -64,6 +65,7 @@ topHeading:
         eu: "She's not talented, she just works hard."
         bg: "She's not talented, she just works hard."
         mt: "She's not talented, she just works hard."
+        si: "She's not talented, she just works hard."
 
     painting:
         en: "She's not hard working, she just loves her works."
@@ -97,6 +99,7 @@ topHeading:
         eu: "She's not hard working, she just loves her works."
         bg: "She's not hard working, she just loves her works."
         mt: "She's not hard working, she just loves her works."
+        si: "She's not hard working, she just loves her works."
 
     comics:
         en: "She doesn't love her works, she's just loved by them."
@@ -130,6 +133,7 @@ topHeading:
         eu: "She doesn't love her works, she's just loved by them."
         bg: "She doesn't love her works, she's just loved by them."
         mt: "She doesn't love her works, she's just loved by them."
+        si: "She doesn't love her works, she's just loved by them."
 
     editorial:
         en: "They don't love her at all, they're just created by her."
@@ -163,6 +167,7 @@ topHeading:
         eu: "They don't love her at all, they're just created by her."
         bg: "They don't love her at all, they're just created by her."
         mt: "They don't love her at all, they're just created by her."
+        si: "They don't love her at all, they're just created by her."
 
     branding:
         en: "She didn't create them, it's them that created her."
@@ -196,6 +201,7 @@ topHeading:
         eu: "She didn't create them, it's them that created her."
         bg: "She didn't create them, it's them that created her."
         mt: "She didn't create them, it's them that created her."
+        si: "She didn't create them, it's them that created her."
 
     photography:
         en: "They didn't create her, she create herself."
@@ -229,6 +235,7 @@ topHeading:
         eu: "They didn't create her, she create herself."
         bg: "They didn't create her, she create herself."
         mt: "They didn't create her, she create herself."
+        si: "They didn't create her, she create herself."
 
     links:
         en:
@@ -502,6 +509,15 @@ topHeading:
             toPhotography: "en/photography"
 
         mt:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/books"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+
+        si:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"
