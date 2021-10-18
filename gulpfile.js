@@ -28,8 +28,6 @@ var browserSync  = require('browser-sync'),
     emailList    = {},
     pageName     = '';
 
-require('gulp-grunt')(gulp);
-
 
 // MESSAGE =====================================================================
 function notify(message, emoticon) {
@@ -214,15 +212,6 @@ gulp.task('copy:javascripts', function () {
 });
 
 
-// SVG SPRITE ==================================================================
-gulp.task('svg-sprite', ['grunt-grunticon'], function() {
-    gulp.src(path.tmp + '/*.css')
-        .pipe(csso())
-        .pipe(rename({ suffix:'.min' }))
-        .pipe(gulp.dest(path.dest.scss))
-});
-
-
 // IMAGES ======================================================================
 gulp.task('imagemin', function() {
 
@@ -236,8 +225,7 @@ gulp.task('imagemin', function() {
 });
 
 gulp.task('images', [
-    'imagemin',
-    'svg-sprite'
+    'imagemin'
 ]);
 
 
