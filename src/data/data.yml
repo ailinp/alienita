@@ -961,6 +961,7 @@ footer:
         bg: "Ако не се справяш с българския, избери друг език!"
         mt: "jekk ma titkellimx il-Malti, jekk jogħġbok agħżel lingwa oħra!"
         si: "Če ne govoriš dobro slovenko, prosim izberi drug jezik."
+        tr: "Türkçeniz iyi değilse, lütfen başka bir dil seçin!"
 
     language:
         -
@@ -1096,8 +1097,13 @@ footer:
             class: ""
 
         -
-            link: "mt"
+            link: "si"
             title: "Slovenščina"
+            class: ""
+
+        -
+            link: "tr"
+            title: "Türkçe"
             class: ""
 
     description:
@@ -1259,6 +1265,8 @@ home:
         mt: "Mort sa Malta għal 30 sena bħala avventura. Kienet l-ewwel darba li kelli l-opportunità li nghum fin-nofs tal-laguna blu u imiss il-bram tal-bajd moqli. Zort ukoll il-Belt Valletta u l-Imdina.l-istorja tal-kavallieri ta 'Malta sipta sorpriza!"
 
         si: "Leta 2016 sem odšla v Ljubljana na popotovanje z nahrbtnikom. Bila sem presenečena kako umetniško je mesto in ljudlje ki żivijo v njem. Mesto ni veliko vendar pa je zelo kompaktno in ima zelo dobro energijo. Seveda pa ne smem pozabiti omeniti reke Ljubljanice in znamenitega Zmajskega mostu."
+
+        tr: "2021 yılında Kovid-19 aşısı olduktan sonra gittiğim ilk ülke Türkiye oldu. Pamukkale'de gün batımını, Kapadokya'da ise bir balonda gün doğumunu  izlemek hayatımda yaşadığım en muhteşem deneyimlerden biriydi!"
 
 page:
     name: "AilinPeng"
@@ -1738,6 +1746,7 @@ topHeading:
         bg: "Oh... You don't really believe that she had all these languages translated, do you?"
         mt: "Oh... You don't really believe that she had all these languages translated, do you?"
         si: "Oh... You don't really believe that she had all these languages translated, do you?"
+        tr: "Oh... You don't really believe that she had all these languages translated, do you?"
 
     about:
         en: "She's not talented, she just works hard."
@@ -1772,6 +1781,7 @@ topHeading:
         bg: "She's not talented, she just works hard."
         mt: "She's not talented, she just works hard."
         si: "She's not talented, she just works hard."
+        tr: "She's not talented, she just works hard."
 
     painting:
         en: "She's not hard working, she just loves her works."
@@ -1806,6 +1816,7 @@ topHeading:
         bg: "She's not hard working, she just loves her works."
         mt: "She's not hard working, she just loves her works."
         si: "She's not hard working, she just loves her works."
+        tr: "She's not hard working, she just loves her works."
 
     comics:
         en: "She doesn't love her works, she's just loved by them."
@@ -1840,6 +1851,7 @@ topHeading:
         bg: "She doesn't love her works, she's just loved by them."
         mt: "She doesn't love her works, she's just loved by them."
         si: "She doesn't love her works, she's just loved by them."
+        tr: "She doesn't love her works, she's just loved by them."
 
     editorial:
         en: "They don't love her at all, they're just created by her."
@@ -1874,6 +1886,7 @@ topHeading:
         bg: "They don't love her at all, they're just created by her."
         mt: "They don't love her at all, they're just created by her."
         si: "They don't love her at all, they're just created by her."
+        tr: "They don't love her at all, they're just created by her."
 
     branding:
         en: "She didn't create them, it's them that created her."
@@ -1908,6 +1921,7 @@ topHeading:
         bg: "She didn't create them, it's them that created her."
         mt: "She didn't create them, it's them that created her."
         si: "She didn't create them, it's them that created her."
+        tr: "She didn't create them, it's them that created her."
 
     photography:
         en: "They didn't create her, she create herself."
@@ -1942,6 +1956,7 @@ topHeading:
         bg: "They didn't create her, she create herself."
         mt: "They didn't create her, she create herself."
         si: "They didn't create her, she create herself."
+        tr: "They didn't create her, she create herself."
 
     links:
         en:
@@ -2224,6 +2239,15 @@ topHeading:
             toPhotography: "en/photography"
 
         si:
+            toHome: "en"
+            toAbout: "en/about"
+            toPainting: "en/painting"
+            toComics: "en/comics"
+            toEditorial: "en/books"
+            toBranding: "en/branding"
+            toPhotography: "en/photography"
+
+        tr:
             toHome: "en"
             toAbout: "en/about"
             toPainting: "en/painting"

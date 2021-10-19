@@ -32,6 +32,7 @@ footer:
         bg: "Ако не се справяш с българския, избери друг език!"
         mt: "jekk ma titkellimx il-Malti, jekk jogħġbok agħżel lingwa oħra!"
         si: "Če ne govoriš dobro slovenko, prosim izberi drug jezik."
+        tr: "Türkçeniz iyi değilse, lütfen başka bir dil seçin!"
 
     language:
         -
@@ -167,8 +168,13 @@ footer:
             class: ""
 
         -
-            link: "mt"
+            link: "si"
             title: "Slovenščina"
+            class: ""
+
+        -
+            link: "tr"
+            title: "Türkçe"
             class: ""
 
     description:

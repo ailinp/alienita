@@ -32,6 +32,7 @@ Euskera           eu    Euskera
 Bulgarian         bg    Български
 Maltese           mt    Malti
 Slovenian         si    Slovenščina
+Turkish           tr    Türkçe
 
 
 
@@ -40,16 +41,6 @@ data/top-heading.yml
 data/home.yml
 data/footer.yml
 markup/themes/default/includes/footer.twig
-
-
-
-{% set isClass = 'inactive' %}
-{% set hrClass = 'inactive' %}
-{% set inClass = 'inactive' %}
-{% set noClass = 'inactive' %}
-
-, 'is': 'is', 'hr': 'hr', 'in': 'in', 'no': 'no'
-
 
 
 
